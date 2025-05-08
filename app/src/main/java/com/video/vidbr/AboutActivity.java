@@ -62,6 +62,17 @@ public class AboutActivity extends AppCompatActivity {
                 rateUsDialog.show();
             }
         });
+
+        Button licensesButton = findViewById(R.id.licenses_button);
+        licensesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Start the LicencasActivity when the button is clicked
+                Intent intent = new Intent(getApplicationContext(), LicencasActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void openWebPage(String url) {

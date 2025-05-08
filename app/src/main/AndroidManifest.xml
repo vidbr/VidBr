@@ -143,6 +143,11 @@
             android:exported="true" />
 
         <activity
+            android:name=".LicencasActivity"
+            android:theme="@style/Theme.VidBr.Light"
+            android:exported="true" />
+
+        <activity
             android:name=".InfoActivity"
             android:theme="@style/Theme.VidBr.Default"
             android:exported="true" />

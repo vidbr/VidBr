@@ -85,12 +85,23 @@
             android:text="@string/rate_button_text"
             android:textColor="#ffffff" />
 
+        <!-- Botão de Licenças -->
+        <Button
+            android:id="@+id/licenses_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rate_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Licenses"
+            android:textColor="#ffffff" />
+
         <!-- Termos e Políticas -->
         <TextView
             android:id="@+id/terms_and_policies"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/rate_button"
+            android:layout_below="@id/licenses_button"
             android:layout_marginTop="24dp"
             android:autoLink="web"
             android:text="@string/terms_and_policies"
