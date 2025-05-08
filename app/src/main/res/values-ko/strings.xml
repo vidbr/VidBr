@@ -1,0 +1,356 @@
+<resources>
+    <string name="app_name">VidBr</string>
+    <string name="splash_subtitle">발견하고, 창작하고, 연결하세요</string>
+
+    <string name="pressione_novamente">다시 누르시면 종료됩니다</string>
+
+    <string name="tab_seguindo">팔로잉</string>
+    <string name="tab_para_ti">추천</string>
+
+    <string name="login_prompt">🔍 좋아하는 창작자가 무엇을 올리고 있는지 알아보려면 로그인하세요! 🎬✨</string>
+    <string name="login_button_text">로그인</string>
+    <string name="following_list_empty">지금 팔로우하고 놀라운 영상을 찾아보세요! 🌟</string>
+    <string name="no_videos_found">영상이 없습니다.</string>
+
+    <string name="no_internet_connection">인터넷 연결이 없습니다.</string>
+    <string name="check_connection">연결을 확인하고 다시 시도해주세요.</string>
+
+    <string name="no_videos">이 나라에는 영상이 없습니다.</string>
+    <string name="publish_prompt">+ 버튼을 눌러서 영상 업로드를 시작하세요</string>
+
+    <string name="webview">웹뷰</string>
+
+    <string name="menu_home">홈</string>
+    <string name="menu_search">검색</string>
+    <string name="menu_add_video"></string>
+    <string name="menu_chat">채팅</string>
+    <string name="menu_profile">프로필</string>
+
+    <string name="just_now">방금</string>
+    <string name="seconds_ago">%d초 전</string>
+    <string name="minutes_ago">%d분 전</string>
+    <string name="hours_ago">%d시간 전</string>
+    <string name="days_ago">%d일 전</string>
+    <string name="weeks_ago">%d주 전</string>
+    <string name="months_ago">%d개월 전</string>
+
+    <string name="more_button_text">더 보기</string>
+    <string name="hide_button_text">숨기기</string>
+
+    <string name="name">이름을 입력해주세요</string>
+    <string name="name_title">보통 어떻게 불리세요?</string>
+    <string name="hint_name">예: 다니엘</string>
+    <string name="register">가입하기</string>
+
+    <string name="login_text">로그인</string>
+    <string name="hint_email">이메일</string>
+    <string name="hint_password">비밀번호</string>
+    <string name="button_login">로그인</string>
+    <string name="entrar_com_google">Google로 로그인</string>
+    <string name="no_account_text">계정이 없으신가요?</string>
+    <string name="forgot_password_text">비밀번호를 잊으셨나요?</string>
+    <string name="terms_privacy_text">계속 진행하려면 서비스 약관에 동의해야 합니다.</string>
+    <string name="terms_of_service">서비스 약관</string>
+    <string name="and">그리고</string>
+    <string name="privacy_policy">개인정보 처리방침</string>
+    <string name="page_not_found">페이지를 찾을 수 없습니다</string>
+
+    <string name="login_success">로그인 성공</string>
+    <string name="email_invalid_error">유효한 이메일이 아닙니다</string>
+    <string name="error_min_password_length">최소 6자 이상이어야 합니다</string>
+
+    <string name="create_account">계정 만들기</string>
+    <string name="birth">생년월일은 어떻게 되세요?</string>
+    <string name="birth_text">생년월일은 공개되지 않습니다.</string>
+    <string name="birthday_placeholder">생년월일</string>
+    <string name="next">다음</string>
+    <string name="birthday_error_message">생년월일을 선택해주세요</string>
+    <string name="age_error_message">13세 이상이어야 합니다.</string>
+
+    <string name="email_hint">이메일</string>
+    <string name="password_hint">비밀번호</string>
+    <string name="password_length_validation">✔️ 8자 이상 (최대 20자)</string>
+    <string name="password_content_validation">✔️ 1개의 문자와 1개의 숫자 포함</string>
+    <string name="already_have_account">계정이 있으신가요?</string>
+
+    <string name="password_length_valid">✔️ 8자 이상 (최대 20자)</string>
+    <string name="password_length_invalid">❌ 8자 이상 (최대 20자)</string>
+    <string name="password_content_valid">✔️ 1개의 문자와 1개의 숫자 포함</string>
+    <string name="password_content_invalid">❌ 1개의 문자와 1개의 숫자 포함</string>
+
+    <string name="recover_title">계정 복구</string>
+    <string name="instructions_text">계정에 연결된 이메일을 입력하면 비밀번호를 재설정할 수 있는 링크를 보내드립니다.</string>
+    <string name="recover_email_hint">이메일</string>
+    <string name="recover_submit_button_text">계속</string>
+    <string name="email_error">유효한 이메일을 입력해주세요</string>
+    <string name="password_reset_success">%1$s로 복구 링크가 전송되었습니다</string>
+    <string name="password_reset_error">복구 이메일 전송 오류</string>
+
+    <string name="no_video_available">영상이 없습니다</string>
+
+    <string name="email_label">이메일: </string>
+    <string name="not_logged_in">이메일: 로그인되지 않음</string>
+    <string name="birthday_label">생년월일: </string>
+    <string name="region_label">지역: </string>
+
+    <string name="loading_video_message">영상이 로드되고 있습니다. 잠시 기다려 주세요.</string>
+    <string name="snackbar_message">영상 업로드를 위해서는 로그인해야 합니다.</string>
+
+    <string name="comments_header">댓글</string>
+    <string name="no_comments_text">아직 댓글이 없습니다</string>
+    <string name="hint_adicionar_comentario">댓글을 추가하세요...</string>
+
+    <string name="text_copy">복사</string>
+    <string name="text_delete">삭제</string>
+
+    <string name="options_title">옵션</string>
+    <string name="report_option">신고</string>
+    <string name="save_option">저장</string>
+    <string name="share_option">공유</string>
+
+    <string name="share_video_text">이 영상을 공유하세요!</string>
+    <string name="share_button_text">WhatsApp으로 공유</string>
+    <string name="copy_link_text">링크 복사</string>
+    <string name="link_copied">링크 복사됨</string>
+    <string name="share_video">영상 공유</string>
+    <string name="video_share_text">안녕하세요! 이 링크에서 영상을 확인하세요: </string>
+    <string name="whatsapp_not_installed">WhatsApp이 설치되지 않았습니다.</string>
+
+    <string name="report_question">왜 이 영상을 신고하나요?</string>
+    <string name="report_reason_pornographic">음란하거나 저속한 내용</string>
+    <string name="report_reason_harmful_to_minors">미성년자에게 해로운 내용</string>
+    <string name="report_reason_criminal_activities">범죄 활동 및 통제된 물품</string>
+    <string name="report_reason_spam">스팸</string>
+    <string name="report_reason_hate_speech">혐오 발언</string>
+    <string name="report_reason_harassment">괴롭힘 및 위협</string>
+    <string name="report_reason_violent">폭력적이고 노골적인 내용</string>
+    <string name="report_reason_dangerous_orgs">위험한 조직 및 개인</string>
+    <string name="report_reason_suicide">자살 및 자해</string>
+    <string name="report_reason_false_info">허위 정보</string>
+    <string name="report_reason_intellectual_property">지적 재산권 침해</string>
+    <string name="report_button">신고</string>
+    <string name="select_reason_prompt">사유를 선택해주세요</string>
+    <string name="video_removed_due_to_reports">신고로 인해 영상이 삭제되었습니다</string>
+
+    <string name="video_count_label">영상</string>
+
+    <string name="toolbar_title">업로드</string>
+    <string name="hint_caption">설명을 추가하세요...</string>
+    <string name="char_count">0/2000</string>
+    <string name="hashtags_button_text"># 해시태그</string>
+    <string name="friends_button_text">\@ 친구들</string>
+    <string name="visibility_text">가시성</string>
+    <string name="submit_button_text">업로드</string>
+    <string name="error_empty_caption">무언가를 작성해주세요...</string>
+    <string name="video_exceeds_limit">영상이 30초 제한을 초과했습니다</string>
+
+    <string name="visibility_label">누가 볼 수 있나요:</string>
+    <string name="delete_option">삭제</string>
+
+    <string-array name="visibility_display_names">
+        <item>공개</item>
+        <item>비공개</item>
+    </string-array>
+
+    <string name="rate_our_app">앱 평가하기</string>
+    <string name="rate_message">앱을 좋아하신다면 Play Store에서 평가해주실 수 있나요?</string>
+    <string name="later_button_text">나중에</string>
+    <string name="rate_now_button_text">지금 평가하기</string>
+    <string name="neutral_emoji">😐</string>
+
+    <string name="name_placeholder">이름</string>
+    <string name="username_placeholder">사용자 이름</string>
+    <string name="following_label">팔로잉</string>
+    <string name="followers_label">팔로워</string>
+    <string name="follow">팔로우</string>
+    <string name="unfollow">언팔로우</string>
+    <string name="posts_label">게시물</string>
+    <string name="logout_label">로그아웃</string>
+    <string name="message_label">메시지</string>
+    <string name="edit_profile_label">프로필 수정</string>
+    <string name="biography_placeholder">이것은 사용자의 전기입니다.</string>
+    <string name="id_copiado">ID 복사됨</string>
+    <string name="share_profile_message">%1$s의 프로필을 확인하세요 \n\n%2$s</string>
+    <string name="share_profile_title">프로필 공유</string>
+
+    <string name="clear_all_history">전체 삭제</string>
+    <string name="view_more_history">더 보기</string>
+
+    <string name="search_hint">검색</string>
+    <string name="video_tab">비디오</string>
+    <string name="user_tab">사용자</string>
+    <string name="hashtag_tab">해시태그</string>
+
+    <string name="topics">주제 🔥</string>
+    <string name="category_music">음악 🎵</string>
+    <string name="category_love">사랑 ❤️</string>
+    <string name="category_meme">밈 😂</string>
+    <string name="category_indirect">간접 🤭</string>
+    <string name="category_faith">신앙 ✝️</string>
+    <string name="category_sad">슬픔 😢</string>
+    <string name="category_humor">유머 🤣</string>
+    <string name="category_free_fire">프리파이어 🔥</string>
+    <string name="category_funny">재미있다 😆</string>
+    <string name="category_motor">모터 🚗</string>
+    <string name="category_games">게임 🎮</string>
+    <string name="category_otaku">오타쿠 🧙‍♂️</string>
+    <string name="category_dance">댄스 💃</string>
+    <string name="category_motivation">동기부여 💪</string>
+    <string name="category_football">축구 ⚽</string>
+    <string name="category_greetings">좋은 아침 또는 좋은 밤 🌅🌙</string>
+    <string name="category_makeup">메이크업 💄</string>
+
+    <string name="hashtag_music">음악</string>
+    <string name="hashtag_love">사랑</string>
+    <string name="hashtag_meme">밈</string>
+    <string name="hashtag_indirect">간접</string>
+    <string name="hashtag_faith">신앙</string>
+    <string name="hashtag_sad">슬픔</string>
+    <string name="hashtag_humor">유머</string>
+    <string name="hashtag_free_fire">프리파이어</string>
+    <string name="hashtag_funny">재미있다</string>
+    <string name="hashtag_motor">모터</string>
+    <string name="hashtag_games">게임</string>
+    <string name="hashtag_otaku">오타쿠</string>
+    <string name="hashtag_dance">댄스</string>
+    <string name="hashtag_motivation">동기부여</string>
+    <string name="hashtag_football">축구</string>
+    <string name="hashtag_greetings">좋은 아침 또는 좋은 밤</string>
+    <string name="hashtag_makeup">메이크업</string>
+
+    <string name="settings_option">설정</string>
+    <string name="vidbr_verified_option">VidBr 인증됨</string>
+
+    <string name="titulo_verificado">파란색과 금색 인증 받는 방법</string>
+    <string name="verificado_azul">파란색 인증</string>
+    <string name="requisitos_azul">요구 사항:</string>
+    <string name="requisitos_azul_detalhes">• 팔로워 수: 최소 10,000명의 팔로워가 필요합니다.\n\n• 특정 프로그램 참여: 특정 프로그램에 참여하여 파란색 인증을 받을 수 있습니다.</string>
+    <string name="verificado_dourado">금색 인증</string>
+    <string name="requisitos_dourado">요구 사항:</string>
+    <string name="requisitos_dourado_detalhes">• 팔로워 수: 최소 100,000명의 팔로워가 필요합니다.</string>
+    <string name="dicas_importantes">중요한 팁:</string>
+    <string name="dicas_importantes_detalhes">• 진정성: 정보가 완전하고 정확한지 확인하세요.\n • 활동성: 프로필을 활성화하고 팔로워와 적극적으로 소통하세요.\n• 준수: 플랫폼의 지침과 정책을 따르세요.</string>
+    <string name="instrucoes_email">인증을 요청하려면 contato.vidbr@gmail.com으로 팀에 연락하십시오.</string>
+
+    <string name="settings_title">설정</string>
+    <string name="preferences">기본 설정</string>
+    <string name="account">계정</string>
+    <string name="profile">프로필</string>
+    <string name="privacy">개인 정보 보호</string>
+    <string name="share_profile">프로필 공유</string>
+    <string name="share_text_prefix">내 프로필을 확인하세요: </string>
+    <string name="clear_memory">메모리 삭제</string>
+    <string name="about_us">우리에 대해</string>
+    <string name="logout">로그아웃</string>
+
+    <string name="toolbar_account">계정</string>
+    <string name="account_info">계정 정보</string>
+    <string name="delete_account_button">계정 삭제</string>
+
+    <string name="title_text">계정 삭제</string>
+    <string name="message_text">정말로 계정을 삭제하시겠습니까?</string>
+    <string name="confirm_button_text">계정 삭제</string>
+    <string name="cancel_button_text">취소</string>
+    <string name="recovery_warning_text">계정 삭제는 복구할 수 없습니다.</string>
+    <string name="account_deleted_success">계정이 성공적으로 삭제되었습니다!</string>
+
+    <string name="privacy_title">개인 정보 보호</string>
+    <string name="enable_download_title">비디오 다운로드</string>
+    <string name="enable_download_description">이 기능을 활성화하면 모든 비디오에 다운로드 버튼이 표시됩니다.</string>
+    <string name="floating_button_description_text">플로팅 버튼 활성화</string>
+    <string name="floating_button_small_description_text">빠른 액세스를 위한 플로팅 버튼을 활성화하거나 비활성화하세요.</string>
+
+    <string name="edit_profile_title">프로필 수정</string>
+    <string name="profile_pic_description">프로필 사진</string>
+    <string name="change_photo_button">프로필 사진 변경</string>
+    <string name="name_hint">이름</string>
+    <string name="username_hint">사용자 이름</string>
+    <string name="birthday_hint">생일</string>
+    <string name="bio_hint">전기</string>
+    <string name="char_count_edit">80자 남음</string>
+    <string name="save_changes_button">변경사항 저장</string>
+
+    <string name="toolbar_title_about">우리에 대해</string>
+    <string name="app_description">VidBr에 오신 것을 환영합니다! VidBr는 짧은 비디오로 가득한 브라질의 앱으로, 여가 시간에 즐길 수 있는 재미있는 콘텐츠를 제공합니다. VidBr와 함께라면 결코 지루하지 않아요!</string>
+    <string name="rating_invitation">VidBr를 좋아하신다면 평가를 남겨주세요! 여러분의 의견은 저희에게 매우 중요합니다!</string>
+    <string name="rate_button_text">VidBr 평가하기</string>
+    <string name="terms_and_policies">이용 약관 및 정책</string>
+    <string name="terms_link_text">서비스 약관</string>
+    <string name="privacy_policy_link_text">개인 정보 보호 정책</string>
+    <string name="copyright_text">© 2025 VidBr. 모든 권리 보유.</string>
+
+    <string name="liked_users_title">이 비디오를 좋아한 사용자들</string>
+    <string name="random_likes_notice">좋아요는 50명의 랜덤 사용자들로부터 왔습니다.</string>
+
+    <string name="conversas">대화</string>
+    <string name="hint_enviar_mensagem">메시지 보내기</string>
+    <string name="dialog_title">모두 삭제</string>
+    <string name="dialog_message">이 메시지를 삭제하시겠습니까?</string>
+    <string name="dialog_positive_button">예</string>
+    <string name="dialog_negative_button">아니요</string>
+
+    <string name="thumbnail_message">비디오 처리 완료!</string>
+    <string name="download_concluido">다운로드 완료!</string>
+    <string name="share_text">공유</string>
+
+    <string name="alterar_foto">사진 변경</string>
+    <string name="confirm_delete_message">정말로 프로필 사진을 삭제하시겠습니까?</string>
+    <string name="yes_button">예</string>
+    <string name="no_button">아니오</string>
+
+    <string name="sem_resultados">결과 없음, 다른 단어를 시도해 보세요</string>
+    <string name="nenhum_video_curtido">좋아요를 누른 영상이 없습니다</string>
+
+    <string name="owner_only_message">계정 소유자만 영상을 볼 수 있습니다.</string>
+
+    <string name="dialog_title_permissions">필요한 권한</string>
+    <string name="dialog_message_permissions">앱을 계속 사용하려면 권한을 부여해야 합니다.</string>
+    <string name="dialog_button_close">닫기</string>
+    <string name="dialog_button_grant">부여</string>
+    <string name="permission_request_message">이 앱은 파일을 읽고 쓸 권한이 필요합니다. 권한을 부여하시겠습니까?</string>
+    <string name="permission_request_camera_audio">이 앱은 카메라와 오디오에 접근할 권한이 필요합니다. 권한을 부여하시겠습니까?</string>
+
+    <string name="permission_alert_message">이 앱은 알림을 보내기 위한 권한이 필요합니다. 허용하시겠습니까?</string>
+    <string name="video_loading_message">비디오가 로드 중입니다. 잠시만 기다려 주세요.</string>
+    <string name="loading_progress">로딩 중: %1$d%%</string>
+    <string name="video_loaded_success">비디오가 성공적으로 로드되었습니다!</string>
+
+    <string name="username_error_message">사용자 이름은 최소 4자 이상이어야 합니다.</string>
+    <string name="username_already_used_error">이미 이 사용자 이름을 사용 중입니다.</string>
+    <string name="username_in_use_error">이 사용자 이름은 이미 사용 중입니다.</string>
+    <string name="username_available">사용자 이름 사용 가능.</string>
+    <string name="msg_insira_nome">이름을 입력해 주세요</string>
+    <string name="account_created_success">계정이 성공적으로 생성되었습니다!</string>
+
+    <string name="profile_picture_updated_success">프로필 사진이 성공적으로 업데이트되었습니다</string>
+    <string name="username_not_available">사용자 이름이 사용 불가능합니다. 다른 이름을 선택하세요.</string>
+    <string name="profile_updated_success">프로필이 성공적으로 업데이트되었습니다</string>
+    <string name="name_required_error">이름은 필수 항목입니다</string>
+    <string name="username_required_error">사용자 이름은 필수 항목입니다</string>
+
+    <string name="seguidores">팔로워</string>
+    <string name="videos">비디오</string>
+    <string name="usuario_limitado">20명 사용자만 표시됩니다</string>
+
+    <string name="email_associated_with_account">귀하의 계정과 연결된 이메일 주소입니다.</string>
+    <string name="registered_date_of_birth">귀하의 등록된 생년월일입니다.</string>
+    <string name="registered_region">당신의 언어 지역</string>
+    <string name="verify_email">이메일을 확인하세요</string>
+    <string name="email_info">이 이메일은 귀하의 계정에 연결되어 있으며 오직 귀하만 볼 수 있습니다. 계정의 보안을 강화하려면 확인하십시오.</string>
+    <string name="verify_email_button">이메일 확인</string>
+    <string name="change_email">이메일 변경</string>
+    <string name="change_email_title">이메일 변경</string>
+    <string name="email_da_conta">계정 이메일</string>
+    <string name="informacao_email">언제든지 계정에 연결된 이메일을 변경할 수 있습니다.</string>
+    <string name="change_email_explanation">계정을 업데이트하려면 새로운 이메일을 입력해 주세요.</string>
+    <string name="enter_new_email">새 이메일을 입력하세요</string>
+    <string name="submit_email_button">이메일 변경</string>
+    <string name="error_invalid_email">유효한 이메일을 입력해주세요.</string>
+    <string name="email_verified">귀하의 계정과 연결된 이메일 주소입니다.</string>
+    <string name="email_not_verified">귀하의 이메일이 확인되지 않았습니다.</string>
+    <string name="email_verification_sent">확인 이메일이 발송되었습니다! 받은 편지함을 확인하세요.</string>
+    <string name="email_changed_successfully">이메일이 성공적으로 변경되었습니다!</string>
+
+    <string name="quem_curtiu">누가 좋아했나요</string>
+    <string name="error_invalid_username">소문자, 숫자, 밑줄 또는 점만 사용할 수 있습니다.</string>
+</resources>

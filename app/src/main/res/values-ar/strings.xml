@@ -1,0 +1,358 @@
+<resources>
+    <string name="app_name">VidBr</string>
+    <string name="splash_subtitle">اكتشف، أنشئ، اتصل</string>
+
+    <string name="pressione_novamente">اضغط مرة أخرى للخروج</string>
+
+    <string name="tab_seguindo">متابعة</string>
+    <string name="tab_para_ti">لك</string>
+
+    <string name="login_prompt">🔍 سجل الدخول لاكتشاف ما ينشره مبدعونك المفضلون! 🎬✨</string>
+    <string name="login_button_text">دخول</string>
+    <string name="following_list_empty">ابدأ في متابعة الآن واكتشاف مقاطع الفيديو الرائعة! 🌟</string>
+    <string name="no_videos_found">لم يتم العثور على مقاطع فيديو.</string>
+
+    <string name="no_internet_connection">لا توجد اتصال بالإنترنت.</string>
+    <string name="check_connection">تحقق من الاتصال الخاص بك وحاول مرة أخرى.</string>
+
+    <string name="no_videos">لا توجد مقاطع فيديو في بلدك.</string>
+    <string name="publish_prompt">اضغط على + لبدء النشر</string>
+
+    <string name="webview">عرض الويب</string>
+
+    <string name="menu_home">الرئيسية</string>
+    <string name="menu_search">بحث</string>
+    <string name="menu_add_video"></string>
+    <string name="menu_chat">دردشة</string>
+    <string name="menu_profile">الملف الشخصي</string>
+
+    <string name="just_now">الآن</string>
+    <string name="seconds_ago">%d ثواني مضت</string>
+    <string name="minutes_ago">%d دقائق مضت</string>
+    <string name="hours_ago">%d ساعات مضت</string>
+    <string name="days_ago">%d أيام مضت</string>
+    <string name="weeks_ago">%d أسابيع مضت</string>
+    <string name="months_ago">%d أشهر مضت</string>
+
+    <string name="more_button_text">المزيد</string>
+    <string name="hide_button_text">إخفاء</string>
+
+    <string name="name">ما هو اسمك؟</string>
+    <string name="name_title">كيف ينادونك؟</string>
+    <string name="hint_name">مثال: دانيال</string>
+    <string name="register">تسجيل</string>
+
+    <string name="login_text">تسجيل الدخول</string>
+    <string name="hint_email">البريد الإلكتروني</string>
+    <string name="hint_password">كلمة المرور</string>
+    <string name="button_login">دخول</string>
+    <string name="entrar_com_google">تسجيل الدخول باستخدام جوجل</string>
+    <string name="no_account_text">ليس لدي حساب</string>
+    <string name="forgot_password_text">نسيت كلمة المرور؟</string>
+    <string name="terms_privacy_text">بالاستمرار، فإنك توافق على</string>
+    <string name="terms_of_service">شروط الخدمة</string>
+    <string name="and">و</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="page_not_found">لم نتمكن من العثور على الصفحة</string>
+
+    <string name="login_success">تم تسجيل الدخول بنجاح</string>
+    <string name="email_invalid_error">البريد الإلكتروني غير صالح</string>
+    <string name="error_min_password_length">الحد الأدنى 6 أحرف</string>
+
+    <string name="create_account">إنشاء حساب</string>
+    <string name="birth">ما هو تاريخ ميلادك؟</string>
+    <string name="birth_text">تاريخ الميلاد لن يظهر علنًا.</string>
+    <string name="birthday_placeholder">تاريخ الميلاد</string>
+    <string name="next">التالي</string>
+    <string name="birthday_error_message">من فضلك اختر تاريخ ميلادك</string>
+    <string name="age_error_message">يجب أن يكون عمرك 13 عامًا على الأقل.</string>
+
+    <string name="email_hint">البريد الإلكتروني</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="password_length_validation">✔️ 8 أحرف (أقصى 20)</string>
+    <string name="password_content_validation">✔️ 1 حرف و 1 رقم</string>
+    <string name="already_have_account">لدي حساب بالفعل</string>
+
+    <string name="password_length_valid">✔️ 8 أحرف (أقصى 20)</string>
+    <string name="password_length_invalid">❌ 8 أحرف (أقصى 20)</string>
+    <string name="password_content_valid">✔️ 1 حرف و 1 رقم</string>
+    <string name="password_content_invalid">❌ 1 حرف و 1 رقم</string>
+
+    <string name="recover_title">استعادة حسابك</string>
+    <string name="instrucoes_email">لطلب التحقق، يرجى الاتصال بالفريق عبر البريد الإلكتروني contato.vidbr@gmail.com</string>
+    <string name="recover_email_hint">بريدك الإلكتروني</string>
+    <string name="recover_submit_button_text">متابعة</string>
+    <string name="email_error">من فضلك أدخل بريدًا إلكترونيًا صالحًا</string>
+    <string name="password_reset_success">تم إرسال رابط الاستعادة إلى %1$s</string>
+    <string name="password_reset_error">حدث خطأ أثناء إرسال البريد الإلكتروني لاستعادة الحساب</string>
+
+    <string name="no_video_available">لا توجد مقاطع فيديو متاحة</string>
+
+    <string name="email_label">البريد الإلكتروني: </string>
+    <string name="not_logged_in">البريد الإلكتروني: غير مسجل الدخول</string>
+    <string name="birthday_label">تاريخ الميلاد: </string>
+    <string name="region_label">المنطقة: </string>
+
+    <string name="loading_video_message">يتم تحميل الفيديو. من فضلك انتظر.</string>
+    <string name="snackbar_message">لإرسال فيديو يجب أن تكون مسجل الدخول.</string>
+
+    <string name="comments_header">التعليقات</string>
+    <string name="no_comments_text">لا تعليقات بعد</string>
+    <string name="hint_adicionar_comentario">أضف تعليق...</string>
+
+    <string name="text_copy">نسخ</string>
+    <string name="text_delete">حذف</string>
+
+    <string name="options_title">الخيارات</string>
+    <string name="report_option">إبلاغ</string>
+    <string name="save_option">حفظ</string>
+    <string name="share_option">مشاركة</string>
+
+    <string name="share_video_text">شارك هذا الفيديو!</string>
+    <string name="share_button_text">مشاركة عبر واتساب</string>
+    <string name="copy_link_text">نسخ الرابط</string>
+    <string name="link_copied">تم نسخ الرابط</string>
+    <string name="share_video">مشاركة الفيديو</string>
+    <string name="video_share_text">مرحبًا! تحقق من الفيديو عبر هذا الرابط: </string>
+    <string name="whatsapp_not_installed">واتساب غير مثبت.</string>
+
+    <string name="report_question">لماذا تقوم بالإبلاغ عن هذا الفيديو؟</string>
+    <string name="report_reason_pornographic">إباحي أو فاحش</string>
+    <string name="report_reason_harmful_to_minors">ضار بالقصر</string>
+    <string name="report_reason_criminal_activities">أنشطة إجرامية والسلع الممنوعة</string>
+    <string name="report_reason_spam">رسائل مزعجة</string>
+    <string name="report_reason_hate_speech">خطاب كراهية</string>
+    <string name="report_reason_harassment">تحرش وتهديد</string>
+    <string name="report_reason_violent">عنيف وصريح</string>
+    <string name="report_reason_dangerous_orgs">منظمات وأفراد خطرين</string>
+    <string name="report_reason_suicide">انتحار وتشويه الذات</string>
+    <string name="report_reason_false_info">معلومات كاذبة</string>
+    <string name="report_reason_intellectual_property">انتهاك الملكية الفكرية</string>
+    <string name="report_button">إبلاغ</string>
+    <string name="select_reason_prompt">حدد السبب</string>
+    <string name="video_removed_due_to_reports">تمت إزالة الفيديو بسبب البلاغات</string>
+
+    <string name="video_count_label">مقاطع الفيديو</string>
+
+    <string name="toolbar_title">نشر</string>
+    <string name="hint_caption">أضف وصفًا...</string>
+    <string name="char_count">0/2000</string>
+    <string name="hashtags_button_text"># هاشتاغات</string>
+    <string name="friends_button_text">\@ أصدقاء</string>
+    <string name="visibility_text">الرؤية</string>
+    <string name="submit_button_text">نشر</string>
+    <string name="error_empty_caption">اكتب شيئًا...</string>
+    <string name="video_exceeds_limit">الفيديو يتجاوز الحد المسموح به 30 ثانية</string>
+
+    <string name="visibility_label">من يمكنه رؤيته:</string>
+    <string name="delete_option">حذف</string>
+
+    <string-array name="visibility_display_names">
+        <item>عام</item>
+        <item>خاص</item>
+    </string-array>
+
+    <string name="rate_our_app">قيّم تطبيقنا</string>
+    <string name="rate_message">إذا كنت تحب استخدام تطبيقنا، هل يمكنك تقييمه في متجر بلاي؟</string>
+    <string name="later_button_text">ربما لاحقًا</string>
+    <string name="rate_now_button_text">قيم الآن</string>
+    <string name="neutral_emoji">😐</string>
+
+    <string name="name_placeholder">الاسم</string>
+    <string name="username_placeholder">اسم المستخدم</string>
+    <string name="following_label">متابعة</string>
+    <string name="followers_label">متابعون</string>
+    <string name="follow">متابعة</string>
+    <string name="unfollow">إلغاء المتابعة</string>
+    <string name="posts_label">المنشورات</string>
+    <string name="logout_label">تسجيل الخروج</string>
+    <string name="message_label">رسالة</string>
+    <string name="edit_profile_label">تعديل الملف الشخصي</string>
+    <string name="biography_placeholder">هذه هي السيرة الذاتية للمستخدم.</string>
+    <string name="id_copiado">تم نسخ المعرف</string>
+    <string name="share_profile_message">تحقق من ملف %1$s \n\n%2$s</string>
+    <string name="share_profile_title">مشاركة الملف الشخصي</string>
+
+    <string name="clear_all_history">مسح الكل</string>
+    <string name="view_more_history">عرض المزيد من التاريخ</string>
+
+    <string name="search_hint">بحث</string>
+    <string name="video_tab">فيديوهات</string>
+    <string name="user_tab">المستخدمين</string>
+    <string name="hashtag_tab">الوسوم</string>
+
+    <!-- Adicionando as categorias -->
+    <string name="topics">مواضيع 🔥</string>
+    <string name="category_music">موسيقى 🎵</string>
+    <string name="category_love">حب ❤️</string>
+    <string name="category_meme">ميم 😂</string>
+    <string name="category_indirect">إشارة 🤭</string>
+    <string name="category_faith">إيمان ✝️</string>
+    <string name="category_sad">حزين 😢</string>
+    <string name="category_humor">فكاهة 🤣</string>
+    <string name="category_free_fire">فري فاير 🔥</string>
+    <string name="category_funny">مضحك 😆</string>
+    <string name="category_motor">محرك 🚗</string>
+    <string name="category_games">ألعاب 🎮</string>
+    <string name="category_otaku">أوتاكو 🧙‍♂️</string>
+    <string name="category_dance">رقص 💃</string>
+    <string name="category_motivation">تحفيز 💪</string>
+    <string name="category_football">كرة قدم ⚽</string>
+    <string name="category_greetings">صباح الخير أو مساء الخير 🌅🌙</string>
+    <string name="category_makeup">مكياج 💄</string>
+
+    <!-- Adicionando as hashtags -->
+    <string name="hashtag_music">موسيقى</string>
+    <string name="hashtag_love">حب</string>
+    <string name="hashtag_meme">ميم</string>
+    <string name="hashtag_indirect">إشارة</string>
+    <string name="hashtag_faith">إيمان</string>
+    <string name="hashtag_sad">حزين</string>
+    <string name="hashtag_humor">فكاهة</string>
+    <string name="hashtag_free_fire">فري فاير</string>
+    <string name="hashtag_funny">مضحك</string>
+    <string name="hashtag_motor">محرك</string>
+    <string name="hashtag_games">ألعاب</string>
+    <string name="hashtag_otaku">أوتاكو</string>
+    <string name="hashtag_dance">رقص</string>
+    <string name="hashtag_motivation">تحفيز</string>
+    <string name="hashtag_football">كرة قدم</string>
+    <string name="hashtag_greetings">صباح الخير أو مساء الخير</string>
+    <string name="hashtag_makeup">مكياج</string>
+
+    <string name="settings_option">الإعدادات</string>
+    <string name="vidbr_verified_option">VidBr تم التحقق منه</string>
+
+    <string name="titulo_verificado">كيفية الحصول على التحقق الأزرق والذهبي</string>
+    <string name="verificado_azul">التحقق الأزرق</string>
+    <string name="requisitos_azul">المتطلبات:</string>
+    <string name="requisitos_azul_detalhes">• عدد المتابعين: يجب أن يكون لديك على الأقل 10,000 متابع.\n\n• المشاركة في برامج معينة: بدلاً من ذلك، يمكنك الحصول على التحقق الأزرق إذا كنت تشارك في برامج أو مبادرات محددة مقدمة من المنصة.</string>
+    <string name="verificado_dourado">التحقق الذهبي</string>
+    <string name="requisitos_dourado">المتطلبات:</string>
+    <string name="requisitos_dourado_detalhes">• عدد المتابعين: يجب أن يكون لديك على الأقل 100,000 متابع.</string>
+    <string name="dicas_importantes">نصائح هامة:</string>
+    <string name="dicas_importantes_detalhes">• الأصالة: تأكد من أن معلوماتك كاملة ودقيقة.\n • النشاط: حافظ على حساب نشط ومتفاعل مع جمهورك.\n• الامتثال: اتبع الإرشادات والسياسات الخاصة بالمنصة لضمان تقديم طلب ناجح.</string>
+    <string name="instructions_text">أدخل البريد الإلكتروني المرتبط بحسابك وسنرسل لك رابطًا لإعادة تعيين كلمة المرور.</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="preferences">التفضيلات</string>
+    <string name="account">الحساب</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="privacy">الخصوصية</string>
+    <string name="share_profile">مشاركة الملف الشخصي</string>
+    <string name="share_text_prefix">تحقق من ملفي الشخصي على: </string>
+    <string name="clear_memory">مسح الذاكرة</string>
+    <string name="about_us">معلومات عنا</string>
+    <string name="logout">تسجيل الخروج</string>
+
+    <string name="toolbar_account">الحساب</string>
+    <string name="account_info">معلومات الحساب</string>
+    <string name="delete_account_button">حذف الحساب</string>
+
+    <string name="title_text">حذف الحساب</string>
+    <string name="message_text">هل أنت متأكد أنك تريد حذف حسابك؟</string>
+    <string name="confirm_button_text">حذف الحساب</string>
+    <string name="cancel_button_text">إلغاء</string>
+    <string name="recovery_warning_text">لا يمكن استرداد الحساب بعد حذفه.</string>
+    <string name="account_deleted_success">تم حذف الحساب بنجاح!</string>
+
+    <string name="privacy_title">الخصوصية</string>
+    <string name="enable_download_title">تمكين تحميل الفيديوهات</string>
+    <string name="enable_download_description">عند التمكين، سيظهر زر التحميل لجميع مقاطع الفيديو الخاصة بك.</string>
+    <string name="floating_button_description_text">تمكين الزر العائم</string>
+    <string name="floating_button_small_description_text">تمكين أو تعطيل الزر العائم للوصول السريع.</string>
+
+    <string name="edit_profile_title">تعديل الملف الشخصي</string>
+    <string name="profile_pic_description">صورة الملف الشخصي</string>
+    <string name="change_photo_button">تغيير صورة الملف الشخصي</string>
+    <string name="name_hint">الاسم</string>
+    <string name="username_hint">اسم المستخدم</string>
+    <string name="birthday_hint">تاريخ الميلاد</string>
+    <string name="bio_hint">السيرة الذاتية</string>
+    <string name="char_count_edit">80 حرفًا متبقيًا</string>
+    <string name="save_changes_button">حفظ التغييرات</string>
+
+    <string name="toolbar_title_about">معلومات عنا</string>
+    <string name="app_description">مرحبًا بك في VidBr، تطبيق الفيديوهات القصيرة البرازيلي الذي يمكنك من الاستمتاع بأوقاتك الحرة! استمتع بلحظات فريدة، ابتسم، واكتشف مجموعة متنوعة من المحتويات التي ستجعلك سعيدًا. مع VidBr، لن تشعر بالملل أبدًا!</string>
+    <string name="rating_invitation">إذا كنت تستمتع بتطبيق VidBr، يرجى ترك تقييمك ومساعدتنا في تحسين التطبيق. رأيك مهم جدًا بالنسبة لنا!</string>
+    <string name="rate_button_text">قيم تطبيق VidBr</string>
+    <string name="terms_and_policies">الشروط والسياسات</string>
+    <string name="terms_link_text">شروط الخدمة</string>
+    <string name="privacy_policy_link_text">سياسة الخصوصية</string>
+    <string name="copyright_text">© 2025 VidBr. جميع الحقوق محفوظة.</string>
+
+    <string name="liked_users_title">المستخدمون الذين أعجبوا بالفيديو</string>
+    <string name="random_likes_notice">الإعجابات من 50 مستخدمًا تم اختيارهم عشوائيًا.</string>
+
+    <string name="conversas">المحادثات</string>
+    <string name="hint_enviar_mensagem">إرسال رسالة</string>
+    <string name="dialog_title">حذف للجميع</string>
+    <string name="dialog_message">هل أنت متأكد أنك تريد حذف هذه الرسالة؟</string>
+    <string name="dialog_positive_button">نعم</string>
+    <string name="dialog_negative_button">لا</string>
+
+    <string name="thumbnail_message">تم معالجة الفيديو بنجاح!</string>
+    <string name="download_concluido">تم الانتهاء من التنزيل!</string>
+    <string name="share_text">مشاركة</string>
+
+    <string name="alterar_foto">تغيير الصورة</string>
+    <string name="confirm_delete_message">هل أنت متأكد أنك تريد حذف صورة الملف الشخصي؟</string>
+    <string name="yes_button">نعم</string>
+    <string name="no_button">لا</string>
+
+    <string name="sem_resultados">لا توجد نتائج، جرب كلمة أخرى</string>
+    <string name="nenhum_video_curtido">لا يوجد فيديوهات معجبة</string>
+
+    <string name="owner_only_message">فقط صاحب الحساب يمكنه مشاهدة الفيديوهات.</string>
+
+    <string name="dialog_title_permissions">الأذونات المطلوبة</string>
+    <string name="dialog_message_permissions">للمتابعة في استخدام التطبيق، من الضروري منح الأذونات.</string>
+    <string name="dialog_button_close">إغلاق</string>
+    <string name="dialog_button_grant">منح</string>
+    <string name="permission_request_message">يحتاج هذا التطبيق إلى أذونات لقراءة وكتابة الملفات. هل ترغب في منح الأذونات؟</string>
+    <string name="permission_request_camera_audio">يحتاج هذا التطبيق إلى أذونات للوصول إلى الكاميرا والصوت. هل ترغب في منح الأذونات؟</string>
+
+    <string name="permission_alert_message">يحتاج هذا التطبيق إلى إذن لإرسال الإشعارات. هل ترغب في السماح بذلك؟</string>
+    <string name="video_loading_message">يتم تحميل الفيديو. يرجى الانتظار.</string>
+    <string name="loading_progress">جاري التحميل: %1$d%%</string>
+    <string name="video_loaded_success">تم تحميل الفيديو بنجاح!</string>
+
+    <string name="username_error_message">يجب أن يتكون اسم المستخدم من 4 أحرف على الأقل.</string>
+    <string name="username_already_used_error">أنت تستخدم هذا الاسم المستخدم بالفعل.</string>
+    <string name="username_in_use_error">هذا الاسم المستخدم قيد الاستخدام بالفعل.</string>
+    <string name="username_available">اسم المستخدم متاح.</string>
+    <string name="msg_insira_nome">الرجاء إدخال اسمك</string>
+    <string name="account_created_success">تم إنشاء الحساب بنجاح!</string>
+
+    <string name="profile_picture_updated_success">تم تحديث صورة الملف الشخصي بنجاح</string>
+    <string name="username_not_available">اسم المستخدم غير متاح، يرجى اختيار آخر.</string>
+    <string name="profile_updated_success">تم تحديث الملف الشخصي بنجاح</string>
+    <string name="name_required_error">الاسم مطلوب</string>
+    <string name="username_required_error">اسم المستخدم مطلوب</string>
+
+    <string name="seguidores">متابعين</string>
+    <string name="videos">فيديوهات</string>
+    <string name="usuario_limitado">سيتم عرض 20 مستخدم فقط</string>
+
+    <string name="email_associated_with_account">عنوان البريد الإلكتروني المرتبط بحسابك.</string>
+    <string name="registered_date_of_birth">تاريخ ميلادك المسجل.</string>
+    <string name="registered_region">منطقة لغتك</string>
+    <string name="verify_email">تحقق من بريدك الإلكتروني</string>
+    <string name="email_info">هذا البريد الإلكتروني مرتبط بحسابك وهو مرئي فقط لك. تحقق منه لتحسين أمان حسابك.</string>
+    <string name="verify_email_button">تحقق من البريد الإلكتروني</string>
+    <string name="change_email">تغيير البريد الإلكتروني</string>
+    <string name="change_email_title">تغيير البريد الإلكتروني</string>
+    <string name="email_da_conta">بريد الحساب</string>
+    <string name="informacao_email">يمكنك تغيير البريد الإلكتروني المرتبط بحسابك في أي وقت.</string>
+    <string name="change_email_explanation">يرجى إدخال بريد إلكتروني جديد لتحديث حسابك.</string>
+    <string name="enter_new_email">أدخل بريدك الإلكتروني الجديد</string>
+    <string name="submit_email_button">تغيير البريد الإلكتروني</string>
+    <string name="error_invalid_email">يرجى إدخال بريد إلكتروني صالح.</string>
+    <string name="email_verified">عنوان بريدك الإلكتروني المرتبط بالحساب.</string>
+    <string name="email_not_verified">بريدك الإلكتروني غير مُتحقق منه.</string>
+    <string name="email_verification_sent">تم إرسال بريد التحقق! تحقق من صندوق الوارد الخاص بك.</string>
+    <string name="email_changed_successfully">تم تغيير البريد الإلكتروني بنجاح!</string>
+
+    <string name="quem_curtiu">من أعجب</string>
+    <string name="error_invalid_username">يُسمح فقط بالأحرف الصغيرة، الأرقام، الشرطات السفلية أو النقاط.</string>
+</resources>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ChatActivity">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <ImageView
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:gravity="center"
+            android:src="@drawable/back"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp" />
+
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/image_view_profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_account_circle"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true" />
+
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/text_view_chat_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Chat User"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginEnd="8dp" />
+
+    </LinearLayout>
+
+    <!-- RecyclerView ajustado -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/emoji_layout"
+        android:padding="8dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <HorizontalScrollView
+        android:id="@+id/emoji_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/l_message"
+        android:padding="8dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/emoji_laughing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😂"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_heart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="❤️"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_rolling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🤣"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_heart_eyes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😍"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_pray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🙏"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_pleading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥺"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_thinking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🤔"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_sweat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😅"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_party"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎉"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_hugging"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🤗"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_winking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😜"
+                android:textSize="24sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Caixa de entrada de mensagens -->
+    <LinearLayout
+        android:id="@+id/l_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_text_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/search_view_background"
+            android:hint="@string/hint_enviar_mensagem"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="@color/gray" />
+
+        <ImageView
+            android:id="@+id/button_send"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/send" />
+    </LinearLayout>
+
+</RelativeLayout>

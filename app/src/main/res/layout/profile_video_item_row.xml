@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <!-- ImageView para exibir a imagem ou vídeo -->
+    <ImageView
+        android:id="@+id/thumbnail_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="1dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"/>
+
+    <!-- Container para o ícone de like e quantidade de likes -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="8dp">
+
+        <!-- Ícone de like -->
+        <ImageView
+            android:id="@+id/like_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/like" />
+
+        <!-- Quantidade de likes -->
+        <TextView
+            android:id="@+id/like_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/like_icon"
+            android:layout_marginStart="4dp"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:elevation="4dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

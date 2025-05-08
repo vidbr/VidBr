@@ -1,0 +1,359 @@
+<resources>
+    <string name="app_name">VidBr</string>
+    <string name="splash_subtitle">Khám phá, tạo ra, kết nối</string>
+
+    <string name="pressione_novamente">Nhấn lại để thoát</string>
+
+    <string name="tab_seguindo">Đang theo dõi</string>
+    <string name="tab_para_ti">Dành cho bạn</string>
+
+    <string name="login_prompt">🔍 Đăng nhập để khám phá những gì các nhà sáng tạo yêu thích của bạn đang chia sẻ! 🎬✨</string>
+    <string name="login_button_text">Đăng nhập</string>
+    <string name="following_list_empty">Bắt đầu theo dõi ngay và khám phá những video tuyệt vời! 🌟</string>
+    <string name="no_videos_found">Không tìm thấy video nào.</string>
+
+    <string name="no_internet_connection">Không có kết nối internet.</string>
+    <string name="check_connection">Kiểm tra kết nối của bạn và thử lại.</string>
+
+    <string name="no_videos">Không có video trong quốc gia của bạn.</string>
+    <string name="publish_prompt">Nhấn vào + để bắt đầu đăng tải</string>
+
+    <string name="webview">WebView</string>
+
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_search">Tìm kiếm</string>
+    <string name="menu_add_video"></string>
+    <string name="menu_chat">Trò chuyện</string>
+    <string name="menu_profile">Hồ sơ</string>
+
+    <string name="just_now">vừa xong</string>
+    <string name="seconds_ago">%d giây trước</string>
+    <string name="minutes_ago">%d phút trước</string>
+    <string name="hours_ago">%d giờ trước</string>
+    <string name="days_ago">%d ngày trước</string>
+    <string name="weeks_ago">%d tuần trước</string>
+    <string name="months_ago">%d tháng trước</string>
+
+    <string name="more_button_text">Xem thêm</string>
+    <string name="hide_button_text">Ẩn</string>
+
+    <string name="name">Tên của bạn là gì?</string>
+    <string name="name_title">Mọi người thường gọi bạn là gì?</string>
+    <string name="hint_name">Ví dụ: Daniel</string>
+    <string name="register">Đăng ký</string>
+
+    <string name="login_text">Đăng nhập</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="button_login">Đăng nhập</string>
+    <string name="entrar_com_google">Đăng nhập với Google</string>
+    <string name="no_account_text">Chưa có tài khoản</string>
+    <string name="forgot_password_text">Quên mật khẩu?</string>
+    <string name="terms_privacy_text">Bằng cách tiếp tục, bạn đồng ý với</string>
+    <string name="terms_of_service">Điều khoản dịch vụ</string>
+    <string name="and">và</string>
+    <string name="privacy_policy">Chính sách bảo mật</string>
+    <string name="page_not_found">Không thể tìm thấy trang</string>
+
+    <string name="login_success">Đăng nhập thành công</string>
+    <string name="email_invalid_error">Email không hợp lệ</string>
+    <string name="error_min_password_length">Tối thiểu 6 ký tự</string>
+
+    <string name="create_account">Tạo tài khoản</string>
+    <string name="birth">Ngày sinh của bạn là gì?</string>
+    <string name="birth_text">Ngày sinh sẽ không được hiển thị công khai.</string>
+    <string name="birthday_placeholder">Ngày sinh</string>
+    <string name="next">Tiếp theo</string>
+    <string name="birthday_error_message">Vui lòng chọn ngày sinh của bạn</string>
+    <string name="age_error_message">Bạn phải ít nhất 13 tuổi.</string>
+
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="password_length_validation">✔️ 8 ký tự (tối đa 20)</string>
+    <string name="password_content_validation">✔️ 1 chữ cái và 1 số</string>
+    <string name="already_have_account">Tôi đã có tài khoản</string>
+
+    <string name="password_length_valid">✔️ 8 ký tự (tối đa 20)</string>
+    <string name="password_length_invalid">❌ 8 ký tự (tối đa 20)</string>
+    <string name="password_content_valid">✔️ 1 chữ cái và 1 số</string>
+    <string name="password_content_invalid">❌ 1 chữ cái và 1 số</string>
+
+    <string name="recover_title">Khôi phục tài khoản của bạn</string>
+    <string name="instructions_text">Nhập email liên kết với tài khoản của bạn và chúng tôi sẽ gửi liên kết để đặt lại mật khẩu.</string>
+    <string name="recover_email_hint">Email của bạn</string>
+    <string name="recover_submit_button_text">Tiếp tục</string>
+    <string name="email_error">Vui lòng nhập email hợp lệ</string>
+    <string name="password_reset_success">Liên kết khôi phục đã được gửi đến %1$s</string>
+    <string name="password_reset_error">Lỗi khi gửi email khôi phục</string>
+
+    <string name="no_video_available">Không có video nào có sẵn</string>
+
+    <string name="email_label">Email: </string>
+    <string name="not_logged_in">Email: Chưa đăng nhập</string>
+    <string name="birthday_label">Ngày sinh: </string>
+    <string name="region_label">Khu vực: </string>
+
+    <string name="loading_video_message">Video đang được tải. Vui lòng chờ.</string>
+    <string name="snackbar_message">Để đăng tải video, bạn cần đăng nhập.</string>
+
+    <string name="comments_header">Bình luận</string>
+    <string name="no_comments_text">Chưa có bình luận nào</string>
+    <string name="hint_adicionar_comentario">Thêm bình luận...</string>
+
+    <string name="text_copy">Sao chép</string>
+    <string name="text_delete">Xóa</string>
+
+    <string name="options_title">Tùy chọn</string>
+    <string name="report_option">Báo cáo</string>
+    <string name="save_option">Lưu</string>
+    <string name="share_option">Chia sẻ</string>
+
+    <string name="share_video_text">Chia sẻ video này!</string>
+    <string name="share_button_text">Chia sẻ qua WhatsApp</string>
+    <string name="copy_link_text">Sao chép liên kết</string>
+    <string name="link_copied">Liên kết đã được sao chép</string>
+    <string name="share_video">Chia sẻ video</string>
+    <string name="video_share_text">Chào! Kiểm tra video này qua liên kết: </string>
+    <string name="whatsapp_not_installed">WhatsApp chưa được cài đặt.</string>
+
+    <string name="report_question">Tại sao bạn báo cáo video này?</string>
+    <string name="report_reason_pornographic">Khiêu dâm hoặc thô tục</string>
+    <string name="report_reason_harmful_to_minors">Có hại cho trẻ em</string>
+    <string name="report_reason_criminal_activities">Hoạt động tội phạm và tài sản bị kiểm soát</string>
+    <string name="report_reason_spam">Spam</string>
+    <string name="report_reason_hate_speech">Lời nói thù hận</string>
+    <string name="report_reason_harassment">Quấy rối và đe dọa</string>
+    <string name="report_reason_violent">Bạo lực và khiêu khích</string>
+    <string name="report_reason_dangerous_orgs">Tổ chức và cá nhân nguy hiểm</string>
+    <string name="report_reason_suicide">Tự sát và tự làm hại bản thân</string>
+    <string name="report_reason_false_info">Thông tin sai lệch</string>
+    <string name="report_reason_intellectual_property">Vi phạm quyền sở hữu trí tuệ</string>
+    <string name="report_button">Báo cáo</string>
+    <string name="select_reason_prompt">Chọn lý do</string>
+    <string name="video_removed_due_to_reports">Video đã bị xóa do báo cáo</string>
+
+    <string name="video_count_label">video</string>
+
+    <string name="toolbar_title">Đăng tải</string>
+    <string name="hint_caption">Thêm mô tả...</string>
+    <string name="char_count">0/2000</string>
+    <string name="hashtags_button_text"># Hashtags</string>
+    <string name="friends_button_text">\@ Bạn bè</string>
+    <string name="visibility_text">Hiển thị</string>
+    <string name="submit_button_text">Đăng tải</string>
+    <string name="error_empty_caption">Viết gì đó...</string>
+    <string name="video_exceeds_limit">Video vượt quá giới hạn 30 giây</string>
+
+    <string name="visibility_label">Ai có thể xem:</string>
+    <string name="delete_option">Xóa</string>
+
+    <string-array name="visibility_display_names">
+        <item>Công khai</item>
+        <item>Riêng tư</item>
+    </string-array>
+
+    <string name="rate_our_app">Đánh giá ứng dụng của chúng tôi</string>
+    <string name="rate_message">Nếu bạn thích sử dụng ứng dụng của chúng tôi. Bạn có thể đánh giá chúng trên Play Store không?</string>
+    <string name="later_button_text">Có thể sau</string>
+    <string name="rate_now_button_text">Đánh giá ngay</string>
+    <string name="neutral_emoji">😐</string>
+
+    <string name="name_placeholder">Tên</string>
+    <string name="username_placeholder">Tên người dùng</string>
+    <string name="following_label">Đang theo dõi</string>
+    <string name="followers_label">Người theo dõi</string>
+    <string name="follow">Theo dõi</string>
+    <string name="unfollow">Bỏ theo dõi</string>
+    <string name="posts_label">Bài đăng</string>
+    <string name="logout_label">Đăng xuất</string>
+    <string name="message_label">Tin nhắn</string>
+    <string name="edit_profile_label">Chỉnh sửa hồ sơ</string>
+    <string name="biography_placeholder">Đây là tiểu sử của người dùng.</string>
+    <string name="id_copiado">ID đã sao chép</string>
+    <string name="share_profile_message">Kiểm tra hồ sơ của %1$s \n\n%2$s</string>
+    <string name="share_profile_title">Chia sẻ hồ sơ</string>
+
+    <string name="clear_all_history">Xóa tất cả</string>
+    <string name="view_more_history">Xem thêm lịch sử</string>
+
+    <string name="search_hint">Tìm kiếm</string>
+    <string name="video_tab">Video</string>
+    <string name="user_tab">Người dùng</string>
+    <string name="hashtag_tab">Hashtags</string>
+
+    <!-- Adding categories -->
+    <string name="topics">Chủ đề 🔥</string>
+    <string name="category_music">Âm nhạc 🎵</string>
+    <string name="category_love">Tình yêu ❤️</string>
+    <string name="category_meme">Meme 😂</string>
+    <string name="category_indirect">Gián tiếp 🤭</string>
+    <string name="category_faith">Đức tin ✝️</string>
+    <string name="category_sad">Buồn 😢</string>
+    <string name="category_humor">Hài hước 🤣</string>
+    <string name="category_free_fire">Free Fire 🔥</string>
+    <string name="category_funny">Vui nhộn 😆</string>
+    <string name="category_motor">Ô tô 🚗</string>
+    <string name="category_games">Trò chơi 🎮</string>
+    <string name="category_otaku">Otaku 🧙‍♂️</string>
+    <string name="category_dance">Múa 💃</string>
+    <string name="category_motivation">Động lực 💪</string>
+    <string name="category_football">Bóng đá ⚽</string>
+    <string name="category_greetings">Chào buổi sáng hoặc buổi tối 🌅🌙</string>
+    <string name="category_makeup">Trang điểm 💄</string>
+
+    <!-- Adding hashtags -->
+    <string name="hashtag_music">âmnhạc</string>
+    <string name="hashtag_love">tìnhyêu</string>
+    <string name="hashtag_meme">meme</string>
+    <string name="hashtag_indirect">giántiếp</string>
+    <string name="hashtag_faith">đứctin</string>
+    <string name="hashtag_sad">buồn</string>
+    <string name="hashtag_humor">hài</string>
+    <string name="hashtag_free_fire">freefire</string>
+    <string name="hashtag_funny">vui</string>
+    <string name="hashtag_motor">ôto</string>
+    <string name="hashtag_games">tròchơi</string>
+    <string name="hashtag_otaku">otaku</string>
+    <string name="hashtag_dance">múa</string>
+    <string name="hashtag_motivation">độnglực</string>
+    <string name="hashtag_football">bóngđá</string>
+    <string name="hashtag_greetings">chàobuổisáng</string>
+    <string name="hashtag_makeup">trangđiểm</string>
+
+    <string name="settings_option">Cài đặt</string>
+    <string name="vidbr_verified_option">VidBr Verified</string>
+
+    <string name="titulo_verificado">Cách nhận Verificado Xanh Dương và Vàng</string>
+    <string name="verificado_azul">Verificado Xanh Dương</string>
+    <string name="requisitos_azul">Yêu cầu:</string>
+    <string name="requisitos_azul_detalhes">• Số lượng người theo dõi: Cần có ít nhất 10.000 người theo dõi.\n\n• Tham gia các chương trình cụ thể: Bạn cũng có thể nhận được Verificado Xanh Dương nếu tham gia các chương trình hoặc sáng kiến do nền tảng cung cấp.</string>
+    <string name="verificado_dourado">Verificado Vàng</string>
+    <string name="requisitos_dourado">Yêu cầu:</string>
+    <string name="requisitos_dourado_detalhes">• Số lượng người theo dõi: Cần có ít nhất 100.000 người theo dõi.</string>
+    <string name="dicas_importantes">Lời khuyên quan trọng:</string>
+    <string name="dicas_importantes_detalhes">• Tính xác thực: Đảm bảo rằng thông tin của bạn là đầy đủ và chính xác.\n • Hoạt động: Giữ hồ sơ của bạn hoạt động và gắn kết với cộng đồng.\n• Tuân thủ: Làm theo các hướng dẫn và chính sách của nền tảng để đảm bảo yêu cầu của bạn được chấp nhận.</string>
+    <string name="instrucoes_email">Để yêu cầu xác minh, vui lòng liên hệ với đội ngũ qua email contato.vidbr@gmail.com</string>
+
+    <string name="settings_title">Cài đặt</string>
+    <string name="preferences">Tùy chọn</string>
+    <string name="account">Tài khoản</string>
+    <string name="profile">Hồ sơ</string>
+    <string name="privacy">Quyền riêng tư</string>
+    <string name="share_profile">Chia sẻ hồ sơ</string>
+    <string name="share_text_prefix">Kiểm tra hồ sơ của tôi tại: </string>
+    <string name="clear_memory">Xóa bộ nhớ</string>
+    <string name="about_us">Về chúng tôi</string>
+    <string name="logout">Đăng xuất</string>
+
+    <string name="toolbar_account">Tài khoản</string>
+    <string name="account_info">Thông tin tài khoản</string>
+    <string name="delete_account_button">Xóa tài khoản</string>
+
+    <string name="title_text">Xóa tài khoản</string>
+    <string name="message_text">Bạn có chắc chắn muốn xóa tài khoản của mình không?</string>
+    <string name="confirm_button_text">Xóa tài khoản</string>
+    <string name="cancel_button_text">Hủy</string>
+    <string name="recovery_warning_text">Việc xóa tài khoản không thể khôi phục lại.</string>
+    <string name="account_deleted_success">Tài khoản đã bị xóa thành công!</string>
+
+    <string name="privacy_title">Quyền riêng tư</string>
+    <string name="enable_download_title">Tải video</string>
+    <string name="enable_download_description">Khi kích hoạt, nút tải xuống sẽ hiển thị cho tất cả video của bạn.</string>
+    <string name="floating_button_description_text">Kích hoạt nút nổi</string>
+    <string name="floating_button_small_description_text">Kích hoạt hoặc vô hiệu hóa nút nổi để truy cập nhanh.</string>
+
+    <string name="edit_profile_title">Chỉnh sửa hồ sơ</string>
+    <string name="profile_pic_description">Ảnh hồ sơ</string>
+    <string name="change_photo_button">Thay đổi ảnh hồ sơ</string>
+    <string name="name_hint">Tên</string>
+    <string name="username_hint">Tên người dùng</string>
+    <string name="birthday_hint">Ngày sinh</string>
+    <string name="bio_hint">Tiểu sử</string>
+    <string name="char_count_edit">Còn lại 80 ký tự</string>
+    <string name="save_changes_button">Lưu thay đổi</string>
+
+    <string name="toolbar_title_about">Về chúng tôi</string>
+    <string name="app_description">Chào mừng bạn đến với VidBr, ứng dụng video ngắn của người Brazil để bạn có thể vui chơi trong thời gian rảnh! Tận hưởng những khoảnh khắc độc đáo, cười vui và khám phá một loạt các nội dung sẽ làm vui lòng bạn. Với VidBr, bạn sẽ không bao giờ cảm thấy buồn chán!</string>
+    <string name="rating_invitation">Nếu bạn thích VidBr, hãy để lại đánh giá của bạn và giúp chúng tôi cải thiện hơn nữa. Ý kiến của bạn rất quan trọng đối với chúng tôi!</string>
+    <string name="rate_button_text">Đánh giá VidBr</string>
+    <string name="terms_and_policies">Điều khoản và Chính sách</string>
+    <string name="terms_link_text">Điều khoản dịch vụ</string>
+    <string name="privacy_policy_link_text">Chính sách quyền riêng tư</string>
+    <string name="copyright_text">© 2025 VidBr. Mọi quyền được bảo lưu.</string>
+
+    <string name="liked_users_title">Người dùng đã thích video</string>
+    <string name="random_likes_notice">Những lượt thích này đến từ 50 người dùng được chọn ngẫu nhiên.</string>
+
+    <string name="conversas">Cuộc trò chuyện</string>
+    <string name="no_messages">Mesaj yok</string>
+    <string name="hint_enviar_mensagem">Gửi tin nhắn</string>
+    <string name="dialog_title">Xóa cho tất cả</string>
+    <string name="dialog_message">Bạn có chắc chắn muốn xóa tin nhắn này không?</string>
+    <string name="dialog_positive_button">Có</string>
+    <string name="dialog_negative_button">Không</string>
+
+    <string name="thumbnail_message">Video đã được xử lý thành công!</string>
+    <string name="download_concluido">Tải xuống hoàn tất!</string>
+    <string name="share_text">Chia sẻ</string>
+
+    <string name="alterar_foto">Thay đổi ảnh</string>
+    <string name="confirm_delete_message">Bạn có chắc chắn muốn xóa ảnh đại diện không?</string>
+    <string name="yes_button">Có</string>
+    <string name="no_button">Không</string>
+
+    <string name="sem_resultados">Không có kết quả, thử từ khác</string>
+    <string name="nenhum_video_curtido">Chưa có video nào được thích</string>
+
+    <string name="owner_only_message">Chỉ chủ sở hữu tài khoản mới có thể xem video.</string>
+
+    <string name="dialog_title_permissions">Quyền cần thiết</string>
+    <string name="dialog_message_permissions">Để tiếp tục sử dụng ứng dụng, bạn cần cấp quyền.</string>
+    <string name="dialog_button_close">Đóng</string>
+    <string name="dialog_button_grant">Cấp quyền</string>
+    <string name="permission_request_message">Ứng dụng này cần quyền để đọc và ghi tệp. Bạn có muốn cấp quyền không?</string>
+    <string name="permission_request_camera_audio">Ứng dụng này cần quyền để truy cập vào camera và âm thanh. Bạn có muốn cấp quyền không?</string>
+
+    <string name="permission_alert_message">Ứng dụng này cần quyền để gửi thông báo. Bạn có muốn cho phép không?</string>
+    <string name="video_loading_message">Video đang được tải. Vui lòng chờ.</string>
+    <string name="loading_progress">Đang tải: %1$d%%</string>
+    <string name="video_loaded_success">Video đã được tải thành công!</string>
+
+    <string name="username_error_message">Tên người dùng phải có ít nhất 4 ký tự.</string>
+    <string name="username_already_used_error">Bạn đã sử dụng tên người dùng này.</string>
+    <string name="username_in_use_error">Tên người dùng này đã được sử dụng.</string>
+    <string name="username_available">Tên người dùng có sẵn.</string>
+    <string name="msg_insira_nome">Vui lòng nhập tên của bạn</string>
+    <string name="account_created_success">Tài khoản đã được tạo thành công!</string>
+
+    <string name="profile_picture_updated_success">Ảnh đại diện đã được cập nhật thành công</string>
+    <string name="username_not_available">Tên người dùng không có sẵn, vui lòng chọn tên khác.</string>
+    <string name="profile_updated_success">Hồ sơ đã được cập nhật thành công</string>
+    <string name="name_required_error">Tên là bắt buộc</string>
+    <string name="username_required_error">Tên người dùng là bắt buộc</string>
+
+    <string name="seguidores">người theo dõi</string>
+    <string name="videos">video</string>
+    <string name="usuario_limitado">Chỉ hiển thị 20 người dùng</string>
+
+    <string name="email_associated_with_account">Địa chỉ email liên kết với tài khoản của bạn.</string>
+    <string name="registered_date_of_birth">Ngày sinh đã đăng ký của bạn.</string>
+    <string name="registered_region">Khu vực ngôn ngữ của bạn</string>
+    <string name="verify_email">Kiểm tra email của bạn</string>
+    <string name="email_info">Địa chỉ email này liên kết với tài khoản của bạn và chỉ bạn mới nhìn thấy. Kiểm tra nó để cải thiện bảo mật tài khoản của bạn.</string>
+    <string name="verify_email_button">Xác minh Email</string>
+    <string name="change_email">Đổi Email</string>
+    <string name="change_email_title">Đổi Email</string>
+    <string name="email_da_conta">Email tài khoản</string>
+    <string name="informacao_email">Bạn có thể thay đổi email liên kết với tài khoản của mình bất cứ lúc nào.</string>
+    <string name="change_email_explanation">Vui lòng nhập email mới để cập nhật tài khoản của bạn.</string>
+    <string name="enter_new_email">Nhập email mới của bạn</string>
+    <string name="submit_email_button">Đổi Email</string>
+    <string name="error_invalid_email">Vui lòng nhập một địa chỉ email hợp lệ.</string>
+    <string name="email_verified">Địa chỉ email liên kết với tài khoản của bạn.</string>
+    <string name="email_not_verified">Email của bạn chưa được xác minh.</string>
+    <string name="email_verification_sent">Email xác minh đã được gửi! Kiểm tra hộp thư đến của bạn.</string>
+    <string name="email_changed_successfully">Email đã được thay đổi thành công!</string>
+
+    <string name="quem_curtiu">Ai thích</string>
+    <string name="error_invalid_username">Chỉ cho phép chữ thường, số, dấu gạch dưới hoặc dấu chấm.</string>
+</resources>

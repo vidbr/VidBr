@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <!-- Title of the Dialog -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_email_title"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Explanatory text in gray -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_email_explanation"
+        android:textSize="14sp"
+        android:textColor="#808080"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Field to input the new email -->
+    <EditText
+        android:id="@+id/edtNewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:hint="@string/enter_new_email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="16sp"/>
+
+    <!-- Button to submit the new email -->
+    <Button
+        android:id="@+id/btnSubmitNewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_email_button"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Error message, initially hidden -->
+    <TextView
+        android:id="@+id/error_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/error_invalid_email"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone"
+        android:paddingTop="10dp"
+        android:gravity="center"/>
+</LinearLayout>

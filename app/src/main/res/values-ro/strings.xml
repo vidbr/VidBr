@@ -1,0 +1,359 @@
+<resources>
+    <string name="app_name">VidBr</string>
+    <string name="splash_subtitle">Descoperă, creează, conectează-te</string>
+
+    <string name="pressione_novamente">Apasă din nou pentru a ieși</string>
+
+    <string name="tab_seguindo">Urmărești</string>
+    <string name="tab_para_ti">Pentru tine</string>
+
+    <string name="login_prompt">🔍 Conectează-te pentru a descoperi ce postează creatorii tăi preferați! 🎬✨</string>
+    <string name="login_button_text">Conectează-te</string>
+    <string name="following_list_empty">Începe să urmărești acum și descoperă videoclipuri incredibile! 🌟</string>
+    <string name="no_videos_found">Niciun videoclip găsit.</string>
+
+    <string name="no_internet_connection">Fără conexiune la internet.</string>
+    <string name="check_connection">Verifică conexiunea și încearcă din nou.</string>
+
+    <string name="no_videos">Nu există videoclipuri în țara ta.</string>
+    <string name="publish_prompt">Apasă pe + pentru a începe să publici</string>
+
+    <string name="webview">WebView</string>
+
+    <string name="menu_home">Acasă</string>
+    <string name="menu_search">Căutare</string>
+    <string name="menu_add_video"></string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_profile">Profil</string>
+
+    <string name="just_now">chiar acum</string>
+    <string name="seconds_ago">%d s în urmă</string>
+    <string name="minutes_ago">%d min în urmă</string>
+    <string name="hours_ago">%d h în urmă</string>
+    <string name="days_ago">%d d în urmă</string>
+    <string name="weeks_ago">%d săpt în urmă</string>
+    <string name="months_ago">%d lună în urmă</string>
+
+    <string name="more_button_text">Mai multe</string>
+    <string name="hide_button_text">Ascunde</string>
+
+    <string name="name">Cum te cheamă?</string>
+    <string name="name_title">Cum îți spun prietenii?</string>
+    <string name="hint_name">Ex: Daniel</string>
+    <string name="register">Înregistrează-te</string>
+
+    <string name="login_text">Autentificare</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Parolă</string>
+    <string name="button_login">Conectează-te</string>
+    <string name="entrar_com_google">Conectează-te cu Google</string>
+    <string name="no_account_text">Nu am un cont</string>
+    <string name="forgot_password_text">Ți-ai uitat parola?</string>
+    <string name="terms_privacy_text">Continuând, ești de acord cu</string>
+    <string name="terms_of_service">Termenii și condițiile</string>
+    <string name="and">și</string>
+    <string name="privacy_policy">Politica de confidențialitate</string>
+    <string name="page_not_found">Pagina nu a fost găsită</string>
+
+    <string name="login_success">Autentificare cu succes</string>
+    <string name="email_invalid_error">E-mail invalid</string>
+    <string name="error_min_password_length">Minim 6 caractere</string>
+
+    <string name="create_account">Creează cont</string>
+    <string name="birth">Care este data ta de naștere?</string>
+    <string name="birth_text">Data de naștere nu va fi afișată public.</string>
+    <string name="birthday_placeholder">Data nașterii</string>
+    <string name="next">Următorul</string>
+    <string name="birthday_error_message">Te rugăm să selectezi data de naștere</string>
+    <string name="age_error_message">Trebuie să ai cel puțin 13 ani.</string>
+
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Parolă</string>
+    <string name="password_length_validation">✔️ 8 caractere (maxim 20)</string>
+    <string name="password_content_validation">✔️ 1 literă și 1 număr</string>
+    <string name="already_have_account">Am deja un cont</string>
+
+    <string name="password_length_valid">✔️ 8 caractere (maxim 20)</string>
+    <string name="password_length_invalid">❌ 8 caractere (maxim 20)</string>
+    <string name="password_content_valid">✔️ 1 literă și 1 număr</string>
+    <string name="password_content_invalid">❌ 1 literă și 1 număr</string>
+
+    <string name="recover_title">Recuperează-ți contul</string>
+    <string name="instructions_text">Introdu adresa de e-mail asociată contului tău și îți vom trimite un link pentru a-ți reseta parola.</string>
+    <string name="recover_email_hint">E-mailul tău</string>
+    <string name="recover_submit_button_text">Continuă</string>
+    <string name="email_error">Te rugăm să introduci un e-mail valid</string>
+    <string name="password_reset_success">Linkul de recuperare a fost trimis la %1$s</string>
+    <string name="password_reset_error">Eroare la trimiterea e-mailului de recuperare</string>
+
+    <string name="no_video_available">Nu există videoclipuri disponibile</string>
+
+    <string name="email_label">E-mail: </string>
+    <string name="not_logged_in">E-mail: Neautentificat</string>
+    <string name="birthday_label">Data nașterii: </string>
+    <string name="region_label">Regiune: </string>
+
+    <string name="loading_video_message">Videoclipul se încarcă. Te rugăm să aștepți.</string>
+    <string name="snackbar_message">Pentru a trimite un videoclip, trebuie să fii autentificat.</string>
+
+    <string name="comments_header">Comentarii</string>
+    <string name="no_comments_text">Nu sunt comentarii încă</string>
+    <string name="hint_adicionar_comentario">Adaugă un comentariu...</string>
+
+    <string name="text_copy">Copiază</string>
+    <string name="text_delete">Șterge</string>
+
+    <string name="options_title">Opțiuni</string>
+    <string name="report_option">Raportează</string>
+    <string name="save_option">Salvează</string>
+    <string name="share_option">Împărtășește</string>
+
+    <string name="share_video_text">Împărtășește acest videoclip!</string>
+    <string name="share_button_text">Împărtășește pe WhatsApp</string>
+    <string name="copy_link_text">Copiați linkul</string>
+    <string name="link_copied">Link copiat</string>
+    <string name="share_video">Împărtășește videoclipul</string>
+    <string name="video_share_text">Salut! Uite videoclipul la acest link: </string>
+    <string name="whatsapp_not_installed">WhatsApp nu este instalat.</string>
+
+    <string name="report_question">De ce raportezi acest videoclip?</string>
+    <string name="report_reason_pornographic">Pornografic sau vulgar</string>
+    <string name="report_reason_harmful_to_minors">Dăunător minorilor</string>
+    <string name="report_reason_criminal_activities">Activități criminale și bunuri controlate</string>
+    <string name="report_reason_spam">Spam</string>
+    <string name="report_reason_hate_speech">Discurs de ură</string>
+    <string name="report_reason_harassment">Hărțuire și intimidare</string>
+    <string name="report_reason_violent">Violent și explicit</string>
+    <string name="report_reason_dangerous_orgs">Organizații și indivizi periculoși</string>
+    <string name="report_reason_suicide">Sinucidere și automutilare</string>
+    <string name="report_reason_false_info">Informație falsă</string>
+    <string name="report_reason_intellectual_property">Încălcarea drepturilor de autor</string>
+    <string name="report_button">Raportează</string>
+    <string name="select_reason_prompt">Selectează un motiv</string>
+    <string name="video_removed_due_to_reports">Videoclipul a fost șters din cauza rapoartelor</string>
+
+    <string name="video_count_label">videoclipuri</string>
+
+    <string name="toolbar_title">Publică</string>
+    <string name="hint_caption">Adaugă o descriere...</string>
+    <string name="char_count">0/2000</string>
+    <string name="hashtags_button_text"># Hashtags</string>
+    <string name="friends_button_text">\@ Prieteni</string>
+    <string name="visibility_text">Vizibilitate</string>
+    <string name="submit_button_text">Publică</string>
+    <string name="error_empty_caption">Scrie ceva...</string>
+    <string name="video_exceeds_limit">Videoclipul depășește limita de 30 de secunde</string>
+
+    <string name="visibility_label">Cine poate vedea:</string>
+    <string name="delete_option">Șterge</string>
+
+    <string-array name="visibility_display_names">
+        <item>Public</item>
+        <item>Privat</item>
+    </string-array>
+
+    <string name="rate_our_app">Evaluează aplicația noastră</string>
+    <string name="rate_message">Dacă îți place să folosești aplicația noastră, ne-ai putea evalua în Play Store?</string>
+    <string name="later_button_text">Poate mai târziu</string>
+    <string name="rate_now_button_text">Evaluează acum</string>
+    <string name="neutral_emoji">😐</string>
+
+    <string name="name_placeholder">Nume</string>
+    <string name="username_placeholder">Nume de utilizator</string>
+    <string name="following_label">Urmărește</string>
+    <string name="followers_label">Urmăritori</string>
+    <string name="follow">Urmăriți</string>
+    <string name="unfollow">Nu urmăriți</string>
+    <string name="posts_label">Postări</string>
+    <string name="logout_label">Deconectare</string>
+    <string name="message_label">Mesaj</string>
+    <string name="edit_profile_label">Editează profilul</string>
+    <string name="biography_placeholder">Aceasta este biografia utilizatorului.</string>
+    <string name="id_copiado">ID copiat</string>
+    <string name="share_profile_message">Verifică profilul lui %1$s \n\n%2$s</string>
+    <string name="share_profile_title">Partajează profilul</string>
+
+    <string name="clear_all_history">Șterge tot</string>
+    <string name="view_more_history">Vezi mai mult istoric</string>
+
+    <string name="search_hint">Căutare</string>
+    <string name="video_tab">Videoclipuri</string>
+    <string name="user_tab">Utilizatori</string>
+    <string name="hashtag_tab">Hashtags</string>
+
+    <!-- Adăugarea categoriilor -->
+    <string name="topics">Subiecte 🔥</string>
+    <string name="category_music">Muzică 🎵</string>
+    <string name="category_love">Iubire ❤️</string>
+    <string name="category_meme">Meme 😂</string>
+    <string name="category_indirect">Indirecte 🤭</string>
+    <string name="category_faith">Credință ✝️</string>
+    <string name="category_sad">Tristețe 😢</string>
+    <string name="category_humor">Umor 🤣</string>
+    <string name="category_free_fire">Free Fire 🔥</string>
+    <string name="category_funny">Amuzant 😆</string>
+    <string name="category_motor">Motor 🚗</string>
+    <string name="category_games">Jocuri 🎮</string>
+    <string name="category_otaku">Otaku 🧙‍♂️</string>
+    <string name="category_dance">Dans 💃</string>
+    <string name="category_motivation">Motivație 💪</string>
+    <string name="category_football">Fotbal ⚽</string>
+    <string name="category_greetings">Bună dimineața sau Bună seara 🌅🌙</string>
+    <string name="category_makeup">Machiaj 💄</string>
+
+    <!-- Adăugarea hashtag-urilor -->
+    <string name="hashtag_music">muzica</string>
+    <string name="hashtag_love">iubire</string>
+    <string name="hashtag_meme">meme</string>
+    <string name="hashtag_indirect">indirecta</string>
+    <string name="hashtag_faith">credinta</string>
+    <string name="hashtag_sad">tristete</string>
+    <string name="hashtag_humor">umor</string>
+    <string name="hashtag_free_fire">freefire</string>
+    <string name="hashtag_funny">amuzant</string>
+    <string name="hashtag_motor">motor</string>
+    <string name="hashtag_games">jocuri</string>
+    <string name="hashtag_otaku">otaku</string>
+    <string name="hashtag_dance">dans</string>
+    <string name="hashtag_motivation">motivatie</string>
+    <string name="hashtag_football">fotbal</string>
+    <string name="hashtag_greetings">bunadimineataubunasera</string>
+    <string name="hashtag_makeup">machiaj</string>
+
+    <string name="settings_option">Setări</string>
+    <string name="vidbr_verified_option">VidBr Verificat</string>
+
+    <string name="titulo_verificado">Cum să obțineți Verificarea Albastră și Aurie</string>
+    <string name="verificado_azul">Verificare Albastră</string>
+    <string name="requisitos_azul">Cerințe:</string>
+    <string name="requisitos_azul_detalhes">• Număr de Urmăritori: Este necesar să aveți cel puțin 10.000 de urmăritori.\n\n• Participare în Programe Specifice: Alternativ, puteți obține verificarea albastră dacă participați la programe sau inițiative specifice oferite de platformă.</string>
+    <string name="verificado_dourado">Verificare Aurie</string>
+    <string name="requisitos_dourado">Cerințe:</string>
+    <string name="requisitos_dourado_detalhes">• Număr de Urmăritori: Este necesar să aveți cel puțin 100.000 de urmăritori.</string>
+    <string name="dicas_importantes">Sfaturi importante:</string>
+    <string name="dicas_importantes_detalhes">• Autenticitate: Asigurați-vă că informațiile dumneavoastră sunt complete și precise.\n • Activitate: Păstrați un profil activ și angajat cu publicul dumneavoastră.\n• Conformitate: Urmați ghidurile și politicile platformei pentru a asigura o cerere de succes.</string>
+    <string name="instrucoes_email">Pentru a solicita verificarea, vă rugăm să contactați echipa la adresa de email contato.vidbr@gmail.com</string>
+
+    <string name="settings_title">Setări</string>
+    <string name="preferences">Preferințe</string>
+    <string name="account">Cont</string>
+    <string name="profile">Profil</string>
+    <string name="privacy">Confidențialitate</string>
+    <string name="share_profile">Partajează Profilul</string>
+    <string name="share_text_prefix">Verifică profilul meu la: </string>
+    <string name="clear_memory">Șterge Memoria</string>
+    <string name="about_us">Despre Noi</string>
+    <string name="logout">Deconectare</string>
+
+    <string name="toolbar_account">Cont</string>
+    <string name="account_info">Informații cont</string>
+    <string name="delete_account_button">Șterge contul</string>
+
+    <string name="title_text">Ștergere cont</string>
+    <string name="message_text">Sigur doriți să ștergeți contul?</string>
+    <string name="confirm_button_text">Șterge contul</string>
+    <string name="cancel_button_text">Anulează</string>
+    <string name="recovery_warning_text">Ștergerea contului nu poate fi recuperată.</string>
+    <string name="account_deleted_success">Cont șters cu succes!</string>
+
+    <string name="privacy_title">Confidențialitate</string>
+    <string name="enable_download_title">Descarcă videoclipurile</string>
+    <string name="enable_download_description">Când este activat, butonul de descărcare va fi vizibil pentru toate videoclipurile tale.</string>
+    <string name="floating_button_description_text">Activează butonul flotant</string>
+    <string name="floating_button_small_description_text">Activează sau dezactivează butonul flotant pentru acces rapid.</string>
+
+    <string name="edit_profile_title">Editează Profilul</string>
+    <string name="profile_pic_description">Poză de profil</string>
+    <string name="change_photo_button">Schimbă poza de profil</string>
+    <string name="name_hint">Nume</string>
+    <string name="username_hint">Nume de utilizator</string>
+    <string name="birthday_hint">Data nașterii</string>
+    <string name="bio_hint">Biografie</string>
+    <string name="char_count_edit">80 caractere rămase</string>
+    <string name="save_changes_button">Salvează modificările</string>
+
+    <string name="toolbar_title_about">Despre noi</string>
+    <string name="app_description">Bine ai venit la VidBr, aplicația braziliană de videoclipuri scurte pentru a te distra în timpul liber! Bucură-te de momente unice, râzi pe săturate și descoperă o varietate de conținuturi care îți vor face ziua mai bună. Cu VidBr, nu te vei plictisi niciodată!</string>
+    <string name="rating_invitation">Dacă îți place VidBr, lasă-ne o evaluare și ajută-ne să îmbunătățim aplicația. Părerea ta este foarte importantă pentru noi!</string>
+    <string name="rate_button_text">Evaluează VidBr</string>
+    <string name="terms_and_policies">Termeni și Politici</string>
+    <string name="terms_link_text">Termeni de Serviciu</string>
+    <string name="privacy_policy_link_text">Politica de Confidențialitate</string>
+    <string name="copyright_text">© 2025 VidBr. Toate drepturile rezervate.</string>
+
+    <string name="liked_users_title">Utilizatori care au apreciat videoclipul</string>
+    <string name="random_likes_notice">Like-urile sunt din 50 de utilizatori selectați aleatoriu.</string>
+
+    <string name="conversas">Conversații</string>
+    <string name="no_messages">Nu sunt mesaje</string>
+    <string name="hint_enviar_mensagem">Trimite un mesaj</string>
+    <string name="dialog_title">Șterge pentru toți</string>
+    <string name="dialog_message">Ești sigur că vrei să ștergi acest mesaj?</string>
+    <string name="dialog_positive_button">Da</string>
+    <string name="dialog_negative_button">Nu</string>
+
+    <string name="thumbnail_message">Video procesat cu succes!</string>
+    <string name="download_concluido">Descărcare finalizată!</string>
+    <string name="share_text">Partajează</string>
+
+    <string name="alterar_foto">Schimbă Fotografia</string>
+    <string name="confirm_delete_message">Ești sigur că vrei să ștergi fotografia de profil?</string>
+    <string name="yes_button">Da</string>
+    <string name="no_button">Nu</string>
+
+    <string name="sem_resultados">Fără rezultate, încearcă alt cuvânt</string>
+    <string name="nenhum_video_curtido">Nu există videoclipuri apreciate</string>
+
+    <string name="owner_only_message">Doar proprietarul contului poate vizualiza videoclipurile.</string>
+
+    <string name="dialog_title_permissions">Permisiuni necesare</string>
+    <string name="dialog_message_permissions">Pentru a continua să folosești aplicația, este necesar să acorzi permisiuni.</string>
+    <string name="dialog_button_close">Închide</string>
+    <string name="dialog_button_grant">Acordă</string>
+    <string name="permission_request_message">Această aplicație are nevoie de permisiuni pentru a citi și scrie fișiere. Vrei să acorzi permisiunile?</string>
+    <string name="permission_request_camera_audio">Această aplicație are nevoie de permisiuni pentru a accesa camera și audio. Vrei să acorzi permisiunile?</string>
+
+    <string name="permission_alert_message">Această aplicație necesită permisiunea de a trimite notificări. Doriți să permiteți acest lucru?</string>
+    <string name="video_loading_message">Videoclipul se încarcă. Vă rugăm să așteptați.</string>
+    <string name="loading_progress">Se încarcă: %1$d%%</string>
+    <string name="video_loaded_success">Videoclipul a fost încărcat cu succes!</string>
+
+    <string name="username_error_message">Numele de utilizator trebuie să aibă cel puțin 4 caractere.</string>
+    <string name="username_already_used_error">Acest nume de utilizator este deja folosit.</string>
+    <string name="username_in_use_error">Acest nume de utilizator este deja în uz.</string>
+    <string name="username_available">Numele de utilizator este disponibil.</string>
+    <string name="msg_insira_nome">Vă rugăm să introduceți numele dumneavoastră</string>
+    <string name="account_created_success">Contul a fost creat cu succes!</string>
+
+    <string name="profile_picture_updated_success">Fotografia de profil a fost actualizată cu succes</string>
+    <string name="username_not_available">Numele de utilizator nu este disponibil, vă rugăm să alegeți altul.</string>
+    <string name="profile_updated_success">Profilul a fost actualizat cu succes</string>
+    <string name="name_required_error">Numele este obligatoriu</string>
+    <string name="username_required_error">Numele de utilizator este obligatoriu</string>
+
+    <string name="seguidores">urmaritori</string>
+    <string name="videos">video</string>
+    <string name="usuario_limitado">Vor fi afişaţi doar 20 de utilizatori</string>
+
+    <string name="email_associated_with_account">Adresa de email asociată contului tău.</string>
+    <string name="registered_date_of_birth">Data ta de naștere înregistrată.</string>
+    <string name="registered_region">Regiunea limbii tale</string>
+    <string name="verify_email">Verifică-ți email-ul</string>
+    <string name="email_info">Această adresă de email este legată de contul tău și este vizibilă doar pentru tine. Verifică-o pentru a îmbunătăți securitatea contului tău.</string>
+    <string name="verify_email_button">Verifică Email-ul</string>
+    <string name="change_email">Schimbă Email-ul</string>
+    <string name="change_email_title">Schimbă Email-ul</string>
+    <string name="email_da_conta">Email cont</string>
+    <string name="informacao_email">Puteți schimba adresa de email asociată contului oricând.</string>
+    <string name="change_email_explanation">Te rugăm să introduci un nou email pentru a-ți actualiza contul.</string>
+    <string name="enter_new_email">Introdu noul tău email</string>
+    <string name="submit_email_button">Schimbă Email-ul</string>
+    <string name="error_invalid_email">Te rugăm să introduci un email valid.</string>
+    <string name="email_verified">Adresa ta de email asociată contului.</string>
+    <string name="email_not_verified">Email-ul tău nu a fost verificat.</string>
+    <string name="email_verification_sent">Email de verificare trimis! Verifică-ți inbox-ul.</string>
+    <string name="email_changed_successfully">Email-ul a fost schimbat cu succes!</string>
+
+    <string name="quem_curtiu">Cine a apreciat</string>
+    <string name="error_invalid_username">Sunt permise doar litere mici, cifre, caractere de subliniere sau puncte.</string>
+</resources>

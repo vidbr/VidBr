@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "899724318789",
+    "firebase_url": "https://vidbr-7cc94-default-rtdb.firebaseio.com",
+    "project_id": "vidbr-7cc94",
+    "storage_bucket": "vidbr-7cc94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899724318789:android:ddb330305669085b796b2c",
+        "android_client_info": {
+          "package_name": "com.video.vidbr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899724318789-4q7edfs77mpe36ocr50uegm9qk51ckjf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.video.vidbr",
+            "certificate_hash": "df42f3a63e2254c604815d1b78c85cd9d04ca0f2"
+          }
+        },
+        {
+          "client_id": "899724318789-p53ui69mpgi28m7d6pvksg1pnocc4gpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDagRqA85SxEye-_w0hR-efezdYTLmChX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899724318789-p53ui69mpgi28m7d6pvksg1pnocc4gpr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

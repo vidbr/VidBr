@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VidBr</string>
+    <string name="splash_subtitle">Descubre, crea, conéctate</string>
+
+    <string name="pressione_novamente">Presiona nuevamente para salir</string>
+
+    <string name="tab_seguindo">Siguiendo</string>
+    <string name="tab_para_ti">Para ti</string>
+
+    <string name="login_prompt">🔍 ¡Inicia sesión para descubrir lo que tus creadores favoritos están publicando! 🎬✨</string>
+    <string name="login_button_text">Entrar</string>
+    <string name="following_list_empty">¡Comienza a seguir ahora y descubre videos increíbles! 🌟</string>
+    <string name="no_videos_found">No se encontraron videos.</string>
+
+    <string name="no_internet_connection">Sin conexión a internet.</string>
+    <string name="check_connection">Verifica tu conexión e intenta nuevamente.</string>
+
+    <string name="no_videos">No hay videos en tu país.</string>
+    <string name="publish_prompt">Haz clic en el + para empezar a publicar</string>
+
+    <string name="webview">WebView</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_add_video"></string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_profile">Perfil</string>
+
+    <string name="just_now">justo ahora</string>
+    <string name="seconds_ago">%d s atrás</string>
+    <string name="minutes_ago">%d min atrás</string>
+    <string name="hours_ago">%d h atrás</string>
+    <string name="days_ago">%d d atrás</string>
+    <string name="weeks_ago">%d sem atrás</string>
+    <string name="months_ago">%d mes atrás</string>
+
+    <string name="more_button_text">Más</string>
+    <string name="hide_button_text">Ocultar</string>
+
+    <string name="name">¿Cuál es tu nombre?</string>
+    <string name="name_title">¿Cómo te llaman?</string>
+    <string name="hint_name">Ej: Daniel</string>
+    <string name="register">Registrar</string>
+
+    <string name="login_text">Login</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="button_login">Entrar</string>
+    <string name="entrar_com_google">Iniciar sesión con Google</string>
+    <string name="no_account_text">No tengo cuenta</string>
+    <string name="forgot_password_text">¿Olvidaste la contraseña?</string>
+    <string name="terms_privacy_text">Al continuar, aceptas nuestros</string>
+    <string name="terms_of_service">Términos de Servicio</string>
+    <string name="and">y</string>
+    <string name="privacy_policy">Política de Privacidad</string>
+    <string name="page_not_found">No se pudo encontrar la página</string>
+
+    <string name="login_success">Inicio de sesión exitoso</string>
+    <string name="email_invalid_error">Correo electrónico no válido</string>
+    <string name="error_min_password_length">Mínimo 6 caracteres</string>
+
+    <string name="create_account">Crear cuenta</string>
+    <string name="birth">¿Cuál es tu fecha de nacimiento?</string>
+    <string name="birth_text">La fecha de nacimiento no se mostrará públicamente.</string>
+    <string name="birthday_placeholder">Fecha de nacimiento</string>
+    <string name="next">Siguiente</string>
+    <string name="birthday_error_message">Por favor, selecciona tu fecha de nacimiento</string>
+    <string name="age_error_message">Debes tener al menos 13 años.</string>
+
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="password_length_validation">✔️ 8 caracteres (máximo de 20)</string>
+    <string name="password_content_validation">✔️ 1 letra y 1 número</string>
+    <string name="already_have_account">Ya tengo cuenta</string>
+
+    <string name="password_length_valid">✔️ 8 caracteres (máximo de 20)</string>
+    <string name="password_length_invalid">❌ 8 caracteres (máximo de 20)</string>
+    <string name="password_content_valid">✔️ 1 letra y 1 número</string>
+    <string name="password_content_invalid">❌ 1 letra y 1 número</string>
+
+    <string name="recover_title">Recuperar tu cuenta</string>
+    <string name="instructions_text">Ingresa el correo electrónico vinculado a tu cuenta y te enviaremos un enlace para restablecer tu contraseña.</string>
+    <string name="recover_email_hint">Tu correo electrónico</string>
+    <string name="recover_submit_button_text">Continuar</string>
+    <string name="email_error">Por favor, ingresa un correo electrónico válido</string>
+    <string name="password_reset_success">Enlace de recuperación enviado a %1$s</string>
+    <string name="password_reset_error">Error al enviar el correo electrónico de recuperación</string>
+
+    <string name="no_video_available">No hay videos disponibles</string>
+
+    <string name="email_label">Correo electrónico: </string>
+    <string name="not_logged_in">Correo electrónico: No logueado</string>
+    <string name="birthday_label">Fecha de Nacimiento: </string>
+    <string name="region_label">Región: </string>
+
+    <string name="loading_video_message">El video se está cargando. Por favor, espera.</string>
+    <string name="snackbar_message">Para enviar un video debes estar logueado.</string>
+
+    <string name="comments_header">Comentarios</string>
+    <string name="no_comments_text">Aún no hay comentarios</string>
+    <string name="hint_adicionar_comentario">Añadir comentario...</string>
+
+    <string name="text_copy">Copiar</string>
+    <string name="text_delete">Eliminar</string>
+
+    <string name="options_title">Opciones</string>
+    <string name="report_option">Denunciar</string>
+    <string name="save_option">Guardar</string>
+    <string name="share_option">Compartir</string>
+
+    <string name="share_video_text">¡Comparte este video!</string>
+    <string name="share_button_text">Compartir por WhatsApp</string>
+    <string name="copy_link_text">Copiar Enlace</string>
+    <string name="link_copied">Enlace copiado</string>
+    <string name="share_video">Compartir video</string>
+    <string name="video_share_text">¡Hola! Mira el video en este enlace: </string>
+    <string name="whatsapp_not_installed">WhatsApp no está instalado.</string>
+
+    <string name="report_question">¿Por qué estás denunciando este video?</string>
+    <string name="report_reason_pornographic">Pornográfico o vulgar</string>
+    <string name="report_reason_harmful_to_minors">Perjudicial para menores</string>
+    <string name="report_reason_criminal_activities">Actividades criminales y bienes controlados</string>
+    <string name="report_reason_spam">Spam</string>
+    <string name="report_reason_hate_speech">Discurso de odio</string>
+    <string name="report_reason_harassment">Acoso e intimidación</string>
+    <string name="report_reason_violent">Violento y explícito</string>
+    <string name="report_reason_dangerous_orgs">Organizaciones y personas peligrosas</string>
+    <string name="report_reason_suicide">Suicidio y autolesiones</string>
+    <string name="report_reason_false_info">Información falsa</string>
+    <string name="report_reason_intellectual_property">Violación de propiedad intelectual</string>
+    <string name="report_button">Denunciar</string>
+    <string name="select_reason_prompt">Selecciona una razón</string>
+    <string name="video_removed_due_to_reports">Video eliminado debido a denuncias</string>
+
+    <string name="video_count_label">videos</string>
+
+    <string name="toolbar_title">Publicar</string>
+    <string name="hint_caption">Añadir una descripción...</string>
+    <string name="char_count">0/2000</string>
+    <string name="hashtags_button_text"># Hashtags</string>
+    <string name="friends_button_text">\@ Amigos</string>
+    <string name="visibility_text">Visibilidad</string>
+    <string name="submit_button_text">Publicar</string>
+    <string name="error_empty_caption">Escribe algo...</string>
+    <string name="video_exceeds_limit">El video excede el límite de 30 segundos</string>
+
+    <string name="visibility_label">¿Quién puede ver:</string>
+    <string name="delete_option">Eliminar</string>
+
+    <string-array name="visibility_display_names">
+        <item>Público</item>
+        <item>Privado</item>
+    </string-array>
+
+    <string name="rate_our_app">Evalúa nuestra aplicación</string>
+    <string name="rate_message">Si te gusta usar nuestra aplicación, ¿podrías evaluarnos en la Play Store?</string>
+    <string name="later_button_text">Tal vez más tarde</string>
+    <string name="rate_now_button_text">Evaluar ahora</string>
+    <string name="neutral_emoji">😐</string>
+
+    <string name="name_placeholder">Nombre</string>
+    <string name="username_placeholder">Nombre de usuario</string>
+    <string name="following_label">Siguiendo</string>
+    <string name="followers_label">Seguidores</string>
+    <string name="follow">Seguir</string>
+    <string name="unfollow">Dejar de seguir</string>
+    <string name="posts_label">Publicaciones</string>
+    <string name="logout_label">Salir</string>
+    <string name="message_label">Mensaje</string>
+    <string name="edit_profile_label">Editar Perfil</string>
+    <string name="biography_placeholder">Esta es la biografía del usuario.</string>
+    <string name="id_copiado">ID copiado</string>
+    <string name="share_profile_message">Mira el perfil de %1$s \n\n%2$s</string>
+    <string name="share_profile_title">Compartir perfil</string>
+
+    <string name="clear_all_history">Borrar todo</string>
+    <string name="view_more_history">Ver más historial</string>
+
+    <string name="search_hint">Buscar</string>
+    <string name="video_tab">Videos</string>
+    <string name="user_tab">Usuarios</string>
+    <string name="hashtag_tab">Hashtags</string>
+
+    <!-- Agregando las categorías -->
+    <string name="topics">Temas 🔥</string>
+    <string name="category_music">Música 🎵</string>
+    <string name="category_love">Amor ❤️</string>
+    <string name="category_meme">Meme 😂</string>
+    <string name="category_indirect">Indirecta 🤭</string>
+    <string name="category_faith">Fe ✝️</string>
+    <string name="category_sad">Triste 😢</string>
+    <string name="category_humor">Humor 🤣</string>
+    <string name="category_free_fire">Free Fire 🔥</string>
+    <string name="category_funny">Divertido 😆</string>
+    <string name="category_motor">Motor 🚗</string>
+    <string name="category_games">Juegos 🎮</string>
+    <string name="category_otaku">Otaku 🧙‍♂️</string>
+    <string name="category_dance">Danza 💃</string>
+    <string name="category_motivation">Motivación 💪</string>
+    <string name="category_football">Fútbol ⚽</string>
+    <string name="category_greetings">Buenos días o Buenas noches 🌅🌙</string>
+    <string name="category_makeup">Maquillaje 💄</string>
+
+    <!-- Agregando los hashtags -->
+    <string name="hashtag_music">musica</string>
+    <string name="hashtag_love">amor</string>
+    <string name="hashtag_meme">meme</string>
+    <string name="hashtag_indirect">indirecta</string>
+    <string name="hashtag_faith">fe</string>
+    <string name="hashtag_sad">triste</string>
+    <string name="hashtag_humor">humor</string>
+    <string name="hashtag_free_fire">freefire</string>
+    <string name="hashtag_funny">divertido</string>
+    <string name="hashtag_motor">motor</string>
+    <string name="hashtag_games">juegos</string>
+    <string name="hashtag_otaku">otaku</string>
+    <string name="hashtag_dance">danza</string>
+    <string name="hashtag_motivation">motivacion</string>
+    <string name="hashtag_football">futbol</string>
+    <string name="hashtag_greetings">buenosdiasobuenasnoches</string>
+    <string name="hashtag_makeup">maquillaje</string>
+
+    <string name="settings_option">Configuraciones</string>
+    <string name="vidbr_verified_option">VidBr Verificado</string>
+
+    <string name="titulo_verificado">Cómo Obtener la Verificación Azul y Dorada</string>
+    <string name="verificado_azul">Verificación Azul</string>
+    <string name="requisitos_azul">Requisitos:</string>
+    <string name="requisitos_azul_detalhes">• Número de Seguidores: Es necesario tener al menos 10.000 seguidores.\n\n• Participación en Programas Específicos: Alternativamente, puedes obtener la verificación azul si participas en programas o iniciativas específicas ofrecidos por la plataforma.</string>
+    <string name="verificado_dourado">Verificación Dorada</string>
+    <string name="requisitos_dourado">Requisitos:</string>
+    <string name="requisitos_dourado_detalhes">• Número de Seguidores: Es necesario tener al menos 100.000 seguidores.</string>
+    <string name="dicas_importantes">Consejos Importantes:</string>
+    <string name="dicas_importantes_detalhes">• Autenticidad: Asegúrate de que tu información sea completa y precisa.\n• Actividad: Mantén un perfil activo y comprometido con tu audiencia.\n• Conformidad: Sigue las directrices y políticas de la plataforma para garantizar una solicitud exitosa.</string>
+    <string name="instrucoes_email">Para solicitar la verificación, envía tu documento de identificación a soporte@vidbr.com</string>
+
+    <string name="settings_title">Configuraciones</string>
+    <string name="preferences">Preferencias</string>
+    <string name="account">Cuenta</string>
+    <string name="profile">Perfil</string>
+    <string name="privacy">Privacidad</string>
+    <string name="share_profile">Compartir Perfil</string>
+    <string name="share_text_prefix">Mira mi perfil en: </string>
+    <string name="clear_memory">Limpiar Memoria</string>
+    <string name="about_us">Sobre Nosotros</string>
+    <string name="logout">Salir</string>
+
+    <string name="toolbar_account">Cuenta</string>
+    <string name="account_info">Información de la Cuenta</string>
+    <string name="delete_account_button">Eliminar cuenta</string>
+
+    <string name="title_text">Eliminación de Cuenta</string>
+    <string name="message_text">¿Realmente deseas eliminar tu cuenta?</string>
+    <string name="confirm_button_text">Eliminar Cuenta</string>
+    <string name="cancel_button_text">Cancelar</string>
+    <string name="recovery_warning_text">La eliminación de la cuenta no puede recuperarse.</string>
+    <string name="account_deleted_success">¡Cuenta eliminada con éxito!</string>
+
+    <string name="privacy_title">Privacidad</string>
+    <string name="enable_download_title">Descargar los videos</string>
+    <string name="enable_download_description">Al activarlo, el botón de descarga será visible para todos tus videos.</string>
+    <string name="floating_button_description_text">Habilitar Botón Flotante</string>
+    <string name="floating_button_small_description_text">Habilita o deshabilita el botón flotante para un acceso rápido.</string>
+
+    <string name="edit_profile_title">Editar Perfil</string>
+    <string name="profile_pic_description">Foto de Perfil</string>
+    <string name="change_photo_button">Cambiar Foto de Perfil</string>
+    <string name="name_hint">Nombre</string>
+    <string name="username_hint">Nombre de Usuario</string>
+    <string name="birthday_hint">Fecha de Nacimiento</string>
+    <string name="bio_hint">Biografía</string>
+    <string name="char_count_edit">80 caracteres restantes</string>
+    <string name="save_changes_button">Guardar Cambios</string>
+
+    <string name="toolbar_title_about">Sobre nosotros</string>
+    <string name="app_description">¡Bienvenido a VidBr, la aplicación brasileña de videos cortos para que te diviertas en tu tiempo libre! Disfruta de momentos únicos, ríe mucho y descubre una variedad de contenidos que alegrarán tu día. ¡Con VidBr, nunca te aburrirás!</string>
+    <string name="rating_invitation">Si te está gustando VidBr, déjanos tu opinión y ayúdanos a mejorar aún más. Tu opinión es muy importante para nosotros.</string>
+    <string name="rate_button_text">Califica VidBr</string>
+    <string name="terms_and_policies">Términos y Políticas</string>
+    <string name="terms_link_text">Términos de Servicio</string>
+    <string name="privacy_policy_link_text">Política de Privacidad</string>
+    <string name="copyright_text">© 2025 VidBr. Todos los derechos reservados.</string>
+
+    <string name="liked_users_title">Usuarios a los que les gustó el video</string>
+    <string name="random_likes_notice">Los me gusta son de 50 usuarios seleccionados al azar.</string>
+
+    <string name="conversas">Conversaciones</string>
+    <string name="no_messages">No hay mensajes</string>
+    <string name="hint_enviar_mensagem">Enviar un mensaje</string>
+    <string name="dialog_title">Eliminar para todos</string>
+    <string name="dialog_message">¿Estás seguro de que deseas eliminar este mensaje?</string>
+    <string name="dialog_positive_button">Sí</string>
+    <string name="dialog_negative_button">No</string>
+
+    <string name="thumbnail_message">¡Vídeo procesado con éxito!</string>
+    <string name="download_concluido">¡Descarga completada!</string>
+    <string name="share_text">Compartir</string>
+
+    <string name="alterar_foto">Cambiar foto</string>
+    <string name="confirm_delete_message">¿Está seguro de que desea eliminar la foto de perfil?</string>
+    <string name="yes_button">Sí</string>
+    <string name="no_button">No</string>
+
+    <string name="sem_resultados">Sin resultados, intente con otra palabra</string>
+    <string name="nenhum_video_curtido">Ningún vídeo marcado como me gusta</string>
+
+    <string name="owner_only_message">Solo el propietario de la cuenta puede ver los vídeos.</string>
+
+    <string name="dialog_title_permissions">Permisos requeridos</string>
+    <string name="dialog_message_permissions">Para continuar usando la aplicación, es necesario conceder los permisos.</string>
+    <string name="dialog_button_close">Cerrar</string>
+    <string name="dialog_button_grant">Conceder</string>
+    <string name="permission_request_message">Esta aplicación necesita permisos para leer y escribir archivos. ¿Deseas conceder los permisos?</string>
+    <string name="permission_request_camera_audio">Esta aplicación necesita permisos para acceder a la cámara y al audio. ¿Deseas conceder los permisos?</string>
+
+    <string name="permission_alert_message">Esta aplicación necesita permiso para enviar notificaciones. ¿Te gustaría permitirlo?</string>
+    <string name="video_loading_message">El video se está cargando. Por favor, espera.</string>
+    <string name="loading_progress">Cargando: %1$d%%</string>
+    <string name="video_loaded_success">¡Video cargado exitosamente!</string>
+
+    <string name="username_error_message">El nombre de usuario debe tener al menos 4 caracteres.</string>
+    <string name="username_already_used_error">Ya estás utilizando este nombre de usuario.</string>
+    <string name="username_in_use_error">Este nombre de usuario ya está en uso.</string>
+    <string name="username_available">Nombre de usuario disponible.</string>
+    <string name="msg_insira_nome">Por favor, ingresa tu nombre</string>
+    <string name="account_created_success">¡Cuenta creada exitosamente!</string>
+
+    <string name="profile_picture_updated_success">Foto de perfil actualizada con éxito</string>
+    <string name="username_not_available">Nombre de usuario no disponible, por favor elige otro.</string>
+    <string name="profile_updated_success">Perfil actualizado con éxito</string>
+    <string name="name_required_error">El nombre es obligatorio</string>
+    <string name="username_required_error">El nombre de usuario es obligatorio</string>
+
+    <string name="seguidores">seguidores</string>
+    <string name="videos">vídeos</string>
+    <string name="usuario_limitado">Solo se mostrarán 20 usuarios</string>
+
+    <string name="email_associated_with_account">Tu dirección de correo electrónico asociada a la cuenta.</string>
+    <string name="registered_date_of_birth">Tu fecha de nacimiento registrada.</string>
+    <string name="registered_region">Región de tu idioma</string>
+    <string name="verify_email">Revisa tu correo electrónico</string>
+    <string name="email_info">Este correo electrónico está vinculado a tu cuenta y es visible solo para ti. Revísalo para mejorar la seguridad de tu cuenta.</string>
+    <string name="verify_email_button">Verificar Correo Electrónico</string>
+    <string name="change_email">Cambiar Correo Electrónico</string>
+    <string name="change_email_title">Cambiar Correo Electrónico</string>
+    <string name="email_da_conta">Correo de la Cuenta</string>
+    <string name="informacao_email">Puedes cambiar el correo electrónico vinculado a tu cuenta en cualquier momento.</string>
+    <string name="change_email_explanation">Por favor, ingresa un nuevo correo electrónico para actualizar tu cuenta.</string>
+    <string name="enter_new_email">Ingresa tu nuevo correo electrónico</string>
+    <string name="submit_email_button">Cambiar Correo Electrónico</string>
+    <string name="error_invalid_email">Por favor, ingresa un correo electrónico válido.</string>
+    <string name="email_verified">Tu dirección de correo electrónico asociada a la cuenta.</string>
+    <string name="email_not_verified">Tu correo electrónico no ha sido verificado.</string>
+    <string name="email_verification_sent">¡Correo de verificación enviado! Revisa tu bandeja de entrada.</string>
+    <string name="email_changed_successfully">¡Correo electrónico cambiado con éxito!</string>
+
+    <string name="quem_curtiu">¿Quién le gustó?</string>
+    <string name="error_invalid_username">Solo se permiten letras minúsculas, números, guiones bajos o puntos.</string>
+</resources>

@@ -1,0 +1,359 @@
+<resources>
+    <string name="app_name">VidBr</string>
+    <string name="splash_subtitle">Temukan, buat, terhubung</string>
+
+    <string name="pressione_novamente">Tekan lagi untuk keluar</string>
+
+    <string name="tab_seguindo">Mengikuti</string>
+    <string name="tab_para_ti">Untukmu</string>
+
+    <string name="login_prompt">🔍 Masuk untuk menemukan apa yang diposting oleh pembuat favoritmu! 🎬✨</string>
+    <string name="login_button_text">Masuk</string>
+    <string name="following_list_empty">Mulailah mengikuti sekarang dan temukan video luar biasa! 🌟</string>
+    <string name="no_videos_found">Tidak ada video ditemukan.</string>
+
+    <string name="no_internet_connection">Tidak ada koneksi internet.</string>
+    <string name="check_connection">Periksa koneksi Anda dan coba lagi.</string>
+
+    <string name="no_videos">Tidak ada video di negara Anda.</string>
+    <string name="publish_prompt">Klik + untuk mulai mempublikasikan</string>
+
+    <string name="webview">WebView</string>
+
+    <string name="menu_home">Beranda</string>
+    <string name="menu_search">Cari</string>
+    <string name="menu_add_video"></string>
+    <string name="menu_chat">Obrolan</string>
+    <string name="menu_profile">Profil</string>
+
+    <string name="just_now">baru saja</string>
+    <string name="seconds_ago">%d dtk yang lalu</string>
+    <string name="minutes_ago">%d mnt yang lalu</string>
+    <string name="hours_ago">%d jam yang lalu</string>
+    <string name="days_ago">%d hari yang lalu</string>
+    <string name="weeks_ago">%d mgg yang lalu</string>
+    <string name="months_ago">%d bln yang lalu</string>
+
+    <string name="more_button_text">Lebih</string>
+    <string name="hide_button_text">Sembunyikan</string>
+
+    <string name="name">Siapa nama Anda?</string>
+    <string name="name_title">Bagaimana Anda biasanya dipanggil?</string>
+    <string name="hint_name">Contoh: Daniel</string>
+    <string name="register">Daftar</string>
+
+    <string name="login_text">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Kata Sandi</string>
+    <string name="button_login">Masuk</string>
+    <string name="entrar_com_google">Masuk dengan Google</string>
+    <string name="no_account_text">Saya tidak punya akun</string>
+    <string name="forgot_password_text">Lupa kata sandi?</string>
+    <string name="terms_privacy_text">Dengan melanjutkan, Anda setuju dengan</string>
+    <string name="terms_of_service">Ketentuan Layanan</string>
+    <string name="and">dan</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="page_not_found">Halaman tidak ditemukan</string>
+
+    <string name="login_success">Berhasil masuk</string>
+    <string name="email_invalid_error">Email tidak valid</string>
+    <string name="error_min_password_length">Minimal 6 karakter</string>
+
+    <string name="create_account">Buat akun</string>
+    <string name="birth">Kapan tanggal lahir Anda?</string>
+    <string name="birth_text">Tanggal lahir Anda tidak akan ditampilkan secara publik.</string>
+    <string name="birthday_placeholder">Tanggal lahir</string>
+    <string name="next">Berikutnya</string>
+    <string name="birthday_error_message">Harap pilih tanggal lahir Anda</string>
+    <string name="age_error_message">Anda harus berusia minimal 13 tahun.</string>
+
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Kata Sandi</string>
+    <string name="password_length_validation">✔️ 8 karakter (maksimum 20)</string>
+    <string name="password_content_validation">✔️ 1 huruf dan 1 angka</string>
+    <string name="already_have_account">Saya sudah punya akun</string>
+
+    <string name="password_length_valid">✔️ 8 karakter (maksimum 20)</string>
+    <string name="password_length_invalid">❌ 8 karakter (maksimum 20)</string>
+    <string name="password_content_valid">✔️ 1 huruf dan 1 angka</string>
+    <string name="password_content_invalid">❌ 1 huruf dan 1 angka</string>
+
+    <string name="recover_title">Pulihkan Akun Anda</string>
+    <string name="instructions_text">Masukkan email yang terhubung dengan akun Anda, dan kami akan mengirimkan tautan untuk mengatur ulang kata sandi Anda.</string>
+    <string name="recover_email_hint">Email Anda</string>
+    <string name="recover_submit_button_text">Lanjutkan</string>
+    <string name="email_error">Harap masukkan email yang valid</string>
+    <string name="password_reset_success">Tautan pemulihan telah dikirim ke %1$s</string>
+    <string name="password_reset_error">Gagal mengirim email pemulihan</string>
+
+    <string name="no_video_available">Tidak ada video tersedia</string>
+
+    <string name="email_label">Email: </string>
+    <string name="not_logged_in">Email: Belum masuk</string>
+    <string name="birthday_label">Tanggal Lahir: </string>
+    <string name="region_label">Wilayah: </string>
+
+    <string name="loading_video_message">Video sedang dimuat. Mohon tunggu.</string>
+    <string name="snackbar_message">Untuk mengunggah video, Anda harus masuk terlebih dahulu.</string>
+
+    <string name="comments_header">Komentar</string>
+    <string name="no_comments_text">Belum ada komentar</string>
+    <string name="hint_adicionar_comentario">Tambahkan komentar...</string>
+
+    <string name="text_copy">Salin</string>
+    <string name="text_delete">Hapus</string>
+
+    <string name="options_title">Opsi</string>
+    <string name="report_option">Laporkan</string>
+    <string name="save_option">Simpan</string>
+    <string name="share_option">Bagikan</string>
+
+    <string name="share_video_text">Bagikan video ini!</string>
+    <string name="share_button_text">Bagikan via WhatsApp</string>
+    <string name="copy_link_text">Salin Tautan</string>
+    <string name="link_copied">Tautan disalin</string>
+    <string name="share_video">Bagikan video</string>
+    <string name="video_share_text">Halo! Lihat video ini melalui tautan: </string>
+    <string name="whatsapp_not_installed">WhatsApp tidak terinstal.</string>
+
+    <string name="report_question">Mengapa Anda melaporkan video ini?</string>
+    <string name="report_reason_pornographic">Pornografi atau tidak pantas</string>
+    <string name="report_reason_harmful_to_minors">Berbahaya untuk anak-anak</string>
+    <string name="report_reason_criminal_activities">Aktivitas kriminal dan barang ilegal</string>
+    <string name="report_reason_spam">Spam</string>
+    <string name="report_reason_hate_speech">Ujaran kebencian</string>
+    <string name="report_reason_harassment">Pelecehan dan intimidasi</string>
+    <string name="report_reason_violent">Kekerasan dan eksplisit</string>
+    <string name="report_reason_dangerous_orgs">Organisasi dan individu berbahaya</string>
+    <string name="report_reason_suicide">Bunuh diri dan melukai diri sendiri</string>
+    <string name="report_reason_false_info">Informasi palsu</string>
+    <string name="report_reason_intellectual_property">Pelanggaran hak kekayaan intelektual</string>
+    <string name="report_button">Laporkan</string>
+    <string name="select_reason_prompt">Pilih alasan</string>
+    <string name="video_removed_due_to_reports">Video telah dihapus karena laporan</string>
+
+    <string name="video_count_label">video</string>
+
+    <string name="toolbar_title">Publikasikan</string>
+    <string name="hint_caption">Tambahkan deskripsi...</string>
+    <string name="char_count">0/2000</string>
+    <string name="hashtags_button_text"># Hashtags</string>
+    <string name="friends_button_text">\@ Teman</string>
+    <string name="visibility_text">Visibilitas</string>
+    <string name="submit_button_text">Publikasikan</string>
+    <string name="error_empty_caption">Tulis sesuatu...</string>
+    <string name="video_exceeds_limit">Video melebihi batas 30 detik</string>
+
+    <string name="visibility_label">Siapa yang dapat melihat:</string>
+    <string name="delete_option">Hapus</string>
+
+    <string-array name="visibility_display_names">
+        <item>Publik</item>
+        <item>Pribadi</item>
+    </string-array>
+
+    <string name="rate_our_app">Beri nilai aplikasi kami</string>
+    <string name="rate_message">Jika Anda menikmati menggunakan aplikasi kami, bisakah Anda menilainya di Play Store?</string>
+    <string name="later_button_text">Nanti</string>
+    <string name="rate_now_button_text">Nilai Sekarang</string>
+    <string name="neutral_emoji">😐</string>
+
+    <string name="name_placeholder">Nama</string>
+    <string name="username_placeholder">Nama Pengguna</string>
+    <string name="following_label">Mengikuti</string>
+    <string name="followers_label">Pengikut</string>
+    <string name="follow">Ikuti</string>
+    <string name="unfollow">Berhenti Mengikuti</string>
+    <string name="posts_label">Postingan</string>
+    <string name="logout_label">Keluar</string>
+    <string name="message_label">Pesan</string>
+    <string name="edit_profile_label">Edit Profil</string>
+    <string name="biography_placeholder">Ini adalah biografi pengguna.</string>
+    <string name="id_copiado">ID disalin</string>
+    <string name="share_profile_message">Lihat profil %1$s \n\n%2$s</string>
+    <string name="share_profile_title">Bagikan profil</string>
+
+    <string name="clear_all_history">Hapus semua</string>
+    <string name="view_more_history">Lihat riwayat lainnya</string>
+
+    <string name="search_hint">Cari</string>
+    <string name="video_tab">Video</string>
+    <string name="user_tab">Pengguna</string>
+    <string name="hashtag_tab">Hashtag</string>
+
+    <!-- Menambahkan kategori -->
+    <string name="topics">Topik 🔥</string>
+    <string name="category_music">Musik 🎵</string>
+    <string name="category_love">Cinta ❤️</string>
+    <string name="category_meme">Meme 😂</string>
+    <string name="category_indirect">Sindiran 🤭</string>
+    <string name="category_faith">Iman ✝️</string>
+    <string name="category_sad">Sedih 😢</string>
+    <string name="category_humor">Humor 🤣</string>
+    <string name="category_free_fire">Free Fire 🔥</string>
+    <string name="category_funny">Lucu 😆</string>
+    <string name="category_motor">Motor 🚗</string>
+    <string name="category_games">Game 🎮</string>
+    <string name="category_otaku">Otaku 🧙‍♂️</string>
+    <string name="category_dance">Tari 💃</string>
+    <string name="category_motivation">Motivasi 💪</string>
+    <string name="category_football">Sepak Bola ⚽</string>
+    <string name="category_greetings">Selamat pagi atau malam 🌅🌙</string>
+    <string name="category_makeup">Riasan 💄</string>
+
+    <!-- Menambahkan hashtag -->
+    <string name="hashtag_music">musik</string>
+    <string name="hashtag_love">cinta</string>
+    <string name="hashtag_meme">meme</string>
+    <string name="hashtag_indirect">sindiran</string>
+    <string name="hashtag_faith">iman</string>
+    <string name="hashtag_sad">sedih</string>
+    <string name="hashtag_humor">humor</string>
+    <string name="hashtag_free_fire">freefire</string>
+    <string name="hashtag_funny">lucu</string>
+    <string name="hashtag_motor">motor</string>
+    <string name="hashtag_games">permainan</string>
+    <string name="hashtag_otaku">otaku</string>
+    <string name="hashtag_dance">tari</string>
+    <string name="hashtag_motivation">motivasi</string>
+    <string name="hashtag_football">sepakbola</string>
+    <string name="hashtag_greetings">selamatpagiatomalam</string>
+    <string name="hashtag_makeup">riasan</string>
+
+    <string name="settings_option">Pengaturan</string>
+    <string name="vidbr_verified_option">VidBr Terverifikasi</string>
+
+    <string name="titulo_verificado">Cara Mendapatkan Verifikasi Biru dan Emas</string>
+    <string name="verificado_azul">Verifikasi Biru</string>
+    <string name="requisitos_azul">Persyaratan:</string>
+    <string name="requisitos_azul_detalhes">• Jumlah Pengikut: Anda harus memiliki minimal 10.000 pengikut.\n\n• Partisipasi dalam Program Khusus: Sebagai alternatif, Anda dapat memperoleh verifikasi biru jika berpartisipasi dalam program atau inisiatif tertentu yang ditawarkan oleh platform.</string>
+    <string name="verificado_dourado">Verifikasi Emas</string>
+    <string name="requisitos_dourado">Persyaratan:</string>
+    <string name="requisitos_dourado_detalhes">• Jumlah Pengikut: Anda harus memiliki minimal 100.000 pengikut.</string>
+    <string name="dicas_importantes">Tips Penting:</string>
+    <string name="dicas_importantes_detalhes">• Keaslian: Pastikan informasi Anda lengkap dan akurat.\n • Aktivitas: Tetap aktif dan berinteraksi dengan audiens Anda.\n• Kepatuhan: Ikuti panduan dan kebijakan platform untuk memastikan permintaan Anda berhasil.</string>
+    <string name="instrucoes_email">Untuk meminta verifikasi, silakan hubungi tim melalui email contato.vidbr@gmail.com</string>
+
+    <string name="settings_title">Pengaturan</string>
+    <string name="preferences">Preferensi</string>
+    <string name="account">Akun</string>
+    <string name="profile">Profil</string>
+    <string name="privacy">Privasi</string>
+    <string name="share_profile">Bagikan Profil</string>
+    <string name="share_text_prefix">Lihat profil saya di: </string>
+    <string name="clear_memory">Hapus Memori</string>
+    <string name="about_us">Tentang Kami</string>
+    <string name="logout">Keluar</string>
+
+    <string name="toolbar_account">Akun</string>
+    <string name="account_info">Informasi Akun</string>
+    <string name="delete_account_button">Hapus akun</string>
+
+    <string name="title_text">Penghapusan Akun</string>
+    <string name="message_text">Apakah Anda yakin ingin menghapus akun Anda?</string>
+    <string name="confirm_button_text">Hapus Akun</string>
+    <string name="cancel_button_text">Batal</string>
+    <string name="recovery_warning_text">Penghapusan akun tidak dapat dipulihkan.</string>
+    <string name="account_deleted_success">Akun berhasil dihapus!</string>
+
+    <string name="privacy_title">Privasi</string>
+    <string name="enable_download_title">Unduh Video</string>
+    <string name="enable_download_description">Jika diaktifkan, tombol unduh akan terlihat untuk semua video Anda.</string>
+    <string name="floating_button_description_text">Aktifkan Tombol Mengambang</string>
+    <string name="floating_button_small_description_text">Aktifkan atau nonaktifkan tombol mengambang untuk akses cepat.</string>
+
+    <string name="edit_profile_title">Edit Profil</string>
+    <string name="profile_pic_description">Foto Profil</string>
+    <string name="change_photo_button">Ubah Foto Profil</string>
+    <string name="name_hint">Nama</string>
+    <string name="username_hint">Nama Pengguna</string>
+    <string name="birthday_hint">Tanggal Lahir</string>
+    <string name="bio_hint">Biografi</string>
+    <string name="char_count_edit">80 karakter tersisa</string>
+    <string name="save_changes_button">Simpan Perubahan</string>
+
+    <string name="toolbar_title_about">Tentang Kami</string>
+    <string name="app_description">Selamat datang di VidBr, aplikasi video pendek dari Brasil untuk hiburan Anda di waktu luang! Nikmati momen unik, tertawa lepas, dan temukan berbagai konten yang akan membuat hari Anda lebih ceria. Dengan VidBr, Anda tidak akan pernah bosan!</string>
+    <string name="rating_invitation">Jika Anda menikmati VidBr, beri kami penilaian dan bantu kami menjadi lebih baik. Pendapat Anda sangat penting bagi kami!</string>
+    <string name="rate_button_text">Beri Rating VidBr</string>
+    <string name="terms_and_policies">Ketentuan dan Kebijakan</string>
+    <string name="terms_link_text">Ketentuan Layanan</string>
+    <string name="privacy_policy_link_text">Kebijakan Privasi</string>
+    <string name="copyright_text">© 2025 VidBr. Hak cipta dilindungi undang-undang.</string>
+
+    <string name="liked_users_title">Pengguna yang menyukai video</string>
+    <string name="random_likes_notice">Suka berasal dari 50 pengguna yang dipilih secara acak.</string>
+
+    <string name="conversas">Percakapan</string>
+    <string name="no_messages">Tidak ada pesan</string>
+    <string name="hint_enviar_mensagem">Kirim pesan</string>
+    <string name="dialog_title">Hapus untuk semua</string>
+    <string name="dialog_message">Apakah Anda yakin ingin menghapus pesan ini?</string>
+    <string name="dialog_positive_button">Ya</string>
+    <string name="dialog_negative_button">Tidak</string>
+
+    <string name="thumbnail_message">Video berhasil diproses!</string>
+    <string name="download_concluido">Unduhan selesai!</string>
+    <string name="share_text">Bagikan</string>
+
+    <string name="alterar_foto">Ubah Foto</string>
+    <string name="confirm_delete_message">Apakah Anda yakin ingin menghapus foto profil?</string>
+    <string name="yes_button">Ya</string>
+    <string name="no_button">Tidak</string>
+
+    <string name="sem_resultados">Tidak ada hasil, coba kata lain</string>
+    <string name="nenhum_video_curtido">Tidak ada video yang disukai</string>
+
+    <string name="owner_only_message">Hanya pemilik akun yang dapat melihat video.</string>
+
+    <string name="dialog_title_permissions">Izin yang Diperlukan</string>
+    <string name="dialog_message_permissions">Untuk melanjutkan menggunakan aplikasi, Anda perlu memberikan izin.</string>
+    <string name="dialog_button_close">Tutup</string>
+    <string name="dialog_button_grant">Berikan</string>
+    <string name="permission_request_message">Aplikasi ini memerlukan izin untuk membaca dan menulis file. Apakah Anda ingin memberikan izin tersebut?</string>
+    <string name="permission_request_camera_audio">Aplikasi ini memerlukan izin untuk mengakses kamera dan audio. Apakah Anda ingin memberikan izin tersebut?</string>
+
+    <string name="permission_alert_message">Aplikasi ini membutuhkan izin untuk mengirim pemberitahuan. Apakah Anda ingin memberikannya?</string>
+    <string name="video_loading_message">Video sedang dimuat. Harap tunggu.</string>
+    <string name="loading_progress">Memuat: %1$d%%</string>
+    <string name="video_loaded_success">Video berhasil dimuat!</string>
+
+    <string name="username_error_message">Nama pengguna harus memiliki setidaknya 4 karakter.</string>
+    <string name="username_already_used_error">Anda sudah menggunakan nama pengguna ini.</string>
+    <string name="username_in_use_error">Nama pengguna ini sudah digunakan.</string>
+    <string name="username_available">Nama pengguna tersedia.</string>
+    <string name="msg_insira_nome">Silakan masukkan nama Anda</string>
+    <string name="account_created_success">Akun berhasil dibuat!</string>
+
+    <string name="profile_picture_updated_success">Foto profil berhasil diperbarui</string>
+    <string name="username_not_available">Nama pengguna tidak tersedia, harap pilih yang lain.</string>
+    <string name="profile_updated_success">Profil berhasil diperbarui</string>
+    <string name="name_required_error">Nama wajib diisi</string>
+    <string name="username_required_error">Nama pengguna wajib diisi</string>
+
+    <string name="seguidores">pengikut</string>
+    <string name="videos">video</string>
+    <string name="usuario_limitado">Hanya 20 pengguna yang akan ditampilkan</string>
+
+    <string name="email_associated_with_account">Alamat email yang terhubung dengan akun Anda.</string>
+    <string name="registered_date_of_birth">Tanggal lahir yang terdaftar.</string>
+    <string name="registered_region">Wilayah bahasa Anda</string>
+    <string name="verify_email">Periksa email Anda</string>
+    <string name="email_info">Email ini terhubung dengan akun Anda dan hanya terlihat oleh Anda. Periksa untuk meningkatkan keamanan akun Anda.</string>
+    <string name="verify_email_button">Verifikasi Email</string>
+    <string name="change_email">Ubah Email</string>
+    <string name="change_email_title">Ubah Email</string>
+    <string name="email_da_conta">Email Akun</string>
+    <string name="informacao_email">Anda dapat mengubah email yang terhubung dengan akun Anda kapan saja.</string>
+    <string name="change_email_explanation">Harap masukkan email baru untuk memperbarui akun Anda.</string>
+    <string name="enter_new_email">Masukkan email baru Anda</string>
+    <string name="submit_email_button">Ubah Email</string>
+    <string name="error_invalid_email">Harap masukkan email yang valid.</string>
+    <string name="email_verified">Alamat email Anda yang terhubung dengan akun.</string>
+    <string name="email_not_verified">Email Anda belum diverifikasi.</string>
+    <string name="email_verification_sent">Email verifikasi telah dikirim! Periksa kotak masuk Anda.</string>
+    <string name="email_changed_successfully">Email berhasil diubah!</string>
+
+    <string name="quem_curtiu">Siapa yang suka</string>
+    <string name="error_invalid_username">Hanya huruf kecil, angka, garis bawah, atau titik yang diperbolehkan.</string>
+</resources>

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/time_bar_container"
+    android:visibility="visible">
+
+    <com.google.android.exoplayer2.ui.DefaultTimeBar
+        android:id="@+id/exo_progress"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="visible"
+        app:bar_height="2dp"
+        app:scrubber_disabled_size="0dp"
+        app:scrubber_dragged_size="4dp"
+        app:scrubber_enabled_size="4dp"
+        app:scrubber_color="#FFFFFF"
+        app:buffered_color="#4a4a4a"
+        app:played_color="#FFFFFF"
+        app:unplayed_color="#2e2e2e" />
+
+</RelativeLayout>

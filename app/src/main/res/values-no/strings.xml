@@ -1,0 +1,358 @@
+<resources>
+    <string name="app_name">VidBr</string>
+    <string name="splash_subtitle">Oppdag, skap, forbind</string>
+
+    <string name="pressione_novamente">Trykk igjen for å avslutte</string>
+
+    <string name="tab_seguindo">Følger</string>
+    <string name="tab_para_ti">For deg</string>
+
+    <string name="login_prompt">🔍 Logg inn for å oppdage hva dine favorittskapere legger ut! 🎬✨</string>
+    <string name="login_button_text">Logg inn</string>
+    <string name="following_list_empty">Begynn å følge nå og oppdag fantastiske videoer! 🌟</string>
+    <string name="no_videos_found">Ingen videoer funnet.</string>
+
+    <string name="no_internet_connection">Ingen internettforbindelse.</string>
+    <string name="check_connection">Sjekk tilkoblingen din og prøv igjen.</string>
+
+    <string name="no_videos">Det er ingen videoer i ditt land.</string>
+    <string name="publish_prompt">Klikk på + for å begynne å publisere</string>
+
+    <string name="webview">WebView</string>
+
+    <string name="menu_home">Hjem</string>
+    <string name="menu_search">Søk</string>
+    <string name="menu_add_video"></string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_profile">Profil</string>
+
+    <string name="just_now">nettopp nå</string>
+    <string name="seconds_ago">%d s siden</string>
+    <string name="minutes_ago">%d min siden</string>
+    <string name="hours_ago">%d t siden</string>
+    <string name="days_ago">%d d siden</string>
+    <string name="weeks_ago">%d u siden</string>
+    <string name="months_ago">%d mnd siden</string>
+
+    <string name="more_button_text">Mer</string>
+    <string name="hide_button_text">Skjul</string>
+
+    <string name="name">Hva er navnet ditt?</string>
+    <string name="name_title">Hvordan pleier folk å kalle deg?</string>
+    <string name="hint_name">F.eks: Daniel</string>
+    <string name="register">Registrer</string>
+
+    <string name="login_text">Logg inn</string>
+    <string name="hint_email">E-post</string>
+    <string name="hint_password">Passord</string>
+    <string name="button_login">Logg inn</string>
+    <string name="entrar_com_google">Logg inn med Google</string>
+    <string name="no_account_text">Har du ikke en konto?</string>
+    <string name="forgot_password_text">Glemt passord?</string>
+    <string name="terms_privacy_text">Ved å fortsette, godtar du våre</string>
+    <string name="terms_of_service">Tjenestevilkår</string>
+    <string name="and">og</string>
+    <string name="privacy_policy">Personvernpolicy</string>
+    <string name="page_not_found">Fant ikke siden</string>
+
+    <string name="login_success">Innlogging vellykket</string>
+    <string name="email_invalid_error">Ugyldig e-post</string>
+    <string name="error_min_password_length">Minst 6 tegn</string>
+
+    <string name="create_account">Opprett konto</string>
+    <string name="birth">Hva er fødselsdatoen din?</string>
+    <string name="birth_text">Fødselsdatoen din vil ikke bli vist offentlig.</string>
+    <string name="birthday_placeholder">Fødselsdato</string>
+    <string name="next">Neste</string>
+    <string name="birthday_error_message">Vennligst velg fødselsdato</string>
+    <string name="age_error_message">Du må være minst 13 år gammel.</string>
+
+    <string name="email_hint">E-post</string>
+    <string name="password_hint">Passord</string>
+    <string name="password_length_validation">✔️ 8 tegn (maks 20)</string>
+    <string name="password_content_validation">✔️ 1 bokstav og 1 tall</string>
+    <string name="already_have_account">Har allerede en konto</string>
+
+    <string name="password_length_valid">✔️ 8 tegn (maks 20)</string>
+    <string name="password_length_invalid">❌ 8 tegn (maks 20)</string>
+    <string name="password_content_valid">✔️ 1 bokstav og 1 tall</string>
+    <string name="password_content_invalid">❌ 1 bokstav og 1 tall</string>
+
+    <string name="recover_title">Gjenopprett kontoen din</string>
+    <string name="instructions_text">Skriv inn e-posten knyttet til kontoen din, og vi sender deg en lenke for å tilbakestille passordet.</string>
+    <string name="recover_email_hint">E-posten din</string>
+    <string name="recover_submit_button_text">Fortsett</string>
+    <string name="email_error">Vennligst skriv inn en gyldig e-post</string>
+    <string name="password_reset_success">Gjenopprettingslink sendt til %1$s</string>
+    <string name="password_reset_error">Feil ved sending av gjenopprettings-e-post</string>
+
+    <string name="no_video_available">Ingen videoer tilgjengelig</string>
+
+    <string name="email_label">E-post: </string>
+    <string name="not_logged_in">E-post: Ikke logget inn</string>
+    <string name="birthday_label">Fødselsdato: </string>
+    <string name="region_label">Region: </string>
+
+    <string name="loading_video_message">Videoen lastes. Vennligst vent.</string>
+    <string name="snackbar_message">For å sende en video må du være logget inn.</string>
+
+    <string name="comments_header">Kommentarer</string>
+    <string name="no_comments_text">Ingen kommentarer ennå</string>
+    <string name="hint_adicionar_comentario">Legg til kommentar...</string>
+
+    <string name="text_copy">Kopier</string>
+    <string name="text_delete">Slett</string>
+
+    <string name="options_title">Alternativer</string>
+    <string name="report_option">Rapporter</string>
+    <string name="save_option">Lagre</string>
+    <string name="share_option">Del</string>
+
+    <string name="share_video_text">Del denne videoen!</string>
+    <string name="share_button_text">Del via WhatsApp</string>
+    <string name="copy_link_text">Kopier lenke</string>
+    <string name="link_copied">Lenke kopiert</string>
+    <string name="share_video">Del video</string>
+    <string name="video_share_text">Hei! Sjekk ut videoen på denne lenken: </string>
+    <string name="whatsapp_not_installed">WhatsApp er ikke installert.</string>
+
+    <string name="report_question">Hvorfor rapporterer du denne videoen?</string>
+    <string name="report_reason_pornographic">Pornografisk eller vulgær</string>
+    <string name="report_reason_harmful_to_minors">Skadelig for mindreårige</string>
+    <string name="report_reason_criminal_activities">Kriminelle aktiviteter og kontrollerte varer</string>
+    <string name="report_reason_spam">Spam</string>
+    <string name="report_reason_hate_speech">Hatprat</string>
+    <string name="report_reason_harassment">Trakassering og mobbing</string>
+    <string name="report_reason_violent">Voldelig og eksplisitt</string>
+    <string name="report_reason_dangerous_orgs">Farlige organisasjoner og individer</string>
+    <string name="report_reason_suicide">Selvmord og selvskading</string>
+    <string name="report_reason_false_info">Falsk informasjon</string>
+    <string name="report_reason_intellectual_property">Brudd på immaterielle rettigheter</string>
+    <string name="report_button">Rapporter</string>
+    <string name="select_reason_prompt">Velg en grunn</string>
+    <string name="video_removed_due_to_reports">Video fjernet på grunn av rapporter</string>
+
+    <string name="video_count_label">videoer</string>
+
+    <string name="toolbar_title">Publisere</string>
+    <string name="hint_caption">Legg til en beskrivelse...</string>
+    <string name="char_count">0/2000</string>
+    <string name="hashtags_button_text"># Hashtags</string>
+    <string name="friends_button_text">\@ Venner</string>
+    <string name="visibility_text">Synlighet</string>
+    <string name="submit_button_text">Publiser</string>
+    <string name="error_empty_caption">Skriv noe...</string>
+    <string name="video_exceeds_limit">Videoen overskrider 30 sekunders grensen</string>
+
+    <string name="visibility_label">Hvem kan se:</string>
+    <string name="delete_option">Slett</string>
+
+    <string-array name="visibility_display_names">
+        <item>Offentlig</item>
+        <item>Privat</item>
+    </string-array>
+
+    <string name="rate_our_app">Vurder appen vår</string>
+    <string name="rate_message">Hvis du liker å bruke appen vår, kan du vurdere oss på Play Store?</string>
+    <string name="later_button_text">Kanskje senere</string>
+    <string name="rate_now_button_text">Vurder nå</string>
+    <string name="neutral_emoji">😐</string>
+
+    <string name="name_placeholder">Navn</string>
+    <string name="username_placeholder">Brukernavn</string>
+    <string name="following_label">Følger</string>
+    <string name="followers_label">Følgere</string>
+    <string name="follow">Følg</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="posts_label">Innlegg</string>
+    <string name="logout_label">Logg ut</string>
+    <string name="message_label">Beskjed</string>
+    <string name="edit_profile_label">Rediger Profil</string>
+    <string name="biography_placeholder">Dette er brukerens biografi.</string>
+    <string name="id_copiado">ID kopiert</string>
+    <string name="share_profile_message">Sjekk ut profilen til %1$s \n\n%2$s</string>
+    <string name="share_profile_title">Del profil</string>
+
+    <string name="clear_all_history">Slett alt</string>
+    <string name="view_more_history">Vis mer historikk</string>
+
+    <string name="search_hint">Søk</string>
+    <string name="video_tab">Videoer</string>
+    <string name="user_tab">Brukere</string>
+    <string name="hashtag_tab">Hashtags</string>
+
+    <!-- Adding categories -->
+    <string name="topics">Emner 🔥</string>
+    <string name="category_music">Musikk 🎵</string>
+    <string name="category_love">Kjærlighet ❤️</string>
+    <string name="category_meme">Meme 😂</string>
+    <string name="category_indirect">Indirekte 🤭</string>
+    <string name="category_faith">Tro ✝️</string>
+    <string name="category_sad">Trist 😢</string>
+    <string name="category_humor">Humor 🤣</string>
+    <string name="category_free_fire">Free Fire 🔥</string>
+    <string name="category_funny">Morsom 😆</string>
+    <string name="category_motor">Motor 🚗</string>
+    <string name="category_games">Spill 🎮</string>
+    <string name="category_otaku">Otaku 🧙‍♂️</string>
+    <string name="category_dance">Dans 💃</string>
+    <string name="category_motivation">Motivasjon 💪</string>
+    <string name="category_football">Fotball ⚽</string>
+    <string name="category_greetings">God morgen eller God natt 🌅🌙</string>
+    <string name="category_makeup">Sminke 💄</string>
+
+    <!-- Adding hashtags -->
+    <string name="hashtag_music">musikk</string>
+    <string name="hashtag_love">kjærlighet</string>
+    <string name="hashtag_meme">meme</string>
+    <string name="hashtag_indirect">indirekte</string>
+    <string name="hashtag_faith">tro</string>
+    <string name="hashtag_sad">trist</string>
+    <string name="hashtag_humor">humor</string>
+    <string name="hashtag_free_fire">freefire</string>
+    <string name="hashtag_funny">morsom</string>
+    <string name="hashtag_motor">motor</string>
+    <string name="hashtag_games">spill</string>
+    <string name="hashtag_otaku">otaku</string>
+    <string name="hashtag_dance">dans</string>
+    <string name="hashtag_motivation">motivasjon</string>
+    <string name="hashtag_football">fotball</string>
+    <string name="hashtag_greetings">godmorgenellergodnatt</string>
+    <string name="hashtag_makeup">sminke</string>
+
+    <string name="settings_option">Innstillinger</string>
+    <string name="vidbr_verified_option">VidBr Verifisert</string>
+
+    <string name="titulo_verificado">Hvordan få blå og gull verifisering</string>
+    <string name="verificado_azul">Blå Verifisering</string>
+    <string name="requisitos_azul">Krav:</string>
+    <string name="requisitos_azul_detalhes">• Antall følgere: Du må ha minst 10.000 følgere.\n\n• Deltakelse i spesifikke programmer: Alternativt kan du få blå verifisering hvis du deltar i spesifikke programmer eller initiativer tilbudt av plattformen.</string>
+    <string name="verificado_dourado">Gull Verifisering</string>
+    <string name="requisitos_dourado">Krav:</string>
+    <string name="requisitos_dourado_detalhes">• Antall følgere: Du må ha minst 100.000 følgere.</string>
+    <string name="dicas_importantes">Viktige tips:</string>
+    <string name="dicas_importantes_detalhes">• Autentisitet: Sørg for at informasjonen din er komplett og nøyaktig.\n • Aktivitet: Hold en aktiv profil og engasjer deg med publikum.\n• Overholdelse: Følg plattformens retningslinjer og policyer for å sikre en vellykket søknad.</string>
+    <string name="instrucoes_email">For å be om verifisering, vennligst kontakt teamet på e-post contato.vidbr@gmail.com</string>
+
+    <string name="settings_title">Innstillinger</string>
+    <string name="preferences">Preferanser</string>
+    <string name="account">Konto</string>
+    <string name="profile">Profil</string>
+    <string name="privacy">Personvern</string>
+    <string name="share_profile">Del profil</string>
+    <string name="share_text_prefix">Sjekk ut profilen min på: </string>
+    <string name="clear_memory">Tøm Minne</string>
+    <string name="about_us">Om Oss</string>
+    <string name="logout">Logg ut</string>
+
+    <string name="toolbar_account">Konto</string>
+    <string name="account_info">Konto Informasjon</string>
+    <string name="delete_account_button">Slett konto</string>
+
+    <string name="title_text">Sletting av konto</string>
+    <string name="message_text">Er du sikker på at du vil slette kontoen din?</string>
+    <string name="confirm_button_text">Slett konto</string>
+    <string name="cancel_button_text">Avbryt</string>
+    <string name="recovery_warning_text">Kontosletting kan ikke gjenopprettes.</string>
+    <string name="account_deleted_success">Kontoen ble slettet med suksess!</string>
+
+    <string name="privacy_title">Personvern</string>
+    <string name="enable_download_title">Tillat nedlasting av videoer</string>
+    <string name="enable_download_description">Når aktivert, vil nedlastingsknappen vises for alle videoene dine.</string>
+    <string name="floating_button_description_text">Aktiver Flytende Knapp</string>
+    <string name="floating_button_small_description_text">Aktiver eller deaktiver den flytende knappen for rask tilgang.</string>
+
+    <string name="edit_profile_title">Rediger profil</string>
+    <string name="profile_pic_description">Profilbilde</string>
+    <string name="change_photo_button">Endre profilbilde</string>
+    <string name="name_hint">Navn</string>
+    <string name="username_hint">Brukernavn</string>
+    <string name="birthday_hint">Fødselsdato</string>
+    <string name="bio_hint">Biografi</string>
+    <string name="char_count_edit">80 tegn igjen</string>
+    <string name="save_changes_button">Lagre endringer</string>
+
+    <string name="toolbar_title_about">Om oss</string>
+    <string name="app_description">Velkommen til VidBr, den brasilianske appen for korte videoer, perfekt for å underholde deg i fritiden! Nyt unike øyeblikk, få deg noen latterkuler og oppdag et mangfold av innhold som vil lyse opp dagen din. Med VidBr blir du aldri lei!</string>
+    <string name="rating_invitation">Hvis du liker VidBr, gi oss en vurdering og hjelp oss med å bli enda bedre. Din mening er veldig viktig for oss!</string>
+    <string name="rate_button_text">Vurder VidBr</string>
+    <string name="terms_and_policies">Vilkår og retningslinjer</string>
+    <string name="terms_link_text">Vilkår for tjeneste</string>
+    <string name="privacy_policy_link_text">Personvernpolicy</string>
+    <string name="copyright_text">© 2025 VidBr. Alle rettigheter reservert.</string>
+
+    <string name="liked_users_title">Brukere som likte videoen</string>
+    <string name="random_likes_notice">Likerne er fra 50 tilfeldige brukere.</string>
+
+    <string name="conversas">Samtaler</string>
+    <string name="hint_enviar_mensagem">Send en melding</string>
+    <string name="dialog_title">Slett for alle</string>
+    <string name="dialog_message">Er du sikker på at du vil slette denne meldingen?</string>
+    <string name="dialog_positive_button">Ja</string>
+    <string name="dialog_negative_button">Nei</string>
+
+    <string name="thumbnail_message">Video behandlet med suksess!</string>
+    <string name="download_concluido">Nedlasting fullført!</string>
+    <string name="share_text">Del</string>
+
+    <string name="alterar_foto">Endre bilde</string>
+    <string name="confirm_delete_message">Er du sikker på at du vil slette profilbildet?</string>
+    <string name="yes_button">Ja</string>
+    <string name="no_button">Nei</string>
+
+    <string name="sem_resultados">Ingen resultater, prøv et annet søkeord</string>
+    <string name="nenhum_video_curtido">Ingen videoer likt</string>
+
+    <string name="owner_only_message">Kun kontoeieren kan se videoene.</string>
+
+    <string name="dialog_title_permissions">Nødvendige tillatelser</string>
+    <string name="dialog_message_permissions">For å fortsette å bruke appen, må du gi tillatelser.</string>
+    <string name="dialog_button_close">Lukk</string>
+    <string name="dialog_button_grant">Gi</string>
+    <string name="permission_request_message">Denne appen trenger tillatelser for å lese og skrive filer. Ønsker du å gi tillatelsene?</string>
+    <string name="permission_request_camera_audio">Denne appen trenger tillatelser for å få tilgang til kamera og lyd. Ønsker du å gi tillatelsene?</string>
+
+    <string name="permission_alert_message">Denne appen trenger tillatelse til å sende varsler. Vil du tillate dette?</string>
+    <string name="video_loading_message">Videoen laster. Vennligst vent.</string>
+    <string name="loading_progress">Laster: %1$d%%</string>
+    <string name="video_loaded_success">Videoen ble lastet opp suksessfullt!</string>
+
+    <string name="username_error_message">Brukernavnet må være minst 4 tegn langt.</string>
+    <string name="username_already_used_error">Du bruker allerede dette brukernavnet.</string>
+    <string name="username_in_use_error">Dette brukernavnet er allerede i bruk.</string>
+    <string name="username_available">Brukernavnet er ledig.</string>
+    <string name="msg_insira_nome">Vennligst skriv inn navnet ditt</string>
+    <string name="account_created_success">Kontoen ble opprettet suksessfullt!</string>
+
+    <string name="profile_picture_updated_success">Profilbildet ble oppdatert suksessfullt</string>
+    <string name="username_not_available">Brukernavnet er ikke tilgjengelig, vennligst velg et annet.</string>
+    <string name="profile_updated_success">Profilen ble oppdatert suksessfullt</string>
+    <string name="name_required_error">Navnet er påkrevd</string>
+    <string name="username_required_error">Brukernavn er påkrevd</string>
+
+    <string name="seguidores">følgere</string>
+    <string name="videos">videoer</string>
+    <string name="usuario_limitado">Bare 20 brukere vil bli vist</string>
+
+    <string name="email_associated_with_account">E-postadressen din tilknyttet kontoen.</string>
+    <string name="registered_date_of_birth">Din registrerte fødselsdato.</string>
+    <string name="registered_region">Regionen til språket ditt</string>
+    <string name="verify_email">Sjekk e-posten din</string>
+    <string name="email_info">Denne e-posten er knyttet til kontoen din og er synlig kun for deg. Sjekk den for å forbedre sikkerheten til kontoen din.</string>
+    <string name="verify_email_button">Verifiser e-post</string>
+    <string name="change_email">Endre e-post</string>
+    <string name="change_email_title">Endre e-post</string>
+    <string name="email_da_conta">Konto E-post</string>
+    <string name="informacao_email">Du kan endre e-posten som er knyttet til kontoen din når som helst.</string>
+    <string name="change_email_explanation">Vennligst skriv inn en ny e-post for å oppdatere kontoen din.</string>
+    <string name="enter_new_email">Skriv inn din nye e-post</string>
+    <string name="submit_email_button">Endre e-post</string>
+    <string name="error_invalid_email">Vennligst skriv inn en gyldig e-post.</string>
+    <string name="email_verified">E-postadressen din tilknyttet kontoen.</string>
+    <string name="email_not_verified">E-posten din er ikke verifisert.</string>
+    <string name="email_verification_sent">Verifiserings-e-post sendt! Sjekk innboksen din.</string>
+    <string name="email_changed_successfully">E-posten ble endret med suksess!</string>
+
+    <string name="quem_curtiu">Hvem likte</string>
+    <string name="error_invalid_username">Kun små bokstaver, tall, understreker eller punktum er tillatt.</string>
+</resources>

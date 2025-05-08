@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:id="@+id/bottomSheetDragHandleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView_comments_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comments_header"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bottomSheetDragHandleView"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/no_comments_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_comments_header"
+        android:layout_centerHorizontal="true"
+        android:text="@string/no_comments_text"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_comments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/no_comments_text_view"
+        android:layout_above="@id/emoji_layout"
+        android:clipToPadding="false"
+        android:padding="8dp"
+        android:scrollbars="none"
+        android:visibility="visible" />
+
+    <HorizontalScrollView
+        android:id="@+id/emoji_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editText_comment_layout"
+        android:padding="8dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/emoji_laughing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😂"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_heart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="❤️"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_rolling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🤣"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_heart_eyes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😍"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_pray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🙏"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_pleading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥺"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_thinking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🤔"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_sweat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😅"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_party"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎉"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_hugging"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🤗"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/emoji_winking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😜"
+                android:textSize="24sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/editText_comment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/editText_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/search_view_background"
+            android:hint="@string/hint_adicionar_comentario"
+            android:inputType="text"
+            android:maxLines="3"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="@color/gray"
+            android:maxLength="250"/>
+
+        <ImageView
+            android:id="@+id/imageView_send"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:contentDescription="Send"
+            android:focusable="true"
+            android:src="@drawable/send" />
+    </LinearLayout>
+
+    <!-- ProgressBar added here -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/emoji_layout"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

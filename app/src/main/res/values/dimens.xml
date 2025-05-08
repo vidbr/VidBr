@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="exo_progress_height">4dp</dimen>
+    <dimen name="exo_progress_height_scrubbing">20dp</dimen>
+    <dimen name="custom_padding_bottom">48dp</dimen>
+</resources>

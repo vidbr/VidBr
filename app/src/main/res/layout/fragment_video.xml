@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/custom_padding_bottom">
+
+    <!-- Dividir em 2 partes: categorias e histórico de pesquisa -->
+    <LinearLayout
+        android:id="@+id/categories_and_history_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Histórico de pesquisa (proporcional ao número de itens) -->
+        <ListView
+            android:id="@+id/search_history_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+        android:dividerHeight="0dp"
+            android:textColor="#000000"
+        android:visibility="gone"
+            android:scrollbars="none"/>
+
+        <!-- TextView "Ver mais histórico" abaixo do ListView -->
+        <TextView
+            android:id="@+id/view_more_history_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver mais histórico"
+            android:textColor="#808080"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Novo TextView para "Tópicos" com emote -->
+        <TextView
+            android:id="@+id/topics_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/topics"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+        android:gravity="start"
+        android:layout_gravity="start" />
+
+
+        <!-- Lista de Categorias -->
+        <ListView
+            android:id="@+id/categories_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:textColor="#000000"
+            android:visibility="visible"
+            android:layout_marginTop="8dp"
+            android:scrollbars="none"/>
+    </LinearLayout>
+
+    <!-- GridView para resultados da pesquisa -->
+    <GridView
+        android:id="@+id/search_results_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="8dp"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:scrollbars="none"/>
+
+    <!-- Layout para mostrar mensagem de 'sem resultados' -->
+    <LinearLayout
+        android:id="@+id/no_results_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/no_results_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:tint="#808080"
+            android:src="@drawable/search" />
+        <TextView
+            android:id="@+id/no_results_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sem_resultados"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+</RelativeLayout>

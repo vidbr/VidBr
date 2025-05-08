@@ -1,0 +1,359 @@
+<resources>
+    <string name="app_name">VidBr</string>
+    <string name="splash_subtitle">Keşfet, yarat, bağlan</string>
+
+    <string name="pressione_novamente">Çıkmak için tekrar basın</string>
+
+    <string name="tab_seguindo">Takip Edilen</string>
+    <string name="tab_para_ti">Sana Özel</string>
+
+    <string name="login_prompt">🔍 Favori yaratıcılarının ne paylaştığını keşfetmek için giriş yap! 🎬✨</string>
+    <string name="login_button_text">Giriş Yap</string>
+    <string name="following_list_empty">Hemen takip etmeye başla ve harika videolar keşfet! 🌟</string>
+    <string name="no_videos_found">Hiç video bulunamadı.</string>
+
+    <string name="no_internet_connection">İnternet bağlantısı yok.</string>
+    <string name="check_connection">Bağlantınızı kontrol edin ve tekrar deneyin.</string>
+
+    <string name="no_videos">Ülkenizde hiç video yok.</string>
+    <string name="publish_prompt">Paylaşmaya başlamak için + butonuna tıklayın</string>
+
+    <string name="webview">WebView</string>
+
+    <string name="menu_home">Anasayfa</string>
+    <string name="menu_search">Ara</string>
+    <string name="menu_add_video"></string>
+    <string name="menu_chat">Sohbet</string>
+    <string name="menu_profile">Profil</string>
+
+    <string name="just_now">şu anda</string>
+    <string name="seconds_ago">%d s önce</string>
+    <string name="minutes_ago">%d dk önce</string>
+    <string name="hours_ago">%d sa önce</string>
+    <string name="days_ago">%d g öncesi</string>
+    <string name="weeks_ago">%d haşta önce</string>
+    <string name="months_ago">%d ay önce</string>
+
+    <string name="more_button_text">Daha fazla</string>
+    <string name="hide_button_text">Gizle</string>
+
+    <string name="name">Adınız nedir?</string>
+    <string name="name_title">Size nasıl hitap ediliyor?</string>
+    <string name="hint_name">Örnek: Daniel</string>
+    <string name="register">Kayıt Ol</string>
+
+    <string name="login_text">Giriş</string>
+    <string name="hint_email">E-posta</string>
+    <string name="hint_password">Şifre</string>
+    <string name="button_login">Giriş Yap</string>
+    <string name="entrar_com_google">Google ile giriş yap</string>
+    <string name="no_account_text">Hesabım yok</string>
+    <string name="forgot_password_text">Şifrenizi mi unuttunuz?</string>
+    <string name="terms_privacy_text">Devam ederek, <i>şartlar</i> ve <i>gizlilik politikasını</i> kabul etmiş oluyorsunuz</string>
+    <string name="terms_of_service">Hizmet Şartları</string>
+    <string name="and">ve</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="page_not_found">Sayfa bulunamadı</string>
+
+    <string name="login_success">Başarıyla giriş yapıldı</string>
+    <string name="email_invalid_error">Geçersiz e-posta</string>
+    <string name="error_min_password_length">Minimum 6 karakter</string>
+
+    <string name="create_account">Hesap Oluştur</string>
+    <string name="birth">Doğum tarihiniz nedir?</string>
+    <string name="birth_text">Doğum tarihiniz herkese açık olmayacaktır.</string>
+    <string name="birthday_placeholder">Doğum tarihi</string>
+    <string name="next">Sonraki</string>
+    <string name="birthday_error_message">Lütfen doğum tarihinizi seçin</string>
+    <string name="age_error_message">En az 13 yaşında olmanız gerekmektedir.</string>
+
+    <string name="email_hint">E-posta</string>
+    <string name="password_hint">Şifre</string>
+    <string name="password_length_validation">✔️ 8 karakter (maksimum 20)</string>
+    <string name="password_content_validation">✔️ 1 harf ve 1 rakam</string>
+    <string name="already_have_account">Zaten hesabım var</string>
+
+    <string name="password_length_valid">✔️ 8 karakter (maksimum 20)</string>
+    <string name="password_length_invalid">❌ 8 karakter (maksimum 20)</string>
+    <string name="password_content_valid">✔️ 1 harf ve 1 rakam</string>
+    <string name="password_content_invalid">❌ 1 harf ve 1 rakam</string>
+
+    <string name="recover_title">Hesabınızı kurtarın</string>
+    <string name="instructions_text">Hesabınızla ilişkili e-postanızı girin ve şifrenizi sıfırlamak için bir bağlantı göndereceğiz.</string>
+    <string name="recover_email_hint">E-posta adresiniz</string>
+    <string name="recover_submit_button_text">Devam Et</string>
+    <string name="email_error">Lütfen geçerli bir e-posta adresi girin</string>
+    <string name="password_reset_success">Şifre sıfırlama bağlantısı %1$s adresine gönderildi</string>
+    <string name="password_reset_error">Şifre sıfırlama e-postası gönderilirken bir hata oluştu</string>
+
+    <string name="no_video_available">Hiç video bulunmuyor</string>
+
+    <string name="email_label">E-posta: </string>
+    <string name="not_logged_in">E-posta: Giriş yapılmadı</string>
+    <string name="birthday_label">Doğum Tarihi: </string>
+    <string name="region_label">Bölge: </string>
+
+    <string name="loading_video_message">Video yükleniyor. Lütfen bekleyin.</string>
+    <string name="snackbar_message">Bir video gönderbilmeniz için giriş yapmanız gerekir.</string>
+
+    <string name="comments_header">Yorumlar</string>
+    <string name="no_comments_text">Henüz yorum yok</string>
+    <string name="hint_adicionar_comentario">Yorum ekleyin...</string>
+
+    <string name="text_copy">Kopyala</string>
+    <string name="text_delete">Sil</string>
+
+    <string name="options_title">Seçenekler</string>
+    <string name="report_option">Şikayet et</string>
+    <string name="save_option">Kaydet</string>
+    <string name="share_option">Paylaş</string>
+
+    <string name="share_video_text">Bu videoyu paylaş!</string>
+    <string name="share_button_text">WhatsApp ile paylaş</string>
+    <string name="copy_link_text">Bağlantıyı Kopyala</string>
+    <string name="link_copied">Bağlantı kopyalandı</string>
+    <string name="share_video">Video paylaş</string>
+    <string name="video_share_text">Merhaba! Bu videoyu şu bağlantıya göz atarak inceleyin: </string>
+    <string name="whatsapp_not_installed">WhatsApp yüklü değil.</string>
+
+    <string name="report_question">Bu videoyu neden şikayet ediyorsunuz?</string>
+    <string name="report_reason_pornographic">Pornografik veya müstehcen</string>
+    <string name="report_reason_harmful_to_minors">Çocuklara zararlı</string>
+    <string name="report_reason_criminal_activities">Suç faaliyetleri ve kontrol edilen mallar</string>
+    <string name="report_reason_spam">Spam</string>
+    <string name="report_reason_hate_speech">Nefret söylemi</string>
+    <string name="report_reason_harassment">Taciz ve zorbalık</string>
+    <string name="report_reason_violent">Şiddet ve müstehcenlik</string>
+    <string name="report_reason_dangerous_orgs">Tehlikeli örgütler ve bireyler</string>
+    <string name="report_reason_suicide">İntihar ve kendine zarar verme</string>
+    <string name="report_reason_false_info">Yanlış bilgi</string>
+    <string name="report_reason_intellectual_property">Fikri mülkiyet ihlali</string>
+    <string name="report_button">Şikayet Et</string>
+    <string name="select_reason_prompt">Bir neden seçin</string>
+    <string name="video_removed_due_to_reports">Video şikayetler nedeniyle kaldırıldı</string>
+
+    <string name="video_count_label">video</string>
+
+    <string name="toolbar_title">Yayınla</string>
+    <string name="hint_caption">Bir açıklama ekleyin...</string>
+    <string name="char_count">0/2000</string>
+    <string name="hashtags_button_text"># Hashtagler</string>
+    <string name="friends_button_text">\@ Arkadaşlar</string>
+    <string name="visibility_text">Görünürlük</string>
+    <string name="submit_button_text">Yayınla</string>
+    <string name="error_empty_caption">Bir şeyler yazın...</string>
+    <string name="video_exceeds_limit">Video 30 saniye sınırını aşıyor</string>
+
+    <string name="visibility_label">Kimler görebilir:</string>
+    <string name="delete_option">Sil</string>
+
+    <string-array name="visibility_display_names">
+        <item>Herkese Açık</item>
+        <item>Özel</item>
+    </string-array>
+
+    <string name="rate_our_app">Uygulamamızı değerlendirin</string>
+    <string name="rate_message">Uygulamamızı seviyorsanız, Play Store\'da değerlendirebilir misiniz?</string>
+    <string name="later_button_text">Sonra, belki</string>
+    <string name="rate_now_button_text">Hemen Değerlendir</string>
+    <string name="neutral_emoji">😐</string>
+
+    <string name="name_placeholder">Ad</string>
+    <string name="username_placeholder">Kullanıcı Adı</string>
+    <string name="following_label">Takip Edilenler</string>
+    <string name="followers_label">Takipçiler</string>
+    <string name="follow">Takip Et</string>
+    <string name="unfollow">Takipten Çık</string>
+    <string name="posts_label">Paylaşımlar</string>
+    <string name="logout_label">Çıkış Yap</string>
+    <string name="message_label">Mesaj</string>
+    <string name="edit_profile_label">Profili Düzenle</string>
+    <string name="biography_placeholder">Bu kullanıcı biyografisidir.</string>
+    <string name="id_copiado">ID kopyalandı</string>
+    <string name="share_profile_message">%1$s profilini inceleyin \n\n%2$s</string>
+    <string name="share_profile_title">Profili Paylaş</string>
+
+    <string name="clear_all_history">Tümünü Sil</string>
+    <string name="view_more_history">Daha Fazla Geçmişi Gör</string>
+
+    <string name="search_hint">Ara</string>
+    <string name="video_tab">Videolar</string>
+    <string name="user_tab">Kullanıcılar</string>
+    <string name="hashtag_tab">Hashtagler</string>
+
+    <!-- Kategoriler ekleniyor -->
+    <string name="topics">Kategoriler 🔥</string>
+    <string name="category_music">Müzik 🎵</string>
+    <string name="category_love">Aşk ❤️</string>
+    <string name="category_meme">Meme 😂</string>
+    <string name="category_indirect">Dolaylı 🤭</string>
+    <string name="category_faith">İnanç ✝️</string>
+    <string name="category_sad">Üzgün 😢</string>
+    <string name="category_humor">Şaka 🤣</string>
+    <string name="category_free_fire">Free Fire 🔥</string>
+    <string name="category_funny">Komik 😆</string>
+    <string name="category_motor">Motor 🚗</string>
+    <string name="category_games">Oyunlar 🎮</string>
+    <string name="category_otaku">Otaku 🧙‍♂️</string>
+    <string name="category_dance">Dans 💃</string>
+    <string name="category_motivation">Motivasyon 💪</string>
+    <string name="category_football">Futbol ⚽</string>
+    <string name="category_greetings">Günaydın veya İyi Geceler 🌅🌙</string>
+    <string name="category_makeup">Makyaj 💄</string>
+
+    <!-- Hashtagler ekleniyor -->
+    <string name="hashtag_music">müzik</string>
+    <string name="hashtag_love">aşk</string>
+    <string name="hashtag_meme">meme</string>
+    <string name="hashtag_indirect">dolaylı</string>
+    <string name="hashtag_faith">iman</string>
+    <string name="hashtag_sad">üzgün</string>
+    <string name="hashtag_humor">şaka</string>
+    <string name="hashtag_free_fire">freefire</string>
+    <string name="hashtag_funny">komik</string>
+    <string name="hashtag_motor">motor</string>
+    <string name="hashtag_games">oyunlar</string>
+    <string name="hashtag_otaku">otaku</string>
+    <string name="hashtag_dance">dans</string>
+    <string name="hashtag_motivation">motivasyon</string>
+    <string name="hashtag_football">futbol</string>
+    <string name="hashtag_greetings">günaydinveyaİyiGeceler</string>
+    <string name="hashtag_makeup">makyaj</string>
+
+    <string name="settings_option">Ayarlar</string>
+    <string name="vidbr_verified_option">VidBr Doğrulanmış</string>
+
+    <string name="titulo_verificado">Mavi ve Altın Doğrulama Nasıl Alınır</string>
+    <string name="verificado_azul">Mavi Doğrulama</string>
+    <string name="requisitos_azul">Gereksinimler:</string>
+    <string name="requisitos_azul_detalhes">• Takipçi Sayısı: En az 10.000 takipçiye sahip olmanız gerekir.\n\n• Belirli Programlara Katılım: Alternatif olarak, platformun sunduğu belirli programlara katılarak mavi doğrulama alabilirsiniz.</string>
+    <string name="verificado_dourado">Altın Doğrulama</string>
+    <string name="requisitos_dourado">Gereksinimler:</string>
+    <string name="requisitos_dourado_detalhes">• Takipçi Sayısı: En az 100.000 takipçiye sahip olmanız gerekir.</string>
+    <string name="dicas_importantes">Önemli İpuçları:</string>
+    <string name="dicas_importantes_detalhes">• Gerçeklik: Bilgilerinizin tam ve doğru olduğundan emin olun.\n• Aktivite: Profilinizi aktif ve etkileşimli tutun.\n• Uyum: Başarılı bir başvuru için platformun yönergelerine ve politikalarına uyun.</string>
+    <string name="instrucoes_email">Doğrulama talep etmek için lütfen ekiple contato.vidbr@gmail.com adresinden iletişime geçin</string>
+
+    <string name="settings_title">Ayarlar</string>
+    <string name="preferences">Tercihler</string>
+    <string name="account">Hesap</string>
+    <string name="profile">Profil</string>
+    <string name="privacy">Gizlilik</string>
+    <string name="share_profile">Profili Paylaş</string>
+    <string name="share_text_prefix">Profilimi inceleyin: </string>
+    <string name="clear_memory">Belleği Temizle</string>
+    <string name="about_us">Hakkımızda</string>
+    <string name="logout">Çıkış Yap</string>
+
+    <string name="toolbar_account">Hesap</string>
+    <string name="account_info">Hesap Bilgileri</string>
+    <string name="delete_account_button">Hesabı Sil</string>
+
+    <string name="title_text">Hesap Silme</string>
+    <string name="message_text">Hesabınızı gerçekten silmek istediğinizden emin misiniz?</string>
+    <string name="confirm_button_text">Hesabı Sil</string>
+    <string name="cancel_button_text">İptal Et</string>
+    <string name="recovery_warning_text">Hesap silme işlemi geri alınamaz.</string>
+    <string name="account_deleted_success">Hesap başarıyla silindi!</string>
+
+    <string name="privacy_title">Gizlilik</string>
+    <string name="enable_download_title">Videoları İndir</string>
+    <string name="enable_download_description">Aktifleştirildiğinde, tüm videolarınız için indirme düğmesi görünecektir.</string>
+    <string name="floating_button_description_text">Yüzen Buton Aktifleştir</string>
+    <string name="floating_button_small_description_text">Hızlı erişim için yüzen butonu aç veya kapat.</string>
+
+    <string name="edit_profile_title">Profili Düzenle</string>
+    <string name="profile_pic_description">Profil Fotoğrafı</string>
+    <string name="change_photo_button">Profil Fotoğrafını Değiştir</string>
+    <string name="name_hint">Ad</string>
+    <string name="username_hint">Kullanıcı Adı</string>
+    <string name="birthday_hint">Doğum Tarihi</string>
+    <string name="bio_hint">Biyografi</string>
+    <string name="char_count_edit">80 karakter kaldı</string>
+    <string name="save_changes_button">Değişiklikleri Kaydet</string>
+
+    <string name="toolbar_title_about">Hakkında</string>
+    <string name="app_description">VidBr\'ye hoş geldiniz, boş zamanlarınızda eğlenmeniz için Brezilya\'nın kısa video uygulaması! Benzersiz anların tadını çıkarın, kahkahalar atın ve gününüzü güzelleştirecek içeriklerin çeşitliliğini keşfedin. VidBr ile asla sıkılmayacaksınız!</string>
+    <string name="rating_invitation">VidBr\'yi beğendiyseniz, değerlendirme yapın ve daha da iyi hale gelmemize yardımcı olun. Görüşleriniz bizim için çok önemli!</string>
+    <string name="rate_button_text">VidBr\'yi Puanla</string>
+    <string name="terms_and_policies">Şartlar ve Politikalar</string>
+    <string name="terms_link_text">Hizmet Şartları</string>
+    <string name="privacy_policy_link_text">Gizlilik Politikası</string>
+    <string name="copyright_text">© 2025 VidBr. Tüm hakları saklıdır.</string>
+
+    <string name="liked_users_title">Videoyu Beğenen Kullanıcılar</string>
+    <string name="random_likes_notice">Beğeniler, rastgele seçilen 50 kullanıcıya aittir.</string>
+
+    <string name="conversas">Konuşmalar</string>
+    <string name="no_messages">Mesaj yok</string>
+    <string name="hint_enviar_mensagem">Mesaj gönder</string>
+    <string name="dialog_title">Herkese Sil</string>
+    <string name="dialog_message">Bu mesajı silmek istediğinizden emin misiniz?</string>
+    <string name="dialog_positive_button">Evet</string>
+    <string name="dialog_negative_button">Hayır</string>
+
+    <string name="thumbnail_message">Videonun işlenmesi başarılı!</string>
+    <string name="download_concluido">İndirme tamamlandı!</string>
+    <string name="share_text">Paylaş</string>
+
+    <string name="alterar_foto">Fotoğrafı Değiştir</string>
+    <string name="confirm_delete_message">Profil fotoğrafını silmek istediğinizden emin misiniz?</string>
+    <string name="yes_button">Evet</string>
+    <string name="no_button">Hayır</string>
+
+    <string name="sem_resultados">Sonuç yok, lütfen başka bir kelime deneyin</string>
+    <string name="nenhum_video_curtido">Hiçbir video beğenilmedi</string>
+
+    <string name="owner_only_message">Yalnızca hesap sahibi videoları görebilir.</string>
+
+    <string name="dialog_title_permissions">Gerekli İzinler</string>
+    <string name="dialog_message_permissions">Uygulamayı kullanmaya devam edebilmek için izin vermeniz gerekmektedir.</string>
+    <string name="dialog_button_close">Kapat</string>
+    <string name="dialog_button_grant">Ver</string>
+    <string name="permission_request_message">Bu uygulama, dosya okuma ve yazma izinlerine ihtiyaç duyar. İzinleri vermek ister misiniz?</string>
+    <string name="permission_request_camera_audio">Bu uygulama, kameraya ve sese erişim iznine ihtiyaç duyar. İzinleri vermek ister misiniz?</string>
+
+    <string name="permission_alert_message">Bu uygulamanın bildirim gönderebilmesi için izin gereklidir. Bunu izin verir misiniz?</string>
+    <string name="video_loading_message">Video yükleniyor. Lütfen bekleyin.</string>
+    <string name="loading_progress">Yükleniyor: %1$d%%</string>
+    <string name="video_loaded_success">Video başarıyla yüklendi!</string>
+
+    <string name="username_error_message">Kullanıcı adı en az 4 karakter uzunluğunda olmalıdır.</string>
+    <string name="username_already_used_error">Bu kullanıcı adını zaten kullanıyorsunuz.</string>
+    <string name="username_in_use_error">Bu kullanıcı adı zaten kullanımda.</string>
+    <string name="username_available">Kullanıcı adı mevcut.</string>
+    <string name="msg_insira_nome">Lütfen adınızı girin</string>
+    <string name="account_created_success">Hesap başarıyla oluşturuldu!</string>
+
+    <string name="profile_picture_updated_success">Profil resmi başarıyla güncellendi</string>
+    <string name="username_not_available">Kullanıcı adı mevcut değil, lütfen başka bir tane seçin.</string>
+    <string name="profile_updated_success">Profil başarıyla güncellendi</string>
+    <string name="name_required_error">Ad gereklidir</string>
+    <string name="username_required_error">Kullanıcı adı gereklidir</string>
+
+    <string name="seguidores">takipçiler</string>
+    <string name="videos">videolar</string>
+    <string name="usuario_limitado">Sadece 20 kullanıcı görüntülenecek</string>
+
+    <string name="email_associated_with_account">Hesabınızla ilişkili e-posta adresiniz.</string>
+    <string name="registered_date_of_birth">Kayıtlı doğum tarihiniz.</string>
+    <string name="registered_region">Dilinizin Bölgesi</string>
+    <string name="verify_email">E-posta adresinizi kontrol edin</string>
+    <string name="email_info">Bu e-posta adresi hesabınızla ilişkilidir ve yalnızca sizin tarafınızdan görülebilir. Hesabınızın güvenliğini artırmak için kontrol edin.</string>
+    <string name="verify_email_button">E-posta Doğrulama</string>
+    <string name="change_email">E-posta Değiştir</string>
+    <string name="change_email_title">E-posta Değiştir</string>
+    <string name="email_da_conta">Hesap E-postası</string>
+    <string name="informacao_email">Hesabınıza bağlı e-posta adresini istediğiniz zaman değiştirebilirsiniz.</string>
+    <string name="change_email_explanation">Hesabınızı güncellemek için lütfen yeni bir e-posta adresi girin.</string>
+    <string name="enter_new_email">Yeni e-posta adresinizi girin</string>
+    <string name="submit_email_button">E-posta Değiştir</string>
+    <string name="error_invalid_email">Lütfen geçerli bir e-posta adresi girin.</string>
+    <string name="email_verified">Hesabınızla ilişkili e-posta adresiniz doğrulandı.</string>
+    <string name="email_not_verified">E-posta adresiniz doğrulanmamış.</string>
+    <string name="email_verification_sent">Doğrulama e-postası gönderildi! Gelen kutunuzu kontrol edin.</string>
+    <string name="email_changed_successfully">E-posta başarıyla değiştirildi!</string>
+
+    <string name="quem_curtiu">Kim beğendi</string>
+    <string name="error_invalid_username">Yalnızca küçük harfler, rakamlar, alt çizgiler veya noktalar kullanılabilir.</string>
+</resources>

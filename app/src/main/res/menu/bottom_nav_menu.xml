@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/menu_home"
+        android:icon="@drawable/icon_home_2"
+        android:id="@+id/bottom_menu_home" />
+
+    <item
+        android:title="@string/menu_search"
+        android:icon="@drawable/search_2"
+        android:id="@+id/bottom_menu_search" />
+
+    <item
+        android:title="@string/menu_add_video"
+        android:icon="@drawable/icon_add"
+        android:id="@+id/bottom_menu_add_video" />
+
+    <item
+        android:title="@string/menu_chat"
+        android:icon="@drawable/icon_chat_2"
+        android:id="@+id/bottom_menu_chat" />
+
+    <item
+        android:title="@string/menu_profile"
+        android:icon="@drawable/icon_profile_2"
+        android:id="@+id/bottom_menu_profile" />
+</menu>

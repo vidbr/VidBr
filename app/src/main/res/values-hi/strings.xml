@@ -1,0 +1,359 @@
+<resources>
+    <string name="app_name">VidBr</string>
+    <string name="splash_subtitle">खोजें, बनाएँ, जुड़ें</string>
+
+    <string name="pressione_novamente">बाहर निकलने के लिए फिर से दबाएं</string>
+
+    <string name="tab_seguindo">अनुसरण कर रहे हैं</string>
+    <string name="tab_para_ti">आपके लिए</string>
+
+    <string name="login_prompt">🔍 अपने पसंदीदा क्रिएटर्स द्वारा पोस्ट किए गए कंटेंट को देखने के लिए लॉगिन करें! 🎬✨</string>
+    <string name="login_button_text">लॉगिन करें</string>
+    <string name="following_list_empty">अभी अनुसरण करना शुरू करें और अद्भुत वीडियो देखें! 🌟</string>
+    <string name="no_videos_found">कोई वीडियो नहीं मिला।</string>
+
+    <string name="no_internet_connection">इंटरनेट कनेक्शन नहीं है।</string>
+    <string name="check_connection">अपना कनेक्शन जांचें और फिर से प्रयास करें।</string>
+
+    <string name="no_videos">आपके देश में कोई वीडियो नहीं है।</string>
+    <string name="publish_prompt">प्रकाशन शुरू करने के लिए + पर क्लिक करें</string>
+
+    <string name="webview">वेबव्यू</string>
+
+    <string name="menu_home">मुख्य पृष्ठ</string>
+    <string name="menu_search">खोजें</string>
+    <string name="menu_add_video"></string>
+    <string name="menu_chat">चैट</string>
+    <string name="menu_profile">प्रोफ़ाइल</string>
+
+    <string name="just_now">अभी</string>
+    <string name="seconds_ago">%d स पहले</string>
+    <string name="minutes_ago">%d मि पहले</string>
+    <string name="hours_ago">%d घंटा पहले</string>
+    <string name="days_ago">%d दिन पहले</string>
+    <string name="weeks_ago">%d सप्ताह पहले</string>
+    <string name="months_ago">%d महीना पहले</string>
+
+    <string name="more_button_text">अधिक</string>
+    <string name="hide_button_text">छिपाएं</string>
+
+    <string name="name">आपका नाम क्या है?</string>
+    <string name="name_title">आपको किस नाम से बुलाते हैं?</string>
+    <string name="hint_name">जैसे: डैनियल</string>
+    <string name="register">पंजीकरण करें</string>
+
+    <string name="login_text">लॉगिन</string>
+    <string name="hint_email">ईमेल</string>
+    <string name="hint_password">पासवर्ड</string>
+    <string name="button_login">लॉगिन करें</string>
+    <string name="entrar_com_google">गूगल के साथ साइन इन करें</string>
+    <string name="no_account_text">मेरे पास खाता नहीं है</string>
+    <string name="forgot_password_text">पासवर्ड भूल गए?</string>
+    <string name="terms_privacy_text">जारी रखने पर, आप हमारे</string>
+    <string name="terms_of_service">सेवा की शर्तों</string>
+    <string name="and">और</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="page_not_found">पृष्ठ नहीं मिला</string>
+
+    <string name="login_success">लॉगिन सफल</string>
+    <string name="email_invalid_error">अमान्य ईमेल</string>
+    <string name="error_min_password_length">कम से कम 6 वर्ण</string>
+
+    <string name="create_account">खाता बनाएं</string>
+    <string name="birth">आपकी जन्मतिथि क्या है?</string>
+    <string name="birth_text">जन्म तिथि सार्वजनिक रूप से नहीं दिखाई जाएगी।</string>
+    <string name="birthday_placeholder">जन्म तिथि</string>
+    <string name="next">अगला</string>
+    <string name="birthday_error_message">कृपया अपनी जन्म तिथि चुनें</string>
+    <string name="age_error_message">आपकी उम्र कम से कम 13 वर्ष होनी चाहिए।</string>
+
+    <string name="email_hint">ईमेल</string>
+    <string name="password_hint">पासवर्ड</string>
+    <string name="password_length_validation">✔️ 8 वर्ण (अधिकतम 20)</string>
+    <string name="password_content_validation">✔️ 1 अक्षर और 1 संख्या</string>
+    <string name="already_have_account">पहले से एक खाता है</string>
+
+    <string name="password_length_valid">✔️ 8 वर्ण (अधिकतम 20)</string>
+    <string name="password_length_invalid">❌ 8 वर्ण (अधिकतम 20)</string>
+    <string name="password_content_valid">✔️ 1 अक्षर और 1 संख्या</string>
+    <string name="password_content_invalid">❌ 1 अक्षर और 1 संख्या</string>
+
+    <string name="recover_title">अपने खाते को पुनर्प्राप्त करें</string>
+    <string name="instructions_text">अपने खाते से जुड़ा ईमेल दर्ज करें, और हम आपको अपना पासवर्ड रीसेट करने के लिए एक लिंक भेजेंगे।</string>
+    <string name="recover_email_hint">आपका ईमेल</string>
+    <string name="recover_submit_button_text">जारी रखें</string>
+    <string name="email_error">कृपया एक मान्य ईमेल दर्ज करें</string>
+    <string name="password_reset_success">पुनर्प्राप्ति लिंक %1$s को भेजा गया</string>
+    <string name="password_reset_error">पुनर्प्राप्ति ईमेल भेजने में त्रुटि</string>
+
+    <string name="no_video_available">कोई वीडियो उपलब्ध नहीं है</string>
+
+    <string name="email_label">ईमेल: </string>
+    <string name="not_logged_in">ईमेल: लॉगिन नहीं किया गया</string>
+    <string name="birthday_label">जन्म तिथि: </string>
+    <string name="region_label">क्षेत्र: </string>
+
+    <string name="loading_video_message">वीडियो लोड हो रहा है। कृपया प्रतीक्षा करें।</string>
+    <string name="snackbar_message">वीडियो अपलोड करने के लिए आपको लॉगिन करना होगा।</string>
+
+    <string name="comments_header">टिप्पणियाँ</string>
+    <string name="no_comments_text">अभी तक कोई टिप्पणी नहीं</string>
+    <string name="hint_adicionar_comentario">टिप्पणी जोड़ें...</string>
+
+    <string name="text_copy">कॉपी करें</string>
+    <string name="text_delete">हटाएं</string>
+
+    <string name="options_title">विकल्प</string>
+    <string name="report_option">रिपोर्ट करें</string>
+    <string name="save_option">सहेजें</string>
+    <string name="share_option">साझा करें</string>
+
+    <string name="share_video_text">इस वीडियो को साझा करें!</string>
+    <string name="share_button_text">व्हाट्सएप के माध्यम से साझा करें</string>
+    <string name="copy_link_text">लिंक कॉपी करें</string>
+    <string name="link_copied">लिंक कॉपी किया गया</string>
+    <string name="share_video">वीडियो साझा करें</string>
+    <string name="video_share_text">नमस्ते! इस लिंक पर वीडियो देखें: </string>
+    <string name="whatsapp_not_installed">व्हाट्सएप इंस्टॉल नहीं है।</string>
+
+    <string name="report_question">आप इस वीडियो को क्यों रिपोर्ट कर रहे हैं?</string>
+    <string name="report_reason_pornographic">अश्लील या अपमानजनक</string>
+    <string name="report_reason_harmful_to_minors">नाबालिगों के लिए हानिकारक</string>
+    <string name="report_reason_criminal_activities">अपराधिक गतिविधियाँ और नियंत्रित संपत्ति</string>
+    <string name="report_reason_spam">स्पैम</string>
+    <string name="report_reason_hate_speech">घृणा भाषण</string>
+    <string name="report_reason_harassment">उत्पीड़न और धमकी</string>
+    <string name="report_reason_violent">हिंसक और स्पष्ट</string>
+    <string name="report_reason_dangerous_orgs">खतरनाक संगठन और व्यक्ति</string>
+    <string name="report_reason_suicide">आत्महत्या और आत्मघाती व्यवहार</string>
+    <string name="report_reason_false_info">झूठी जानकारी</string>
+    <string name="report_reason_intellectual_property">बौद्धिक संपत्ति का उल्लंघन</string>
+    <string name="report_button">रिपोर्ट करें</string>
+    <string name="select_reason_prompt">एक कारण चुनें</string>
+    <string name="video_removed_due_to_reports">रिपोर्ट के कारण वीडियो हटाया गया</string>
+
+    <string name="video_count_label">वीडियो</string>
+
+    <string name="toolbar_title">प्रकाशित करें</string>
+    <string name="hint_caption">एक विवरण जोड़ें...</string>
+    <string name="char_count">0/2000</string>
+    <string name="hashtags_button_text"># हैशटैग</string>
+    <string name="friends_button_text">\@ दोस्त</string>
+    <string name="visibility_text">दृश्यता</string>
+    <string name="submit_button_text">प्रकाशित करें</string>
+    <string name="error_empty_caption">कृपया कुछ लिखें...</string>
+    <string name="video_exceeds_limit">वीडियो 30 सेकंड की सीमा से अधिक है</string>
+
+    <string name="visibility_label">कौन देख सकता है:</string>
+    <string name="delete_option">हटाएं</string>
+
+    <string-array name="visibility_display_names">
+        <item>सार्वजनिक</item>
+        <item>निजी</item>
+    </string-array>
+
+    <string name="rate_our_app">हमारे ऐप को रेट करें</string>
+    <string name="rate_message">यदि आपको हमारा ऐप पसंद आया हो, तो क्या आप हमें प्ले स्टोर पर रेट कर सकते हैं?</string>
+    <string name="later_button_text">बाद में, हो सकता है</string>
+    <string name="rate_now_button_text">अब रेट करें</string>
+    <string name="neutral_emoji">😐</string>
+
+    <string name="name_placeholder">नाम</string>
+    <string name="username_placeholder">उपयोगकर्ता नाम</string>
+    <string name="following_label">अनुसरण करना</string>
+    <string name="followers_label">अनुयायी</string>
+    <string name="follow">अनुसरण करें</string>
+    <string name="unfollow">अनुसरण छोड़ें</string>
+    <string name="posts_label">पोस्ट्स</string>
+    <string name="logout_label">साइन आउट</string>
+    <string name="message_label">संदेश</string>
+    <string name="edit_profile_label">प्रोफ़ाइल संपादित करें</string>
+    <string name="biography_placeholder">यह उपयोगकर्ता की जीवनी है।</string>
+    <string name="id_copiado">ID कॉपी किया गया</string>
+    <string name="share_profile_message">%1$s की प्रोफ़ाइल देखें \n\n%2$s</string>
+    <string name="share_profile_title">प्रोफ़ाइल साझा करें</string>
+
+    <string name="clear_all_history">सारी इतिहास हटाएं</string>
+    <string name="view_more_history">अधिक इतिहास देखें</string>
+
+    <string name="search_hint">खोजें</string>
+    <string name="video_tab">वीडियो</string>
+    <string name="user_tab">उपयोगकर्ता</string>
+    <string name="hashtag_tab">हैशटैग</string>
+
+    <!-- Adding categories -->
+    <string name="topics">विषय 🔥</string>
+    <string name="category_music">संगीत 🎵</string>
+    <string name="category_love">प्रेम ❤️</string>
+    <string name="category_meme">मेमे 😂</string>
+    <string name="category_indirect">अप्रत्यक्ष 🤭</string>
+    <string name="category_faith">धर्म ✝️</string>
+    <string name="category_sad">दुःख 😢</string>
+    <string name="category_humor">हास्य 🤣</string>
+    <string name="category_free_fire">फ्री फायर 🔥</string>
+    <string name="category_funny">मज़ेदार 😆</string>
+    <string name="category_motor">मोटर 🚗</string>
+    <string name="category_games">खेल 🎮</string>
+    <string name="category_otaku">ओटाकू 🧙‍♂️</string>
+    <string name="category_dance">नृत्य 💃</string>
+    <string name="category_motivation">प्रेरणा 💪</string>
+    <string name="category_football">फुटबॉल ⚽</string>
+    <string name="category_greetings">सुप्रभात या शुभ रात्रि 🌅🌙</string>
+    <string name="category_makeup">मेकअप 💄</string>
+
+    <!-- Adding hashtags -->
+    <string name="hashtag_music">संगीत</string>
+    <string name="hashtag_love">प्रेम</string>
+    <string name="hashtag_meme">मेमे</string>
+    <string name="hashtag_indirect">अप्रत्यक्ष</string>
+    <string name="hashtag_faith">धर्म</string>
+    <string name="hashtag_sad">दुःख</string>
+    <string name="hashtag_humor">हास्य</string>
+    <string name="hashtag_free_fire">फ्रीफायर</string>
+    <string name="hashtag_funny">मज़ेदार</string>
+    <string name="hashtag_motor">मोटर</string>
+    <string name="hashtag_games">खेल</string>
+    <string name="hashtag_otaku">ओटाकू</string>
+    <string name="hashtag_dance">नृत्य</string>
+    <string name="hashtag_motivation">प्रेरणा</string>
+    <string name="hashtag_football">फुटबॉल</string>
+    <string name="hashtag_greetings">सुप्रभातओरशुभरात्रि</string>
+    <string name="hashtag_makeup">मेकअप</string>
+
+    <string name="settings_option">सेटिंग्स</string>
+    <string name="vidbr_verified_option">VidBr सत्यापित</string>
+
+    <string name="titulo_verificado">ब्लू और गोल्ड सत्यापन कैसे प्राप्त करें</string>
+    <string name="verificado_azul">ब्लू सत्यापित</string>
+    <string name="requisitos_azul">आवश्यकताएँ:</string>
+    <string name="requisitos_azul_detalhes">• फॉलोअर्स की संख्या: कम से कम 10,000 फॉलोअर्स होने चाहिए।\n\n• विशिष्ट कार्यक्रमों में भागीदारी: वैकल्पिक रूप से, आप विशिष्ट कार्यक्रमों या पहलों में भाग लेकर ब्लू सत्यापन प्राप्त कर सकते हैं।</string>
+    <string name="verificado_dourado">गोल्ड सत्यापित</string>
+    <string name="requisitos_dourado">आवश्यकताएँ:</string>
+    <string name="requisitos_dourado_detalhes">• फॉलोअर्स की संख्या: कम से कम 100,000 फॉलोअर्स होने चाहिए।</string>
+    <string name="dicas_importantes">महत्वपूर्ण टिप्स:</string>
+    <string name="dicas_importantes_detalhes">• प्रामाणिकता: सुनिश्चित करें कि आपकी जानकारी पूर्ण और सही है।\n • सक्रियता: एक सक्रिय प्रोफ़ाइल रखें और अपनी ऑडियंस से जुड़ें।\n• पालन: सफल आवेदन के लिए प्लेटफ़ॉर्म की दिशानिर्देशों और नीतियों का पालन करें।</string>
+    <string name="instrucoes_email">सत्यापन का अनुरोध करने के लिए, कृपया टीम से संपर्क करें ईमेल पर contato.vidbr@gmail.com</string>
+
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="preferences">पसंदीदा</string>
+    <string name="account">खाता</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="privacy">गोपनीयता</string>
+    <string name="share_profile">प्रोफ़ाइल साझा करें</string>
+    <string name="share_text_prefix">मेरी प्रोफ़ाइल देखें: </string>
+    <string name="clear_memory">स्मृति साफ़ करें</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="logout">साइन आउट</string>
+
+    <string name="toolbar_account">खाता</string>
+    <string name="account_info">खाता जानकारी</string>
+    <string name="delete_account_button">खाता हटाएं</string>
+
+    <string name="title_text">खाता हटाने</string>
+    <string name="message_text">क्या आप वाकई अपना खाता हटाना चाहते हैं?</string>
+    <string name="confirm_button_text">खाता हटाएं</string>
+    <string name="cancel_button_text">रद्द करें</string>
+    <string name="recovery_warning_text">खाता हटाने के बाद इसे पुनः प्राप्त नहीं किया जा सकता।</string>
+    <string name="account_deleted_success">खाता सफलतापूर्वक हटा दिया गया!</string>
+
+    <string name="privacy_title">गोपनीयता</string>
+    <string name="enable_download_title">वीडियो डाउनलोड सक्षम करें</string>
+    <string name="enable_download_description">इसे सक्रिय करने पर, आपके सभी वीडियो के लिए डाउनलोड बटन दिखाई देगा।</string>
+    <string name="floating_button_description_text">फ्लोटिंग बटन सक्षम करें</string>
+    <string name="floating_button_small_description_text">जल्द पहुँच के लिए फ्लोटिंग बटन सक्षम या अक्षम करें।</string>
+
+    <string name="edit_profile_title">प्रोफ़ाइल संपादित करें</string>
+    <string name="profile_pic_description">प्रोफ़ाइल चित्र</string>
+    <string name="change_photo_button">प्रोफ़ाइल चित्र बदलें</string>
+    <string name="name_hint">नाम</string>
+    <string name="username_hint">यूज़र नाम</string>
+    <string name="birthday_hint">जन्म तिथि</string>
+    <string name="bio_hint">जीवनी</string>
+    <string name="char_count_edit">80 वर्ण बाकी</string>
+    <string name="save_changes_button">परिवर्तन सहेजें</string>
+
+    <string name="toolbar_title_about">हमारे बारे में</string>
+    <string name="app_description">VidBr में आपका स्वागत है, यह एक ब्राजीलियाई शॉर्ट वीडियो ऐप है जो आपका मनोरंजन करेगा! यहां अनोखे पल, हंसी और आपके दिन को रोशन करने वाले कंटेंट का आनंद लें। VidBr के साथ आप कभी बोर नहीं होंगे!</string>
+    <string name="rating_invitation">अगर आपको VidBr पसंद आया है, तो कृपया इसे रेट करें और हमें बेहतर बनाने में मदद करें। आपकी राय हमारे लिए बहुत महत्वपूर्ण है!</string>
+    <string name="rate_button_text">VidBr को रेट करें</string>
+    <string name="terms_and_policies">नियम और नीतियाँ</string>
+    <string name="terms_link_text">सेवा की शर्तें</string>
+    <string name="privacy_policy_link_text">गोपनीयता नीति</string>
+    <string name="copyright_text">© 2025 VidBr। सर्वाधिकार सुरक्षित।</string>
+
+    <string name="liked_users_title">जो उपयोगकर्ताओं ने वीडियो पसंद किया</string>
+    <string name="random_likes_notice">लाइक्स 50 यादृच्छिक रूप से चयनित उपयोगकर्ताओं से हैं।</string>
+
+    <string name="conversas">संवाद</string>
+    <string name="no_messages">कोई संदेश नहीं है</string>
+    <string name="hint_enviar_mensagem">संदेश भेजें</string>
+    <string name="dialog_title">सभी के लिए हटाएं</string>
+    <string name="dialog_message">क्या आप सुनिश्चित हैं कि आप इस संदेश को हटाना चाहते हैं?</string>
+    <string name="dialog_positive_button">हां</string>
+    <string name="dialog_negative_button">नहीं</string>
+
+    <string name="thumbnail_message">वीडियो सफलतापूर्वक प्रोसेस किया गया!</string>
+    <string name="download_concluido">डाउनलोड पूरा हुआ!</string>
+    <string name="share_text">साझा करें</string>
+
+    <string name="alterar_foto">फोटो बदलें</string>
+    <string name="confirm_delete_message">क्या आप वाकई अपना प्रोफ़ाइल फ़ोटो हटाना चाहते हैं?</string>
+    <string name="yes_button">हाँ</string>
+    <string name="no_button">नहीं</string>
+
+    <string name="sem_resultados">कोई परिणाम नहीं, कृपया एक और शब्द आजमाएं</string>
+    <string name="nenhum_video_curtido">कोई वीडियो पसंद नहीं किया गया</string>
+
+    <string name="owner_only_message">केवल खाता मालिक ही वीडियो देख सकते हैं।</string>
+
+    <string name="dialog_title_permissions">आवश्यक अनुमतियाँ</string>
+    <string name="dialog_message_permissions">ऐप का उपयोग जारी रखने के लिए अनुमतियाँ देना आवश्यक है।</string>
+    <string name="dialog_button_close">बंद करें</string>
+    <string name="dialog_button_grant">देनें</string>
+    <string name="permission_request_message">इस ऐप को फ़ाइलों को पढ़ने और लिखने के लिए अनुमतियों की आवश्यकता है। क्या आप अनुमतियाँ देना चाहते हैं?</string>
+    <string name="permission_request_camera_audio">इस ऐप को कैमरा और ऑडियो तक पहुंचने के लिए अनुमतियों की आवश्यकता है। क्या आप अनुमतियाँ देना चाहते हैं?</string>
+
+    <string name="permission_alert_message">इस ऐप को सूचनाएँ भेजने की अनुमति की आवश्यकता है। क्या आप इसे अनुमति देना चाहेंगे?</string>
+    <string name="video_loading_message">वीडियो लोड हो रहा है। कृपया प्रतीक्षा करें।</string>
+    <string name="loading_progress">लोड हो रहा है: %1$d%%</string>
+    <string name="video_loaded_success">वीडियो सफलतापूर्वक लोड हो गया!</string>
+
+    <string name="username_error_message">उपयोगकर्ता नाम में कम से कम 4 अक्षर होने चाहिए।</string>
+    <string name="username_already_used_error">आप पहले से इस उपयोगकर्ता नाम का उपयोग कर रहे हैं।</string>
+    <string name="username_in_use_error">यह उपयोगकर्ता नाम पहले से उपयोग में है।</string>
+    <string name="username_available">उपयोगकर्ता नाम उपलब्ध है।</string>
+    <string name="msg_insira_nome">कृपया अपना नाम दर्ज करें</string>
+    <string name="account_created_success">खाता सफलतापूर्वक बनाया गया!</string>
+
+    <string name="profile_picture_updated_success">प्रोफ़ाइल चित्र सफलतापूर्वक अपडेट हो गया</string>
+    <string name="username_not_available">उपयोगकर्ता नाम उपलब्ध नहीं है, कृपया दूसरा चुनें।</string>
+    <string name="profile_updated_success">प्रोफ़ाइल सफलतापूर्वक अपडेट हो गई</string>
+    <string name="name_required_error">नाम आवश्यक है</string>
+    <string name="username_required_error">उपयोगकर्ता नाम आवश्यक है</string>
+
+    <string name="seguidores">अनुयायी</string>
+    <string name="videos">वीडियो</string>
+    <string name="usuario_limitado">केवल 20 उपयोगकर्ता दिखाए जाएंगे</string>
+
+    <string name="email_associated_with_account">आपका खाता से संबंधित ईमेल पता।</string>
+    <string name="registered_date_of_birth">आपकी पंजीकृत जन्म तिथि।</string>
+    <string name="registered_region">आपकी भाषा का क्षेत्र</string>
+    <string name="verify_email">अपने ईमेल की जांच करें</string>
+    <string name="email_info">यह ईमेल आपके खाते से जुड़ा हुआ है और केवल आपको दिखाई देता है। अपने खाते की सुरक्षा बढ़ाने के लिए इसे जांचें।</string>
+    <string name="verify_email_button">ईमेल सत्यापित करें</string>
+    <string name="change_email">ईमेल बदलें</string>
+    <string name="change_email_title">ईमेल बदलें</string>
+    <string name="email_da_conta">खाता ईमेल</string>
+    <string name="informacao_email">आप किसी भी समय अपने खाते से जुड़े ईमेल को बदल सकते हैं।</string>
+    <string name="change_email_explanation">कृपया अपना नया ईमेल दर्ज करें ताकि आप अपने खाते को अपडेट कर सकें।</string>
+    <string name="enter_new_email">अपना नया ईमेल दर्ज करें</string>
+    <string name="submit_email_button">ईमेल बदलें</string>
+    <string name="error_invalid_email">कृपया एक वैध ईमेल दर्ज करें।</string>
+    <string name="email_verified">आपका खाता से संबंधित ईमेल पता।</string>
+    <string name="email_not_verified">आपका ईमेल सत्यापित नहीं हुआ है।</string>
+    <string name="email_verification_sent">सत्यापन ईमेल भेजा गया! अपने इनबॉक्स की जांच करें।</string>
+    <string name="email_changed_successfully">ईमेल सफलतापूर्वक बदल दिया गया!</string>
+
+    <string name="quem_curtiu">किसे पसंद आया</string>
+    <string name="error_invalid_username">केवल छोटे अक्षर, संख्याएँ, अंडरस्कोर या बिंदु ही अनुमति हैं।</string>
+</resources>
