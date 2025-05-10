@@ -178,31 +178,6 @@ public class ForYouFragment extends Fragment {
         }
     }
 
-    public static int generateRandomLikesCount() {
-        Random random = new Random();
-        int interval = random.nextInt(4);
-        int randomNumber;
-
-        switch (interval) {
-            case 0:
-                randomNumber = random.nextInt(1001);
-                break;
-            case 1:
-                randomNumber = 1000 + random.nextInt(9001);
-                break;
-            case 2:
-                randomNumber = 10000 + random.nextInt(90001);
-                break;
-            case 3:
-                randomNumber = 100000 + random.nextInt(900001);
-                break;
-            default:
-                throw new IllegalStateException("Unexpected interval: " + interval);
-        }
-
-        return randomNumber;
-    }
-
     @Override
     public void onDestroyView() {
         super.onDestroyView();
