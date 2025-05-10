@@ -37,7 +37,6 @@ public class ForYouFragment extends Fragment {
     private ViewPager2 viewPager;
     private boolean isLoading = false;
     private FirebaseFirestore firestore;
-    private int maxLikes;
     private String videoId;
     private String userCountry;
     private List<Object> itemList = new ArrayList<>(); // List to hold videos and ads
@@ -102,12 +101,8 @@ public class ForYouFragment extends Fragment {
             return;
         }
 
-        maxLikes = generateRandomLikesCount();
-
         Query query = firestore.collection("videos")
-                .orderBy("likesCount", Query.Direction.DESCENDING)
-                .whereGreaterThanOrEqualTo("likesCount", 0)
-                .whereLessThanOrEqualTo("likesCount", maxLikes)
+                .orderBy("createdTime", Query.Direction.DESCENDING)
                 .whereEqualTo("country", userCountry)
                 .whereEqualTo("visibility", "public")
                 .limit(PAGE_SIZE);
@@ -148,12 +143,8 @@ public class ForYouFragment extends Fragment {
 
         isLoading = true;
 
-        maxLikes = generateRandomLikesCount();
-
         Query query = firestore.collection("videos")
-                .orderBy("likesCount", Query.Direction.DESCENDING)
-                .whereGreaterThanOrEqualTo("likesCount", 0)
-                .whereLessThanOrEqualTo("likesCount", maxLikes)
+                .orderBy("createdTime", Query.Direction.DESCENDING)
                 .whereEqualTo("country", userCountry)
                 .whereEqualTo("visibility", "public")
                 .startAfter(lastVisible)
