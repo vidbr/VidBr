@@ -73,7 +73,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     private static final String PREFS_NAME = "ProfilePrefs";
     private static final String KEY_LAST_AD_TIME = "last_ad_time";
-    private static final long TWELVE_HOURS_MILLIS = 12 * 60 * 60 * 1000; // 12 horas
+    private static final long ONE_HOUR_MILLIS = 1 * 60 * 60 * 1000; // 1 hora
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -203,7 +203,7 @@ public class ProfileActivity extends AppCompatActivity {
         long lastAdTime = prefs.getLong(KEY_LAST_AD_TIME, 0);
         long currentTime = System.currentTimeMillis();
 
-        if ((currentTime - lastAdTime) >= TWELVE_HOURS_MILLIS) {
+        if ((currentTime - lastAdTime) >= ONE_HOUR_MILLIS ) {
             AdRequest adRequest = new AdRequest.Builder().build();
             InterstitialAd.load(this, "ca-app-pub-3940256099942544/1033173712", adRequest,
                     new InterstitialAdLoadCallback() {
