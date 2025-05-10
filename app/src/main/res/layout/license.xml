@@ -108,24 +108,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Mobile FFmpeg - https://github.com/tanersener/mobile-ffmpeg (GPL License)"
-                android:textColor="#2980b9"
-                android:autoLink="web"
-                android:textSize="14sp" />
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            card_view:cardCornerRadius="8dp"
-            card_view:cardElevation="4dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:text="Compressor - https://github.com/zetbaitsu/Compressor"
+                android:text="Mobile FFmpeg - https://github.com/tanersener/mobile-ffmpeg (GPL License)\nVidBr source code: https://github.com/vidbr/VidBr"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
