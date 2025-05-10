@@ -353,4 +353,24 @@
 
     <string name="quem_curtiu">누가 좋아했나요</string>
     <string name="error_invalid_username">소문자, 숫자, 밑줄 또는 점만 사용할 수 있습니다.</string>
+
+    <string name="licenses">라이센스</string>
+    <string name="open_source_title">오픈 소스 라이센스 크레딧</string>
+    <string name="open_source_description">이 애플리케이션은 다음의 오픈 소스 라이브러리를 사용합니다:</string>
+    <string name="library_androidx">AndroidX - https://developer.android.com/jetpack/androidx</string>
+    <string name="library_material">Material Components - https://github.com/material-components/material-components-android</string>
+    <string name="library_firebase_sdk">Firebase SDK - https://firebase.google.com/docs</string>
+    <string name="library_play_services">Google Play Services - https://developers.google.com/android/guides/overview</string>
+    <string name="library_mobile_ffmpeg">Mobile FFmpeg - https://github.com/tanersener/mobile-ffmpeg (GPL 라이센스)\nVidBr 소스 코드: https://github.com/vidbr/VidBr</string>
+    <string name="library_glide">Glide - https://github.com/bumptech/glide (BSD, Apache 2.0)</string>
+    <string name="library_firebase_ui">FirebaseUI for Firestore - https://github.com/firebase/FirebaseUI-Android</string>
+    <string name="library_exoplayer">ExoPlayer - https://github.com/google/ExoPlayer</string>
+    <string name="library_camerax">CameraX - https://developer.android.com/training/camerax</string>
+    <string name="library_ads">Google Ads SDK - https://developers.google.com/admob/android</string>
+    <string name="library_gson">Gson - https://github.com/google/gson</string>
+    <string name="library_okhttp">OkHttp - https://square.github.io/okhttp/</string>
+    <string name="library_junit">JUnit - https://junit.org/junit4/</string>
+    <string name="library_espresso">Espresso - https://developer.android.com/training/testing/espresso</string>
+    <string name="library_kotlin">Kotlin Stdlib - https://kotlinlang.org/</string>
+    <string name="open_source_footer">모든 권리는 해당 저자 및 프로젝트에 속합니다. 공식 리포지토리에서 라이센스를 확인하세요.</string>
 </resources>

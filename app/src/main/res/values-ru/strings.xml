@@ -356,4 +356,24 @@
 
     <string name="quem_curtiu">Кто понравился</string>
     <string name="error_invalid_username">Допускаются только строчные буквы, цифры, символы подчеркивания или точки.</string>
+
+    <string name="licenses">Лицензии</string>
+    <string name="open_source_title">Кредиты открытых исходных лицензий</string>
+    <string name="open_source_description">Это приложение использует следующие библиотеки с открытым исходным кодом:</string>
+    <string name="library_androidx">AndroidX - https://developer.android.com/jetpack/androidx</string>
+    <string name="library_material">Material Components - https://github.com/material-components/material-components-android</string>
+    <string name="library_firebase_sdk">Firebase SDK - https://firebase.google.com/docs</string>
+    <string name="library_play_services">Google Play Services - https://developers.google.com/android/guides/overview</string>
+    <string name="library_mobile_ffmpeg">Mobile FFmpeg - https://github.com/tanersener/mobile-ffmpeg (Лицензия GPL)\nИсходный код VidBr: https://github.com/vidbr/VidBr</string>
+    <string name="library_glide">Glide - https://github.com/bumptech/glide (BSD, Apache 2.0)</string>
+    <string name="library_firebase_ui">FirebaseUI для Firestore - https://github.com/firebase/FirebaseUI-Android</string>
+    <string name="library_exoplayer">ExoPlayer - https://github.com/google/ExoPlayer</string>
+    <string name="library_camerax">CameraX - https://developer.android.com/training/camerax</string>
+    <string name="library_ads">Google Ads SDK - https://developers.google.com/admob/android</string>
+    <string name="library_gson">Gson - https://github.com/google/gson</string>
+    <string name="library_okhttp">OkHttp - https://square.github.io/okhttp/</string>
+    <string name="library_junit">JUnit - https://junit.org/junit4/</string>
+    <string name="library_espresso">Espresso - https://developer.android.com/training/testing/espresso</string>
+    <string name="library_kotlin">Kotlin Stdlib - https://kotlinlang.org/</string>
+    <string name="open_source_footer">Все права принадлежат их соответствующим авторам и проектам. Ознакомьтесь с лицензиями в официальных репозиториях.</string>
 </resources>

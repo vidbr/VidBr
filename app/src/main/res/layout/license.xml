@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Open Source License Credits"
+            android:text="@string/open_source_title"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="#2c3e50"
@@ -23,7 +23,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="This application uses the following open source libraries:"
+            android:text="@string/open_source_description"
             android:textSize="16sp"
             android:textColor="#333"
             android:layout_marginBottom="16dp" />
@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="AndroidX - https://developer.android.com/jetpack/androidx"
+                android:text="@string/library_androidx"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -57,7 +57,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Material Components - https://github.com/material-components/material-components-android"
+                android:text="@string/library_material"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -74,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Firebase SDK - https://firebase.google.com/docs"
+                android:text="@string/library_firebase_sdk"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -91,7 +91,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Google Play Services - https://developers.google.com/android/guides/overview"
+                android:text="@string/library_play_services"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -108,7 +108,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Mobile FFmpeg - https://github.com/tanersener/mobile-ffmpeg (GPL License)\nVidBr source code: https://github.com/vidbr/VidBr"
+                android:text="@string/library_mobile_ffmpeg"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -125,7 +125,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Glide - https://github.com/bumptech/glide (BSD, Apache 2.0)"
+                android:text="@string/library_glide"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -142,7 +142,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="FirebaseUI for Firestore - https://github.com/firebase/FirebaseUI-Android"
+                android:text="@string/library_firebase_ui"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -159,7 +159,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="ExoPlayer - https://github.com/google/ExoPlayer"
+                android:text="@string/library_exoplayer"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -176,7 +176,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="CameraX - https://developer.android.com/training/camerax"
+                android:text="@string/library_camerax"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -193,7 +193,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Google Ads SDK - https://developers.google.com/admob/android"
+                android:text="@string/library_ads"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -210,7 +210,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Gson - https://github.com/google/gson"
+                android:text="@string/library_gson"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -227,7 +227,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="OkHttp - https://square.github.io/okhttp/"
+                android:text="@string/library_okhttp"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -244,7 +244,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="JUnit - https://junit.org/junit4/"
+                android:text="@string/library_junit"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -261,7 +261,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Espresso - https://developer.android.com/training/testing/espresso"
+                android:text="@string/library_espresso"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -278,7 +278,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Kotlin Stdlib - https://kotlinlang.org/"
+                android:text="@string/library_kotlin"
                 android:textColor="#2980b9"
                 android:autoLink="web"
                 android:textSize="14sp" />
@@ -288,7 +288,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="All rights belong to their respective authors and projects. See the licenses in the official repositories."
+            android:text="@string/open_source_footer"
             android:textSize="14sp"
             android:textColor="#555"
             android:layout_marginTop="16dp"

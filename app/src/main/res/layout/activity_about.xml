@@ -93,7 +93,7 @@
             android:layout_below="@id/rate_button"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
-            android:text="Licenses"
+            android:text="@string/licenses"
             android:textColor="#ffffff" />
 
         <!-- Termos e Políticas -->
