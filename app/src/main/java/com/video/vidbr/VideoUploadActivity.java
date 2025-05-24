@@ -7,6 +7,8 @@ import android.content.ContentValues;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.hardware.camera2.CameraManager;
 import android.media.MediaMetadataRetriever;
 import android.net.Uri;
@@ -365,9 +367,120 @@ public class VideoUploadActivity extends AppCompatActivity {
         suggestionRecyclerView.setVisibility(View.GONE);
     }
 
+    private void checkVideoForNSFW(Uri videoUri, Runnable onSuccess, Runnable onFailure) {
+        try {
+            // Atualizar UI para mostrar que a análise começou
+            runOnUiThread(() -> {
+                binding.submitPostBtn.setText(getString(R.string.analisando));
+                binding.submitPostBtn.setClickable(false);
+                binding.submitPostBtn.setFocusable(false);
+            });
+
+            File framesDir = new File(getCacheDir(), "nsfw_frames");
+            if (!framesDir.exists()) {
+                framesDir.mkdirs();
+            }
+
+            String inputPath = getRealPathFromURI(videoUri);
+            String outputPattern = new File(framesDir, "frame_%02d.png").getAbsolutePath();
+
+            String[] ffmpegCommand = {
+                    "-i", inputPath,
+                    "-vf", "fps=1/5",
+                    "-vframes", "5",
+                    outputPattern
+            };
+
+            FFmpeg.executeAsync(ffmpegCommand, (executionId, returnCode) -> {
+                if (returnCode == RETURN_CODE_SUCCESS) {
+                    boolean isNSFW = false;
+                    String explicitLabel = null;
+                    NSFWDetector detector;
+                    try {
+                        detector = new NSFWDetector(getAssets());
+
+                        for (int i = 1; i <= 5; i++) {
+                            String framePath = new File(framesDir, String.format("frame_%02d.png", i)).getAbsolutePath();
+                            File frameFile = new File(framePath);
+
+                            if (frameFile.exists()) {
+                                Bitmap bitmap = BitmapFactory.decodeFile(framePath);
+                                if (bitmap != null) {
+                                    float[] result = detector.detectNSFW(bitmap);
+                                    float hentaiScore = result[1];
+                                    float pornScore = result[3];
+
+                                    if (hentaiScore >= 0.5f || pornScore >= 0.5f) {
+                                        isNSFW = true;
+                                        explicitLabel = hentaiScore > pornScore
+                                                ? getString(R.string.label_hentai)
+                                                : getString(R.string.label_porn);
+
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+
+                        // Clean up temporary files
+                        for (File file : framesDir.listFiles()) {
+                            file.delete();
+                        }
+
+                        if (isNSFW) {
+                            String finalExplicitLabel = explicitLabel;
+                            runOnUiThread(() -> {
+                                NSFWAlertBottomSheet bottomSheet = NSFWAlertBottomSheet.newInstance(finalExplicitLabel);
+                                bottomSheet.show(getSupportFragmentManager(), bottomSheet.getTag());
+                                binding.submitPostBtn.setText(getString(R.string.submit_button_text));
+                                binding.submitPostBtn.setClickable(true);
+                                binding.submitPostBtn.setFocusable(true);
+                                onFailure.run();
+                            });
+                        } else {
+                            runOnUiThread(() -> {
+                                binding.submitPostBtn.setText(getString(R.string.processando));
+                                onSuccess.run();
+                            });
+                        }
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                        runOnUiThread(() -> {
+                            binding.submitPostBtn.setText(getString(R.string.submit_button_text));
+                            binding.submitPostBtn.setClickable(true);
+                            binding.submitPostBtn.setFocusable(true);
+                            onFailure.run();
+                        });
+                    }
+                } else {
+                    runOnUiThread(() -> {
+                        binding.submitPostBtn.setText(getString(R.string.submit_button_text));
+                        binding.submitPostBtn.setClickable(true);
+                        binding.submitPostBtn.setFocusable(true);
+                        onFailure.run();
+                    });
+                }
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+            runOnUiThread(() -> {
+                binding.submitPostBtn.setText(getString(R.string.submit_button_text));
+                binding.submitPostBtn.setClickable(true);
+                binding.submitPostBtn.setFocusable(true);
+                onFailure.run();
+            });
+        }
+    }
+
     private void postVideo() throws IOException {
+        // Desabilitar o botão imediatamente ao clicar
+        binding.submitPostBtn.setClickable(false);
+        binding.submitPostBtn.setFocusable(false);
+
         if (binding.postCaptionInput.getText().toString().isEmpty()) {
             binding.postCaptionInput.setError(getString(R.string.error_empty_caption));
+            binding.submitPostBtn.setClickable(true);
+            binding.submitPostBtn.setFocusable(true);
             return;
         }
 
@@ -375,44 +488,62 @@ public class VideoUploadActivity extends AppCompatActivity {
             long videoDuration = getVideoDuration(selectedVideoUri);
             if (videoDuration > 30) {
                 Snackbar.make(findViewById(android.R.id.content), getString(R.string.video_exceeds_limit), Snackbar.LENGTH_LONG).show();
+                binding.submitPostBtn.setClickable(true);
+                binding.submitPostBtn.setFocusable(true);
+                binding.submitPostBtn.setText(getString(R.string.submit_button_text)); // ADICIONE ESTA LINHA
                 return;
             }
 
-            setInProgress(true);
+            // Atualizar texto do botão para "Analisando..."
+            binding.submitPostBtn.setText(getString(R.string.analisando));
 
-            String inputVideoPath = getRealPathFromURI(selectedVideoUri); // Use helper method to get file path
-            if (inputVideoPath == null) {
-                Toast.makeText(this, "Failed to get video path", Toast.LENGTH_SHORT).show();
-                setInProgress(false);
-                return;
-            }
+            // Verificar conteúdo NSFW antes de continuar
+            checkVideoForNSFW(selectedVideoUri, () -> {
+                // Código para quando o vídeo é seguro (continua o processamento)
+                setInProgress(true);
+                binding.submitPostBtn.setText(getString(R.string.processando));
 
-            Date da = new Date();
-            long ml = da.getTime();
-            String outputVideoPath = new File(getExternalFilesDir(Environment.DIRECTORY_MOVIES), ml + ".mp4").getAbsolutePath();
-
-            String[] ffmpegCommand = {
-                    "-i", inputVideoPath,
-                    "-vf", "scale=576:1024", // Mantém a resolução
-                    "-crf", "40", // Aumenta o CRF para reduzir a qualidade e o tamanho do arquivo
-                    "-c:v", "libx264", // Usa o codec de vídeo x264
-                    "-preset", "medium", // Usando um preset padrão
-                    "-c:a", "aac", // Usa o codec de áudio AAC
-                    "-b:v", "128k", // Reduz o bitrate do vídeo para 128 kbps (pode ser ajustado conforme necessário)
-                    "-b:a", "64k", // Reduz o bitrate do áudio para 64 kbps
-                    outputVideoPath
-            };
-
-            FFmpeg.executeAsync(ffmpegCommand, new ExecuteCallback() {
-                @Override
-                public void apply(final long executionId, final int returnCode) {
-                    if (returnCode == RETURN_CODE_SUCCESS) {
-                        uploadVideoToBunnyCDN(Uri.fromFile(new File(outputVideoPath)) , StorageConfig.STORAGE_ZONE, StorageConfig.API_KEY);
-                    } else {
-                        setInProgress(false);
-                        Toast.makeText(VideoUploadActivity.this, "Video processing failed", Toast.LENGTH_SHORT).show();
-                    }
+                String inputVideoPath = getRealPathFromURI(selectedVideoUri);
+                if (inputVideoPath == null) {
+                    Toast.makeText(this, "Failed to get video path", Toast.LENGTH_SHORT).show();
+                    setInProgress(false);
+                    binding.submitPostBtn.setClickable(true);
+                    binding.submitPostBtn.setFocusable(true);
+                    binding.submitPostBtn.setText(getString(R.string.submit_button_text));
+                    return;
                 }
+
+                Date da = new Date();
+                long ml = da.getTime();
+                String outputVideoPath = new File(getExternalFilesDir(Environment.DIRECTORY_MOVIES), ml + ".mp4").getAbsolutePath();
+
+                String[] ffmpegCommand = {
+                        "-i", inputVideoPath,
+                        "-vf", "scale=576:1024",
+                        "-crf", "40",
+                        "-c:v", "libx264",
+                        "-preset", "medium",
+                        "-c:a", "aac",
+                        "-b:v", "128k",
+                        "-b:a", "64k",
+                        outputVideoPath
+                };
+
+                FFmpeg.executeAsync(ffmpegCommand, new ExecuteCallback() {
+                    @Override
+                    public void apply(final long executionId, final int returnCode) {
+                        if (returnCode == RETURN_CODE_SUCCESS) {
+                            uploadVideoToBunnyCDN(Uri.fromFile(new File(outputVideoPath)), StorageConfig.STORAGE_ZONE, StorageConfig.API_KEY);
+                        } else {
+                            setInProgress(false);
+                            Toast.makeText(VideoUploadActivity.this, "Video processing failed", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+            }, () -> {
+                binding.submitPostBtn.setClickable(true);
+                binding.submitPostBtn.setFocusable(true);
+                binding.submitPostBtn.setText(getString(R.string.submit_button_text));
             });
         }
     }

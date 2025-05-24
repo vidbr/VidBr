@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.net.Uri;
@@ -231,27 +232,49 @@ public class ProfileActivity extends AppCompatActivity {
             return;
         }
 
-        // Cria o arquivo de saída com a extensão .webp
-        File compressedImageFile = new File(getCacheDir(), "compressed_image.webp");
-        String outputPath = compressedImageFile.getAbsolutePath();
+        // Primeiro verifica se a imagem é NSFW
+        try {
+            Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), photoUri);
+            NSFWDetector detector = new NSFWDetector(getAssets());
+            float[] result = detector.detectNSFW(bitmap);
 
-        String[] command = {
-                "-y",           // Sobrescreve o arquivo de saída, se existir
-                "-i", inputPath,
-                "-vf", "scale=640:-1", // Reduz largura para 640px mantendo proporção
-                "-c:v", "libwebp",      // Converte para WebP (melhor compressão)
-                "-q:v", "50",           // Ajusta qualidade (0-100, onde 50 é um bom equilíbrio)
-                "-preset", "picture",   // Otimiza para imagens estáticas
-                "-map_metadata", "-1",  // Remove metadados desnecessários
-                outputPath            // Usa diretamente o caminho correto
-        };
+            // Verificar apenas Hentai (1) e Porn (3)
+            float hentaiScore = result[1];
+            float pornScore = result[3];
 
-        FFmpeg.executeAsync(command, (executionId, returnCode) -> {
-            if (returnCode == RETURN_CODE_SUCCESS) {
-                Uri compressedImageUri = Uri.fromFile(compressedImageFile);
-                uploadToBunnyCDN(compressedImageUri, compressedImageFile, StorageConfig.STORAGE_ZONE, StorageConfig.API_KEY);
+            if (hentaiScore >= 0.5f || pornScore >= 0.5f) {
+                String explicitLabel = getString(hentaiScore > pornScore ? R.string.label_hentai : R.string.label_porn);
+                NSFWAlertBottomSheet bottomSheet = NSFWAlertBottomSheet.newInstance(explicitLabel);
+                bottomSheet.show(getSupportFragmentManager(), bottomSheet.getTag());
+                return; // Não prossegue com o upload
             }
-        });
+
+            // Se passar na verificação, continua com a compressão e upload
+            File compressedImageFile = new File(getCacheDir(), "compressed_image.webp");
+            String outputPath = compressedImageFile.getAbsolutePath();
+
+            String[] command = {
+                    "-y",
+                    "-i", inputPath,
+                    "-vf", "scale=640:-1",
+                    "-c:v", "libwebp",
+                    "-q:v", "50",
+                    "-preset", "picture",
+                    "-map_metadata", "-1",
+                    outputPath
+            };
+
+            FFmpeg.executeAsync(command, (executionId, returnCode) -> {
+                if (returnCode == RETURN_CODE_SUCCESS) {
+                    Uri compressedImageUri = Uri.fromFile(compressedImageFile);
+                    uploadToBunnyCDN(compressedImageUri, compressedImageFile, StorageConfig.STORAGE_ZONE, StorageConfig.API_KEY);
+                }
+            });
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            Toast.makeText(this, "Erro ao verificar a imagem.", Toast.LENGTH_SHORT).show();
+        }
     }
 
     private String getRealPathFromURI(Uri uri) {
@@ -686,7 +709,14 @@ public class ProfileActivity extends AppCompatActivity {
 
         buttonChangePicture.setOnClickListener(v -> {
             alertDialog.dismiss();
-            checkPermissionAndPickPhoto();
+            try {
+                // Verifica se o detector pode ser carregado antes de pedir a imagem
+                new NSFWDetector(getAssets()); // Testa a inicialização
+                checkPermissionAndPickPhoto();
+            } catch (IOException e) {
+                e.printStackTrace();
+                Toast.makeText(this, "Erro ao inicializar verificador de conteúdo. Tente novamente.", Toast.LENGTH_SHORT).show();
+            }
         });
 
         iconExpand.setOnClickListener(v -> {

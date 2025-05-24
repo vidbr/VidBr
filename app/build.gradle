@@ -10,6 +10,11 @@ android {
             keyAlias 'vidbr'
         }
     }
+
+    aaptOptions {
+        noCompress "tflite"
+    }
+
     namespace 'com.video.vidbr'
     compileSdk 34
 
@@ -22,8 +27,8 @@ android {
         applicationId "com.video.vidbr"
         minSdk 24
         targetSdk 34
-        versionCode 19
-        versionName "1.1.0"
+        versionCode 20
+        versionName "2.0.0"
         multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -71,6 +76,8 @@ dependencies {
 
     implementation 'com.google.android.exoplayer:exoplayer-core:2.16.1'
     implementation 'com.google.android.exoplayer:exoplayer-ui:2.16.1'
+
+    implementation 'org.tensorflow:tensorflow-lite:2.13.0'
 
     //firebase ui
     implementation 'com.firebaseui:firebase-ui-firestore:8.0.2'

@@ -377,4 +377,17 @@
     <string name="library_espresso">Espresso - https://developer.android.com/training/testing/espresso</string>
     <string name="library_kotlin">Kotlin Stdlib - https://kotlinlang.org/</string>
     <string name="open_source_footer">Todos los derechos pertenecen a sus respectivos autores y proyectos. Consulta las licencias en los repositorios oficiales.</string>
+    <string name="tensorflow_lite">TensorFlow Lite - https://www.tensorflow.org/lite (Licencia Apache 2.0)</string>
+    <string name="nsfw_model">Modelo NSFW - https://github.com/GantMan/nsfw_model</string>
+
+    <string name="warning_emoji">⚠️</string>
+    <string name="inappropriate_content_title">Contenido Inapropiado Detectado</string>
+    <string name="inappropriate_content_message">Hemos detectado que esta imagen contiene contenido explícito.</string>
+    <string name="understand_button">Entendido</string>
+    <string name="inappropriate_content_message_param">Hemos detectado que esta imagen contiene contenido %1$s.</string>
+    <string name="label_hentai">Hentai</string>
+    <string name="label_porn">Pornografía</string>
+    <string name="remove_inappropriate_image">Elimine la imagen inapropiada antes de guardar</string>
+    <string name="analisando">جارٍ التحليل...</string>
+    <string name="processando">جارٍ المعالجة...</string>
 </resources>

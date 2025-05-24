@@ -5,6 +5,7 @@ import static com.arthenica.mobileffmpeg.Config.RETURN_CODE_SUCCESS;
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.database.Cursor;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
@@ -228,11 +229,20 @@ public class EditProfileActivity extends AppCompatActivity {
         startActivityForResult(intent, 100); // Código de solicitação para a seleção de imagem
     }
 
+    // Adicione estas variáveis de classe
+    private boolean isImageNSFW = false;
+    private String nsfwLabel = "";
+
+    // Modifique o onActivityResult
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 100 && resultCode == RESULT_OK && data != null && data.getData() != null) {
             tempSelectedPhotoUri = data.getData();
+
+            // Verificar NSFW imediatamente após selecionar a imagem
+            checkImageForNSFW(tempSelectedPhotoUri);
+
             // Atualizar a visualização da imagem selecionada temporariamente
             Glide.with(this)
                     .load(tempSelectedPhotoUri)
@@ -241,6 +251,37 @@ public class EditProfileActivity extends AppCompatActivity {
                     .placeholder(R.drawable.icon_account_circle)
                     .into(profilePic);
         }
+    }
+
+    // Novo método para verificação NSFW
+    private void checkImageForNSFW(Uri photoUri) {
+        new Thread(() -> {
+            try {
+                Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), photoUri);
+                NSFWDetector detector = new NSFWDetector(getAssets());
+                float[] result = detector.detectNSFW(bitmap);
+
+                float hentaiScore = result[1];
+                float pornScore = result[3];
+
+                runOnUiThread(() -> {
+                    if (hentaiScore >= 0.5f || pornScore >= 0.5f) {
+                        isImageNSFW = true;
+                        String nsfwLabel = getString(hentaiScore > pornScore ? R.string.label_hentai : R.string.label_porn);
+                        NSFWAlertBottomSheet bottomSheet = NSFWAlertBottomSheet.newInstance(nsfwLabel);
+                        bottomSheet.show(getSupportFragmentManager(), bottomSheet.getTag());
+                    } else {
+                        isImageNSFW = false;
+                        nsfwLabel = "";
+                    }
+                });
+            } catch (IOException e) {
+                runOnUiThread(() -> {
+                    Toast.makeText(this, "Erro ao verificar a imagem.", Toast.LENGTH_SHORT).show();
+                });
+                e.printStackTrace();
+            }
+        }).start();
     }
 
     private void compressImageWithFFmpeg(Uri photoUri) {
@@ -398,6 +439,12 @@ public class EditProfileActivity extends AppCompatActivity {
     }
 
     private void saveChanges() {
+        // Verificar se há imagem NSFW antes de salvar
+        if (tempSelectedPhotoUri != null && isImageNSFW) {
+            Toast.makeText(this, getString(R.string.remove_inappropriate_image), Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         String name = editNameTop.getText().toString().trim();
         String username = editUsername.getText().toString().trim();
         String bio = editBio.getText().toString().trim();
@@ -426,8 +473,8 @@ public class EditProfileActivity extends AppCompatActivity {
             return;
         }
 
-        if (tempSelectedPhotoUri != null) {
-            // Fazer o upload da foto temporária para o Firebase Storage
+        if (tempSelectedPhotoUri != null && !isImageNSFW) {
+            // Só faz upload se a imagem foi aprovada
             compressImageWithFFmpeg(tempSelectedPhotoUri);
         }
 
