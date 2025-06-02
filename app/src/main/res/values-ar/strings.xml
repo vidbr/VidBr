@@ -282,7 +282,7 @@
     <string name="copyright_text">© 2025 VidBr. جميع الحقوق محفوظة.</string>
 
     <string name="liked_users_title">المستخدمون الذين أعجبوا بالفيديو</string>
-    <string name="random_likes_notice">الإعجابات من 50 مستخدمًا تم اختيارهم عشوائيًا.</string>
+    <string name="random_likes_notice">الإعجابات من 10 مستخدمًا تم اختيارهم عشوائيًا.</string>
 
     <string name="conversas">المحادثات</string>
     <string name="hint_enviar_mensagem">إرسال رسالة</string>

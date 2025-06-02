@@ -283,7 +283,7 @@
     <string name="copyright_text">© 2025 VidBr. Todos los derechos reservados.</string>
 
     <string name="liked_users_title">Usuarios a los que les gustó el video</string>
-    <string name="random_likes_notice">Los me gusta son de 50 usuarios seleccionados al azar.</string>
+    <string name="random_likes_notice">Los me gusta son de 10 usuarios seleccionados al azar.</string>
 
     <string name="conversas">Conversaciones</string>
     <string name="no_messages">No hay mensajes</string>

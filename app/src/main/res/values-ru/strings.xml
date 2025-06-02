@@ -282,7 +282,7 @@
     <string name="copyright_text">© 2025 VidBr. Все права защищены.</string>
 
     <string name="liked_users_title">Пользователи, которым понравилось видео</string>
-    <string name="random_likes_notice">Лайки отображены от 50 случайно выбранных пользователей.</string>
+    <string name="random_likes_notice">Лайки отображены от 10 случайно выбранных пользователей.</string>
 
     <string name="conversas">Чаты</string>
     <string name="no_messages">Нет сообщений</string>

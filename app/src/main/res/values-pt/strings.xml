@@ -282,7 +282,7 @@
     <string name="copyright_text">© 2025 VidBr. Todos os direitos reservados.</string>
 
     <string name="liked_users_title">Usuários que curtiram o vídeo</string>
-    <string name="random_likes_notice">As curtidas são de 50 usuários selecionados aleatoriamente.</string>
+    <string name="random_likes_notice">As curtidas são de 10 usuários selecionados aleatoriamente.</string>
 
     <string name="conversas">Conversas</string>
     <string name="no_messages">Não há mensagens</string>

@@ -54,6 +54,7 @@ public class VideoGridAdapter extends BaseAdapter {
             viewHolder = new ViewHolder();
             viewHolder.thumbnail = convertView.findViewById(R.id.video_thumbnail);
             viewHolder.title = convertView.findViewById(R.id.video_title);
+            viewHolder.likesCount = convertView.findViewById(R.id.likes_count);
             viewHolder.userPhoto = convertView.findViewById(R.id.user_photo);
             viewHolder.userName = convertView.findViewById(R.id.user_name);
             viewHolder.verified = convertView.findViewById(R.id.verified_icon);
@@ -82,6 +83,7 @@ public class VideoGridAdapter extends BaseAdapter {
             title = title.substring(0, 37) + "...";
         }
         viewHolder.title.setText(title);
+        viewHolder.likesCount.setText(formatLikesCount(video.getLikesCount()));
 
         // Load the user information from Firebase Firestore
         FirebaseFirestore.getInstance().collection("users")
@@ -109,9 +111,24 @@ public class VideoGridAdapter extends BaseAdapter {
         return convertView;
     }
 
+    private String formatLikesCount(int likesCount) {
+        if (likesCount < 1000) {
+            return String.valueOf(likesCount);
+        } else if (likesCount < 1000000) {
+            return String.format("%.1f mil", likesCount / 1000.0);
+        } else if (likesCount < 1000000000) {
+            return String.format("%.1f milhões", likesCount / 1000000.0);
+        } else if (likesCount < 1000000000000L) {
+            return String.format("%.1f bilhões", likesCount / 1000000000.0);
+        } else {
+            return String.format("%.1f trilhões", likesCount / 1000000000000.0);
+        }
+    }
+
     private static class ViewHolder {
         ImageView thumbnail;
         TextView title;
+        TextView likesCount;
         ImageView userPhoto;
         TextView userName;
         ImageView verified;

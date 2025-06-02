@@ -15,7 +15,38 @@
             android:id="@+id/video_thumbnail"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:contentDescription="Miniatura do vídeo" />
+            android:contentDescription="Miniatura do vídeo"
+            android:scaleType="centerCrop"/>
+
+        <!-- Layout para ícone liked e quantidade de curtidas -->
+        <LinearLayout
+            android:id="@+id/likes_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="top|start"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:background="@android:color/transparent">
+
+            <ImageView
+                android:id="@+id/icon_liked"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/like"
+                android:contentDescription="Liked" />
+
+            <TextView
+                android:id="@+id/likes_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -53,7 +84,6 @@
                 android:id="@+id/verified_icon"
                 android:visibility="gone"/>
 
-            <!-- Gold Verified Icon -->
             <ImageView
                 android:layout_width="15dp"
                 android:layout_height="15dp"

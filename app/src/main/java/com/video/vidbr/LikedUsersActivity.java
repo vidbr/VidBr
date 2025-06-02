@@ -49,7 +49,7 @@ public class LikedUsersActivity extends AppCompatActivity {
                             List<String> likedBy = (List<String>) document.get("likedBy");
 
                             if (likedBy != null && !likedBy.isEmpty()) {
-                                int limit = Math.min(likedBy.size(), 50);
+                                int limit = Math.min(likedBy.size(), 10);
 
                                 for (int i = 0; i < limit; i++) {
                                     String userId = likedBy.get(i);

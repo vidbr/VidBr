@@ -282,7 +282,7 @@
     <string name="copyright_text">© 2025 VidBr. Toate drepturile rezervate.</string>
 
     <string name="liked_users_title">Utilizatori care au apreciat videoclipul</string>
-    <string name="random_likes_notice">Like-urile sunt din 50 de utilizatori selectați aleatoriu.</string>
+    <string name="random_likes_notice">Like-urile sunt din 10 de utilizatori selectați aleatoriu.</string>
 
     <string name="conversas">Conversații</string>
     <string name="no_messages">Nu sunt mesaje</string>

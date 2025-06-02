@@ -280,7 +280,7 @@
     <string name="copyright_text">© 2025 VidBr. 모든 권리 보유.</string>
 
     <string name="liked_users_title">이 비디오를 좋아한 사용자들</string>
-    <string name="random_likes_notice">좋아요는 50명의 랜덤 사용자들로부터 왔습니다.</string>
+    <string name="random_likes_notice">좋아요는 10명의 랜덤 사용자들로부터 왔습니다.</string>
 
     <string name="conversas">대화</string>
     <string name="hint_enviar_mensagem">메시지 보내기</string>

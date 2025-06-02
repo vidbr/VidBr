@@ -282,7 +282,7 @@
     <string name="copyright_text">© 2025 VidBr। सर्वाधिकार सुरक्षित।</string>
 
     <string name="liked_users_title">जो उपयोगकर्ताओं ने वीडियो पसंद किया</string>
-    <string name="random_likes_notice">लाइक्स 50 यादृच्छिक रूप से चयनित उपयोगकर्ताओं से हैं।</string>
+    <string name="random_likes_notice">लाइक्स 10 यादृच्छिक रूप से चयनित उपयोगकर्ताओं से हैं।</string>
 
     <string name="conversas">संवाद</string>
     <string name="no_messages">कोई संदेश नहीं है</string>

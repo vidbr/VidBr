@@ -282,7 +282,7 @@
     <string name="copyright_text">© 2025 VidBr. Mọi quyền được bảo lưu.</string>
 
     <string name="liked_users_title">Người dùng đã thích video</string>
-    <string name="random_likes_notice">Những lượt thích này đến từ 50 người dùng được chọn ngẫu nhiên.</string>
+    <string name="random_likes_notice">Những lượt thích này đến từ 10 người dùng được chọn ngẫu nhiên.</string>
 
     <string name="conversas">Cuộc trò chuyện</string>
     <string name="no_messages">Mesaj yok</string>

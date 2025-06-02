@@ -282,7 +282,7 @@
     <string name="copyright_text">© 2025 VidBr. Alle rettigheter reservert.</string>
 
     <string name="liked_users_title">Brukere som likte videoen</string>
-    <string name="random_likes_notice">Likerne er fra 50 tilfeldige brukere.</string>
+    <string name="random_likes_notice">Likerne er fra 10 tilfeldige brukere.</string>
 
     <string name="conversas">Samtaler</string>
     <string name="hint_enviar_mensagem">Send en melding</string>

@@ -282,7 +282,7 @@
     <string name="copyright_text">© 2025 VidBr. Tüm hakları saklıdır.</string>
 
     <string name="liked_users_title">Videoyu Beğenen Kullanıcılar</string>
-    <string name="random_likes_notice">Beğeniler, rastgele seçilen 50 kullanıcıya aittir.</string>
+    <string name="random_likes_notice">Beğeniler, rastgele seçilen 10 kullanıcıya aittir.</string>
 
     <string name="conversas">Konuşmalar</string>
     <string name="no_messages">Mesaj yok</string>

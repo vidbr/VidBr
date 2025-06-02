@@ -282,7 +282,7 @@
     <string name="copyright_text">© 2025 VidBr. Tous droits réservés.</string>
 
     <string name="liked_users_title">Utilisateurs ayant aimé la vidéo</string>
-    <string name="random_likes_notice">Les likes proviennent de 50 utilisateurs sélectionnés au hasard.</string>
+    <string name="random_likes_notice">Les likes proviennent de 10 utilisateurs sélectionnés au hasard.</string>
 
     <string name="conversas">Conversations</string>
     <string name="no_messages">Il n\'y a pas de messages</string>

@@ -282,7 +282,7 @@
     <string name="copyright_text">© 2025 VidBr. Hak cipta dilindungi undang-undang.</string>
 
     <string name="liked_users_title">Pengguna yang menyukai video</string>
-    <string name="random_likes_notice">Suka berasal dari 50 pengguna yang dipilih secara acak.</string>
+    <string name="random_likes_notice">Suka berasal dari 10 pengguna yang dipilih secara acak.</string>
 
     <string name="conversas">Percakapan</string>
     <string name="no_messages">Tidak ada pesan</string>
