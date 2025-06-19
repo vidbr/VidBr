@@ -386,4 +386,15 @@
     <string name="label_hentai">هنتاي</string>
     <string name="label_porn">إباحية</string>
     <string name="remove_inappropriate_image">قم بإزالة الصورة غير اللائقة قبل الحفظ</string>
+    <string name="analisando">جارِ التحليل...</string>
+    <string name="processando">جارِ المعالجة...</string>
+
+    <string name="dialog_security_title">تأكيد الأمان</string>
+    <string name="hint_enter_password">أدخل كلمة المرور الخاصة بك</string>
+    <string name="error_invalid_password">كلمة المرور غير صحيحة</string>
+    <string name="button_cancel">إلغاء</string>
+    <string name="button_confirm">تأكيد</string>
+    <string name="usuario_nao_autenticado">المستخدم غير مصادق</string>
+    <string name="por_favor_insira_sua_senha">يرجى إدخال كلمة المرور</string>
+    <string name="falha_na_autenticacao">فشل في المصادقة. كلمة المرور غير صحيحة أو انتهت الجلسة.</string>
 </resources>

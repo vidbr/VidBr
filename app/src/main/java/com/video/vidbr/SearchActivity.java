@@ -44,7 +44,6 @@ import java.util.Set;
 public class SearchActivity extends AppCompatActivity {
 
     private SearchView searchInput;
-    private ImageView back;
     private FirebaseFirestore db;
 
     private VideoFragment videoFragment;
@@ -68,7 +67,6 @@ public class SearchActivity extends AppCompatActivity {
         userCountry = locale.getDisplayCountry(Locale.ENGLISH);
 
         searchInput = findViewById(R.id.search_input);
-        back = findViewById(R.id.back_button);
         db = FirebaseFirestore.getInstance();
 
         viewPager = findViewById(R.id.view_pager);
@@ -153,13 +151,6 @@ public class SearchActivity extends AppCompatActivity {
                 return false;
             }
 
-        });
-
-        back.setOnClickListener(v -> {
-            Intent intent = new Intent(SearchActivity.this, MainActivity.class);
-            startActivity(intent);
-            finish();
-            overridePendingTransition(0, 0);
         });
 
         BottomNavigationView bottomNavBar = findViewById(R.id.bottom_nav_bar);

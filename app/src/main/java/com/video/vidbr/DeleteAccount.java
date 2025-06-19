@@ -1,14 +1,29 @@
 package com.video.vidbr;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.text.InputType;
+import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
+import com.google.firebase.auth.AuthCredential;
+import com.google.firebase.auth.EmailAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -34,24 +49,39 @@ public class DeleteAccount extends AppCompatActivity {
     private FirebaseAuth auth;
     private FirebaseFirestore db;
     private DatabaseReference database;
-
+    private ProgressBar progressBar;
+    private TextView message;
+    private Button confirmButton;
+    private Button cancelButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.delete_account);
 
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setHomeAsUpIndicator(R.drawable.back);
+            actionBar.setTitle("");
+        }
+
         auth = FirebaseAuth.getInstance();
         db = FirebaseFirestore.getInstance();
         database = FirebaseDatabase.getInstance().getReference();
 
-        Button confirmButton = findViewById(R.id.confirm_button);
-        Button cancelButton = findViewById(R.id.cancel_button);
+        message = findViewById(R.id.message);
+        confirmButton = findViewById(R.id.confirm_button);
+        cancelButton = findViewById(R.id.cancel_button);
+        progressBar = findViewById(R.id.progressBar);
 
         confirmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                deleteUserAccount();
+                confirmAndDeleteAccount();
             }
         });
 
@@ -60,6 +90,58 @@ public class DeleteAccount extends AppCompatActivity {
             public void onClick(View v) {
                 finish();
             }
+        });
+    }
+
+    private void confirmAndDeleteAccount() {
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
+        if (user == null) {
+            Toast.makeText(this, getString(R.string.usuario_nao_autenticado), Toast.LENGTH_SHORT).show();
+            finish();
+            return;
+        }
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.dialog_confirm_delete, null);
+        builder.setView(dialogView);
+
+        EditText etPassword = dialogView.findViewById(R.id.etPassword);
+        Button btnCancel = dialogView.findViewById(R.id.btnCancel);
+        Button btnConfirm = dialogView.findViewById(R.id.btnConfirm);
+
+        AlertDialog dialog = builder.create();
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        dialog.show();
+
+        btnCancel.setOnClickListener(v -> {
+            dialog.dismiss();
+        });
+
+        btnConfirm.setOnClickListener(v -> {
+            String password = etPassword.getText().toString().trim();
+            if (password.isEmpty()) {
+                etPassword.setError(getString(R.string.por_favor_insira_sua_senha));
+                etPassword.requestFocus();
+                return;
+            }
+
+            AuthCredential credential = EmailAuthProvider.getCredential(user.getEmail(), password);
+            user.reauthenticate(credential).addOnCompleteListener(task -> {
+                if (task.isSuccessful()) {
+                    progressBar.setVisibility(View.VISIBLE);
+                    message.setVisibility(View.GONE);
+                    confirmButton.setVisibility(View.GONE);
+                    cancelButton.setVisibility(View.GONE);
+                    confirmButton.setEnabled(false);
+                    deleteUserAccount();
+                    dialog.dismiss();
+                } else {
+                    etPassword.setError(getString(R.string.falha_na_autenticacao));
+                    etPassword.requestFocus();
+                }
+            });
         });
     }
 
@@ -313,6 +395,12 @@ public class DeleteAccount extends AppCompatActivity {
 
     private void deleteFirebaseUser() {
         auth.getCurrentUser().delete().addOnCompleteListener(task -> {
+            progressBar.setVisibility(View.GONE);
+            message.setVisibility(View.VISIBLE);
+            confirmButton.setVisibility(View.VISIBLE);
+            cancelButton.setVisibility(View.VISIBLE);
+            confirmButton.setEnabled(true);
+
             if (task.isSuccessful()) {
                 Toast.makeText(DeleteAccount.this, R.string.account_deleted_success, Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(DeleteAccount.this, LoginActivity.class));
@@ -321,5 +409,14 @@ public class DeleteAccount extends AppCompatActivity {
                 Toast.makeText(DeleteAccount.this, "Erro ao excluir conta.", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

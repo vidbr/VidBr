@@ -389,4 +389,13 @@
     <string name="remove_inappropriate_image">Supprimez l\’image inappropriée avant d’enregistrer</string>
     <string name="analisando">Analyse en cours...</string>
     <string name="processando">Traitement en cours...</string>
+
+    <string name="dialog_security_title">Confirmation de sécurité</string>
+    <string name="hint_enter_password">Entrez votre mot de passe</string>
+    <string name="error_invalid_password">Mot de passe incorrect</string>
+    <string name="button_cancel">Annuler</string>
+    <string name="button_confirm">Confirmer</string>
+    <string name="usuario_nao_autenticado">Utilisateur non authentifié</string>
+    <string name="por_favor_insira_sua_senha">Veuillez entrer votre mot de passe</string>
+    <string name="falha_na_autenticacao">Échec de l\'authentification. Mot de passe incorrect ou session expirée.</string>
 </resources>

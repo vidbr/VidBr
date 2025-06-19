@@ -386,4 +386,13 @@
     <string name="remove_inappropriate_image">저장하기 전에 부적절한 이미지를 삭제하세요</string>
     <string name="analisando">분석 중...</string>
     <string name="processando">처리 중...</string>
+
+    <string name="dialog_security_title">보안 확인</string>
+    <string name="hint_enter_password">비밀번호를 입력하세요</string>
+    <string name="error_invalid_password">잘못된 비밀번호</string>
+    <string name="button_cancel">취소</string>
+    <string name="button_confirm">확인</string>
+    <string name="usuario_nao_autenticado">사용자가 인증되지 않았습니다</string>
+    <string name="por_favor_insira_sua_senha">비밀번호를 입력해 주세요</string>
+    <string name="falha_na_autenticacao">인증 실패. 비밀번호가 틀렸거나 세션이 만료되었습니다.</string>
 </resources>

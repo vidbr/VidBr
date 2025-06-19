@@ -388,4 +388,13 @@
     <string name="remove_inappropriate_image">Fjern det upassende bildet før du lagrer</string>
     <string name="analisando">Analyserer...</string>
     <string name="processando">Behandler...</string>
+
+    <string name="dialog_security_title">Sikkerhetsbekreftelse</string>
+    <string name="hint_enter_password">Skriv inn passordet ditt</string>
+    <string name="error_invalid_password">Feil passord</string>
+    <string name="button_cancel">Avbryt</string>
+    <string name="button_confirm">Bekreft</string>
+    <string name="usuario_nao_autenticado">Bruker ikke autentisert</string>
+    <string name="por_favor_insira_sua_senha">Vennligst skriv inn passordet ditt</string>
+    <string name="falha_na_autenticacao">Autentisering mislyktes. Feil passord eller økt utløpt.</string>
 </resources>

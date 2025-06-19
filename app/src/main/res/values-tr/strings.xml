@@ -389,4 +389,13 @@
     <string name="remove_inappropriate_image">Kaydetmeden önce uygunsuz resmi kaldırın</string>
     <string name="analisando">Analiz ediliyor...</string>
     <string name="processando">İşleniyor...</string>
+
+    <string name="dialog_security_title">Güvenlik Onayı</string>
+    <string name="hint_enter_password">Şifrenizi girin</string>
+    <string name="error_invalid_password">Geçersiz şifre</string>
+    <string name="button_cancel">İptal</string>
+    <string name="button_confirm">Onayla</string>
+    <string name="usuario_nao_autenticado">Kullanıcı kimlik doğrulanmadı</string>
+    <string name="por_favor_insira_sua_senha">Lütfen şifrenizi girin</string>
+    <string name="falha_na_autenticacao">Kimlik doğrulama başarısız. Şifre yanlış veya oturum süresi doldu.</string>
 </resources>

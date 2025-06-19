@@ -389,4 +389,13 @@
     <string name="remove_inappropriate_image">Remove the inappropriate image before saving</string>
     <string name="analisando">Analyzing...</string>
     <string name="processando">Processing...</string>
+
+    <string name="dialog_security_title">Security Confirmation</string>
+    <string name="hint_enter_password">Enter your password</string>
+    <string name="error_invalid_password">Incorrect password</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="usuario_nao_autenticado">User not authenticated</string>
+    <string name="por_favor_insira_sua_senha">Please enter your password</string>
+    <string name="falha_na_autenticacao">Authentication failed. Incorrect password or session expired.</string>
 </resources>

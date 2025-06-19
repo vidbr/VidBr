@@ -41,12 +41,14 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.video.vidbr.databinding.ActivityMainBinding;
 import com.video.vidbr.fragments.FollowingFragment;
 import com.video.vidbr.fragments.ForYouFragment;
 import com.video.vidbr.util.UiUtil;
 
 import java.lang.ref.WeakReference;
+import java.util.Locale;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -63,6 +65,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        String language = Locale.getDefault().getLanguage(); // "pt", "en", etc.
+        FirebaseMessaging.getInstance().subscribeToTopic("lang_" + language);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             if (!NotificationManagerCompat.from(this).areNotificationsEnabled()) {

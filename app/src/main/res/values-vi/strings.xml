@@ -389,4 +389,13 @@
     <string name="remove_inappropriate_image">Xóa hình ảnh không phù hợp trước khi lưu</string>
     <string name="analisando">Đang phân tích...</string>
     <string name="processando">Đang xử lý...</string>
+
+    <string name="dialog_security_title">Xác nhận bảo mật</string>
+    <string name="hint_enter_password">Nhập mật khẩu của bạn</string>
+    <string name="error_invalid_password">Mật khẩu không chính xác</string>
+    <string name="button_cancel">Hủy</string>
+    <string name="button_confirm">Xác nhận</string>
+    <string name="usuario_nao_autenticado">Người dùng chưa được xác thực</string>
+    <string name="por_favor_insira_sua_senha">Vui lòng nhập mật khẩu của bạn</string>
+    <string name="falha_na_autenticacao">Xác thực thất bại. Mật khẩu sai hoặc phiên đã hết hạn.</string>
 </resources>

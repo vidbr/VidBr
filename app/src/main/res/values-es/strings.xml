@@ -388,6 +388,15 @@
     <string name="label_hentai">Hentai</string>
     <string name="label_porn">Pornografía</string>
     <string name="remove_inappropriate_image">Elimine la imagen inapropiada antes de guardar</string>
-    <string name="analisando">جارٍ التحليل...</string>
-    <string name="processando">جارٍ المعالجة...</string>
+    <string name="analisando">Analizando...</string>
+    <string name="processando">Procesando...</string>
+
+    <string name="dialog_security_title">Confirmación de seguridad</string>
+    <string name="hint_enter_password">Ingresa tu contraseña</string>
+    <string name="error_invalid_password">Contraseña incorrecta</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_confirm">Confirmar</string>
+    <string name="usuario_nao_autenticado">Usuario no autenticado</string>
+    <string name="por_favor_insira_sua_senha">Por favor, ingrese su contraseña</string>
+    <string name="falha_na_autenticacao">Error de autenticación. Contraseña incorrecta o sesión expirada.</string>
 </resources>

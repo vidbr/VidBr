@@ -389,4 +389,13 @@
     <string name="remove_inappropriate_image">Eliminați imaginea inadecvată înainte de a salva</string>
     <string name="analisando">Se analizează...</string>
     <string name="processando">Se procesează...</string>
+
+    <string name="dialog_security_title">Confirmare de securitate</string>
+    <string name="hint_enter_password">Introduceți parola</string>
+    <string name="error_invalid_password">Parolă incorectă</string>
+    <string name="button_cancel">Anulează</string>
+    <string name="button_confirm">Confirmă</string>
+    <string name="usuario_nao_autenticado">Utilizator neautentificat</string>
+    <string name="por_favor_insira_sua_senha">Vă rugăm să introduceți parola</string>
+    <string name="falha_na_autenticacao">Autentificare eșuată. Parolă incorectă sau sesiune expirată.</string>
 </resources>

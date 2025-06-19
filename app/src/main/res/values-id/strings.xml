@@ -389,4 +389,13 @@
     <string name="remove_inappropriate_image">Hapus gambar tidak pantas sebelum menyimpan</string>
     <string name="analisando">Sedang menganalisis...</string>
     <string name="processando">Sedang memproses...</string>
+
+    <string name="dialog_security_title">Konfirmasi Keamanan</string>
+    <string name="hint_enter_password">Masukkan kata sandi Anda</string>
+    <string name="error_invalid_password">Kata sandi salah</string>
+    <string name="button_cancel">Batal</string>
+    <string name="button_confirm">Konfirmasi</string>
+    <string name="usuario_nao_autenticado">Pengguna belum terautentikasi</string>
+    <string name="por_favor_insira_sua_senha">Silakan masukkan kata sandi Anda</string>
+    <string name="falha_na_autenticacao">Autentikasi gagal. Kata sandi salah atau sesi telah kedaluwarsa.</string>
 </resources>

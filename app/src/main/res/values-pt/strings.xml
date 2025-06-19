@@ -389,4 +389,13 @@
     <string name="remove_inappropriate_image">Remova a imagem imprópria antes de salvar</string>
     <string name="analisando">Analisando...</string>
     <string name="processando">Processando...</string>
+
+    <string name="dialog_security_title">Confirmação de Segurança</string>
+    <string name="hint_enter_password">Digite sua senha</string>
+    <string name="error_invalid_password">Senha incorreta</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_confirm">Confirmar</string>
+    <string name="usuario_nao_autenticado">Usuário não autenticado</string>
+    <string name="por_favor_insira_sua_senha">Por favor, insira sua senha</string>
+    <string name="falha_na_autenticacao">Falha na autenticação. Senha incorreta ou sessão expirada.</string>
 </resources>
