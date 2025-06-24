@@ -398,4 +398,9 @@
     <string name="usuario_nao_autenticado">Pengguna belum terautentikasi</string>
     <string name="por_favor_insira_sua_senha">Silakan masukkan kata sandi Anda</string>
     <string name="falha_na_autenticacao">Autentikasi gagal. Kata sandi salah atau sesi telah kedaluwarsa.</string>
+
+    <string name="identity_dialog_title">Konfirmasi Identitas</string>
+    <string name="identity_dialog_message">Untuk melanjutkan, konfirmasikan identitas Anda dengan akun Google Anda. Ini memastikan keamanan akun Anda.</string>
+    <string name="identity_dialog_cancel">Batal</string>
+    <string name="identity_dialog_confirm">Konfirmasi</string>
 </resources>

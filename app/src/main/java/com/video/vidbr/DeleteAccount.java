@@ -15,15 +15,24 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.api.ApiException;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.EmailAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.GoogleAuthProvider;
+import com.google.firebase.auth.UserInfo;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -53,6 +62,9 @@ public class DeleteAccount extends AppCompatActivity {
     private TextView message;
     private Button confirmButton;
     private Button cancelButton;
+    private FirebaseUser user;
+    private GoogleSignInClient mGoogleSignInClient;
+    private static final int RC_REAUTH = 1001;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +84,16 @@ public class DeleteAccount extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
         db = FirebaseFirestore.getInstance();
         database = FirebaseDatabase.getInstance().getReference();
+
+        user = auth.getCurrentUser();
+
+        // Configuração do Google Sign-In
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken("899724318789-p53ui69mpgi28m7d6pvksg1pnocc4gpr.apps.googleusercontent.com") // Adicione esse ID ao strings.xml
+                .requestEmail()
+                .build();
+
+        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
         message = findViewById(R.id.message);
         confirmButton = findViewById(R.id.confirm_button);
@@ -102,6 +124,91 @@ public class DeleteAccount extends AppCompatActivity {
             return;
         }
 
+        // Verificar o provedor de login
+        boolean isEmailUser = false;
+        for (com.google.firebase.auth.UserInfo profile : user.getProviderData()) {
+            if (profile.getProviderId().equals("password")) {
+                isEmailUser = true;
+                break;
+            }
+        }
+
+        if (isEmailUser) {
+            showPasswordDialog(user);
+        } else {
+            // Reautenticação para provedores sociais (Google)
+            reauthenticateSocialUser(user);
+        }
+    }
+
+    private void reauthenticateSocialUser(FirebaseUser user) {
+        String providerId = "";
+        for (UserInfo profile : user.getProviderData()) {
+            if (!profile.getProviderId().equals("firebase")) {
+                providerId = profile.getProviderId();
+                break;
+            }
+        }
+
+        if (providerId.equals("google.com")) {
+            View dialogView = LayoutInflater.from(this).inflate(R.layout.dialog_reauth, null);
+            AlertDialog alertDialog = new AlertDialog.Builder(this)
+                    .setView(dialogView)
+                    .create();
+
+            alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+            alertDialog.show();
+
+            Button btnCancel = dialogView.findViewById(R.id.btnCancel);
+            Button btnConfirm = dialogView.findViewById(R.id.btnConfirm);
+
+            btnCancel.setOnClickListener(v -> {
+                alertDialog.dismiss();
+            });
+
+            btnConfirm.setOnClickListener(v -> {
+                alertDialog.dismiss();
+                Intent signInIntent = mGoogleSignInClient.getSignInIntent();
+                startActivityForResult(signInIntent, RC_REAUTH);
+            });
+        } else {
+            Toast.makeText(this, "Reauthentication for this provider is not implemented.", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == RC_REAUTH) {
+            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+            try {
+                GoogleSignInAccount account = task.getResult(ApiException.class);
+                AuthCredential credential = GoogleAuthProvider.getCredential(account.getIdToken(), null);
+
+                user.reauthenticate(credential)
+                        .addOnCompleteListener(authTask -> {
+                            if (authTask.isSuccessful()) {
+                                progressBar.setVisibility(View.VISIBLE);
+                                message.setVisibility(View.GONE);
+                                confirmButton.setVisibility(View.GONE);
+                                cancelButton.setVisibility(View.GONE);
+                                confirmButton.setEnabled(false);
+                                deleteUserAccount();
+                            } else {
+                                Toast.makeText(this, "Authentication failed. Please try again.", Toast.LENGTH_SHORT).show();
+                            }
+                        });
+
+            } catch (ApiException e) {
+                e.printStackTrace();
+                Toast.makeText(this, "Error logging in with Google.", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
+
+    private void showPasswordDialog(FirebaseUser user) {
+        // (Mantido o mesmo código anterior para email/senha)
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         LayoutInflater inflater = getLayoutInflater();
         View dialogView = inflater.inflate(R.layout.dialog_confirm_delete, null);
@@ -115,9 +222,7 @@ public class DeleteAccount extends AppCompatActivity {
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialog.show();
 
-        btnCancel.setOnClickListener(v -> {
-            dialog.dismiss();
-        });
+        btnCancel.setOnClickListener(v -> dialog.dismiss());
 
         btnConfirm.setOnClickListener(v -> {
             String password = etPassword.getText().toString().trim();
@@ -176,7 +281,7 @@ public class DeleteAccount extends AppCompatActivity {
                                                             .addOnSuccessListener(aVoid ->
                                                                     System.out.println("commentCount atualizado para " + newCommentCount))
                                                             .addOnFailureListener(e ->
-                                                                    System.out.println("Erro ao atualizar commentCount: " + e.getMessage()));
+                                                                    System.out.println("Error updating commentCount: " + e.getMessage()));
                                                 }
                                             });
                                 }
@@ -223,7 +328,7 @@ public class DeleteAccount extends AppCompatActivity {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                Toast.makeText(DeleteAccount.this, "Erro ao buscar chats.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DeleteAccount.this, "Error searching for chats.", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -264,7 +369,7 @@ public class DeleteAccount extends AppCompatActivity {
                         // Após deletar os vídeos, deletar a foto de perfil do usuário
                         deleteProfilePicture(userId);
                     } else {
-                        Toast.makeText(DeleteAccount.this, "Erro ao buscar vídeos.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DeleteAccount.this, "Error searching for videos.", Toast.LENGTH_SHORT).show();
                     }
                 });
     }
@@ -314,7 +419,7 @@ public class DeleteAccount extends AppCompatActivity {
                         db.collection("users").document(userDoc.getId()).set(userModel)
                                 .addOnCompleteListener(updateFollowingTask -> {
                                     if (!updateFollowingTask.isSuccessful()) {
-                                        Toast.makeText(DeleteAccount.this, "Erro ao atualizar lista de seguindo.", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(DeleteAccount.this, "Error updating following list.", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                     }
@@ -327,13 +432,13 @@ public class DeleteAccount extends AppCompatActivity {
                         db.collection("users").document(userDoc.getId()).set(userModel)
                                 .addOnCompleteListener(updateFollowersTask -> {
                                     if (!updateFollowersTask.isSuccessful()) {
-                                        Toast.makeText(DeleteAccount.this, "Erro ao atualizar lista de seguidores.", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(DeleteAccount.this, "Error updating followers list.", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                     }
                 }
             } else {
-                Toast.makeText(DeleteAccount.this, "Erro ao buscar usuários.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DeleteAccount.this, "Error searching for users.", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -368,7 +473,7 @@ public class DeleteAccount extends AppCompatActivity {
                         // Agora delete o usuário do Firebase
                         deleteFirebaseUser();
                     } else {
-                        Toast.makeText(DeleteAccount.this, "Erro ao excluir documento do usuário.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DeleteAccount.this, "Error deleting user document.", Toast.LENGTH_SHORT).show();
                     }
                 });
     }
@@ -406,7 +511,7 @@ public class DeleteAccount extends AppCompatActivity {
                 startActivity(new Intent(DeleteAccount.this, LoginActivity.class));
                 finish();
             } else {
-                Toast.makeText(DeleteAccount.this, "Erro ao excluir conta.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DeleteAccount.this, "Error deleting account.", Toast.LENGTH_SHORT).show();
             }
         });
     }

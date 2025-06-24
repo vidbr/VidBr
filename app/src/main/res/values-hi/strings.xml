@@ -398,4 +398,9 @@
     <string name="usuario_nao_autenticado">उपयोगकर्ता प्रमाणीकृत नहीं है</string>
     <string name="por_favor_insira_sua_senha">कृपया अपना पासवर्ड दर्ज करें</string>
     <string name="falha_na_autenticacao">प्रमाणीकरण विफल। पासवर्ड गलत है या सत्र समाप्त हो गया है।</string>
+
+    <string name="identity_dialog_title">पहचान पुष्टि</string>
+    <string name="identity_dialog_message">जारी रखने के लिए, कृपया अपने Google खाते के साथ अपनी पहचान पुष्टि करें। यह आपके खाते की सुरक्षा सुनिश्चित करता है।</string>
+    <string name="identity_dialog_cancel">रद्द करें</string>
+    <string name="identity_dialog_confirm">पुष्टि करें</string>
 </resources>

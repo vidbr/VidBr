@@ -398,4 +398,9 @@
     <string name="usuario_nao_autenticado">Người dùng chưa được xác thực</string>
     <string name="por_favor_insira_sua_senha">Vui lòng nhập mật khẩu của bạn</string>
     <string name="falha_na_autenticacao">Xác thực thất bại. Mật khẩu sai hoặc phiên đã hết hạn.</string>
+
+    <string name="identity_dialog_title">Xác nhận danh tính</string>
+    <string name="identity_dialog_message">Để tiếp tục, hãy xác nhận danh tính của bạn bằng tài khoản Google. Điều này đảm bảo an toàn cho tài khoản của bạn.</string>
+    <string name="identity_dialog_cancel">Hủy</string>
+    <string name="identity_dialog_confirm">Xác nhận</string>
 </resources>

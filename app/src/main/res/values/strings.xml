@@ -398,4 +398,9 @@
     <string name="usuario_nao_autenticado">User not authenticated</string>
     <string name="por_favor_insira_sua_senha">Please enter your password</string>
     <string name="falha_na_autenticacao">Authentication failed. Incorrect password or session expired.</string>
+
+    <string name="identity_dialog_title">Identity Confirmation</string>
+    <string name="identity_dialog_message">To continue, confirm your identity with your Google account. This ensures the security of your account.</string>
+    <string name="identity_dialog_cancel">Cancel</string>
+    <string name="identity_dialog_confirm">Confirm</string>
 </resources>

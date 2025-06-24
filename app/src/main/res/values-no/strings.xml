@@ -285,6 +285,7 @@
     <string name="random_likes_notice">Likerne er fra 10 tilfeldige brukere.</string>
 
     <string name="conversas">Samtaler</string>
+    <string name="no_messages">Det er ingen meldinger</string>
     <string name="hint_enviar_mensagem">Send en melding</string>
     <string name="dialog_title">Slett for alle</string>
     <string name="dialog_message">Er du sikker på at du vil slette denne meldingen?</string>
@@ -397,4 +398,9 @@
     <string name="usuario_nao_autenticado">Bruker ikke autentisert</string>
     <string name="por_favor_insira_sua_senha">Vennligst skriv inn passordet ditt</string>
     <string name="falha_na_autenticacao">Autentisering mislyktes. Feil passord eller økt utløpt.</string>
+
+    <string name="identity_dialog_title">Identitetsbekreftelse</string>
+    <string name="identity_dialog_message">For å fortsette, bekreft din identitet med Google-kontoen din. Dette sikrer sikkerheten til kontoen din.</string>
+    <string name="identity_dialog_cancel">Avbryt</string>
+    <string name="identity_dialog_confirm">Bekreft</string>
 </resources>

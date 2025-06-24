@@ -285,6 +285,7 @@
     <string name="random_likes_notice">الإعجابات من 10 مستخدمًا تم اختيارهم عشوائيًا.</string>
 
     <string name="conversas">المحادثات</string>
+    <string name="no_messages">لا توجد رسائل</string>
     <string name="hint_enviar_mensagem">إرسال رسالة</string>
     <string name="dialog_title">حذف للجميع</string>
     <string name="dialog_message">هل أنت متأكد أنك تريد حذف هذه الرسالة؟</string>
@@ -397,4 +398,9 @@
     <string name="usuario_nao_autenticado">المستخدم غير مصادق</string>
     <string name="por_favor_insira_sua_senha">يرجى إدخال كلمة المرور</string>
     <string name="falha_na_autenticacao">فشل في المصادقة. كلمة المرور غير صحيحة أو انتهت الجلسة.</string>
+
+    <string name="identity_dialog_title">تأكيد الهوية</string>
+    <string name="identity_dialog_message">للمتابعة، يرجى تأكيد هويتك باستخدام حساب جوجل الخاص بك. هذا يضمن أمان حسابك.</string>
+    <string name="identity_dialog_cancel">إلغاء</string>
+    <string name="identity_dialog_confirm">تأكيد</string>
 </resources>

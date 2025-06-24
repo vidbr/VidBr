@@ -23,7 +23,7 @@
     <string name="menu_home">Início</string>
     <string name="menu_search">Pesquisar</string>
     <string name="menu_add_video"></string>
-    <string name="menu_chat">Chat</string>
+    <string name="menu_chat">Bate-papo</string>
     <string name="menu_profile">Perfil</string>
 
     <string name="just_now">agora mesmo</string>
@@ -398,4 +398,9 @@
     <string name="usuario_nao_autenticado">Usuário não autenticado</string>
     <string name="por_favor_insira_sua_senha">Por favor, insira sua senha</string>
     <string name="falha_na_autenticacao">Falha na autenticação. Senha incorreta ou sessão expirada.</string>
+
+    <string name="identity_dialog_title">Confirmação de Identidade</string>
+    <string name="identity_dialog_message">Para continuar, confirme sua identidade com sua conta Google. Isso garante a segurança da sua conta.</string>
+    <string name="identity_dialog_cancel">Cancelar</string>
+    <string name="identity_dialog_confirm">Confirmar</string>
 </resources>

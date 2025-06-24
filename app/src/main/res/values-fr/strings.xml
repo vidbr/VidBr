@@ -23,7 +23,7 @@
     <string name="menu_home">Accueil</string>
     <string name="menu_search">Rechercher</string>
     <string name="menu_add_video"></string>
-    <string name="menu_chat">Chat</string>
+    <string name="menu_chat">Discussion</string>
     <string name="menu_profile">Profil</string>
 
     <string name="just_now">à l\'instant</string>
@@ -398,4 +398,9 @@
     <string name="usuario_nao_autenticado">Utilisateur non authentifié</string>
     <string name="por_favor_insira_sua_senha">Veuillez entrer votre mot de passe</string>
     <string name="falha_na_autenticacao">Échec de l\'authentification. Mot de passe incorrect ou session expirée.</string>
+
+    <string name="identity_dialog_title">Confirmation d\'identité</string>
+    <string name="identity_dialog_message">Pour continuer, confirmez votre identité avec votre compte Google. Cela garantit la sécurité de votre compte.</string>
+    <string name="identity_dialog_cancel">Annuler</string>
+    <string name="identity_dialog_confirm">Confirmer</string>
 </resources>

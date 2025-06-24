@@ -399,4 +399,9 @@
     <string name="usuario_nao_autenticado">Usuario no autenticado</string>
     <string name="por_favor_insira_sua_senha">Por favor, ingrese su contraseña</string>
     <string name="falha_na_autenticacao">Error de autenticación. Contraseña incorrecta o sesión expirada.</string>
+
+    <string name="identity_dialog_title">Confirmación de identidad</string>
+    <string name="identity_dialog_message">Para continuar, confirma tu identidad con tu cuenta de Google. Esto garantiza la seguridad de tu cuenta.</string>
+    <string name="identity_dialog_cancel">Cancelar</string>
+    <string name="identity_dialog_confirm">Confirmar</string>
 </resources>

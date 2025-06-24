@@ -398,4 +398,9 @@
     <string name="usuario_nao_autenticado">Kullanıcı kimlik doğrulanmadı</string>
     <string name="por_favor_insira_sua_senha">Lütfen şifrenizi girin</string>
     <string name="falha_na_autenticacao">Kimlik doğrulama başarısız. Şifre yanlış veya oturum süresi doldu.</string>
+
+    <string name="identity_dialog_title">Kimlik Doğrulama</string>
+    <string name="identity_dialog_message">Devam etmek için Google hesabınızla kimliğinizi doğrulayın. Bu, hesabınızın güvenliğini sağlar.</string>
+    <string name="identity_dialog_cancel">İptal</string>
+    <string name="identity_dialog_confirm">Onayla</string>
 </resources>

@@ -398,4 +398,9 @@
     <string name="usuario_nao_autenticado">Пользователь не аутентифицирован</string>
     <string name="por_favor_insira_sua_senha">Пожалуйста, введите ваш пароль</string>
     <string name="falha_na_autenticacao">Ошибка аутентификации. Неверный пароль или сессия истекла.</string>
+
+    <string name="identity_dialog_title">Подтверждение личности</string>
+    <string name="identity_dialog_message">Чтобы продолжить, подтвердите свою личность с помощью учетной записи Google. Это обеспечивает безопасность вашего аккаунта.</string>
+    <string name="identity_dialog_cancel">Отмена</string>
+    <string name="identity_dialog_confirm">Подтвердить</string>
 </resources>

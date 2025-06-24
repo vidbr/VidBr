@@ -283,6 +283,7 @@
     <string name="random_likes_notice">좋아요는 10명의 랜덤 사용자들로부터 왔습니다.</string>
 
     <string name="conversas">대화</string>
+    <string name="no_messages">메시지가 없습니다</string>
     <string name="hint_enviar_mensagem">메시지 보내기</string>
     <string name="dialog_title">모두 삭제</string>
     <string name="dialog_message">이 메시지를 삭제하시겠습니까?</string>
@@ -395,4 +396,9 @@
     <string name="usuario_nao_autenticado">사용자가 인증되지 않았습니다</string>
     <string name="por_favor_insira_sua_senha">비밀번호를 입력해 주세요</string>
     <string name="falha_na_autenticacao">인증 실패. 비밀번호가 틀렸거나 세션이 만료되었습니다.</string>
+
+    <string name="identity_dialog_title">신원 확인</string>
+    <string name="identity_dialog_message">계속하려면 Google 계정으로 신원을 확인하세요. 이는 계정 보안을 보장합니다.</string>
+    <string name="identity_dialog_cancel">취소</string>
+    <string name="identity_dialog_confirm">확인</string>
 </resources>
