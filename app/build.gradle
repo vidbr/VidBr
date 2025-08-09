@@ -16,7 +16,7 @@ android {
     }
 
     namespace 'com.video.vidbr'
-    compileSdk 34
+    compileSdk 35
 
     lintOptions {
         checkReleaseBuilds false
@@ -26,9 +26,9 @@ android {
     defaultConfig {
         applicationId "com.video.vidbr"
         minSdk 24
-        targetSdk 34
-        versionCode 24
-        versionName "2.0.4"
+        targetSdk 35
+        versionCode 25
+        versionName "2.0.5"
         multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
